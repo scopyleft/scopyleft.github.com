@@ -18,15 +18,18 @@
 				color: #000;
 				text-transform: uppercase;
 				text-align: center;
-				vertical-align: center;
+				vertical-align: top;
 				margin: 0;
 			}
 			h1 > span {
 				color: #191;
 			}
-			h1 > span.copyleft {
+			h1 > span.icon {
 				font-size: .5em;
-				vertical-align: .75em;
+				vertical-align: .6em;
+				overflow:none;
+				display:inline-block;
+				width: 17px;
 			}
 			.copyleft {
 				display: inline-block;
@@ -57,10 +60,13 @@
 
 	<body>
 		<header>
-			<h1><span class="copyleft">©</span>S<span>c</span>opy<span>left</span></h1>
+			<h1>
+				<span class="icon"><img src="images/copyleft.svg" width="35" height="35" alt="(copyleft)"/></span>
+				S<span>c</span>opy<span>left</span>
+			</h1>
 		</header>
 		<section id="container">
-			<p>Coming <span class="branded">soon</span>...</p>
+			<p>Coming <span class="branded">very</span> soon…</p>
 		</section>
 	</body>
 </html>
