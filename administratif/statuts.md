@@ -1,4 +1,5 @@
-# Statuts
+Statuts
+=======
 
 Sources :
 
@@ -9,7 +10,25 @@ Sources :
 > Le guide reprend toutes ces parties en vous aidant dans la rédaction de l'objet social de la SCOP, de la description du capital social, de l'admission et du retrait des associés… etc...
 > Une fois que vous avez rempli ce guide, prenez rendez-vous avec votre Union Régionale, pour la finalisation des statuts.
 
-## TITRE I : Forme – Dénomination – Durée – Objet – Siège Social
+---
+
+PRÉAMBULE
+---------
+
+Nous voulons travailler avec des humains, sur des projets éthiques intéressants, tout en privilégiant la qualité de vie et le plaisir.
+
+Nos valeurs sont :
+
+* l'honnêteté intellectuelle
+* le courage
+* le respect
+* le partage
+* le bien-être
+
+---
+
+TITRE I : Forme – Dénomination – Durée – Objet – Siège Social
+-------------------------------------------------------------
 
 > Le titre I regroupe les indications générales sur la société : date de création, pour quoi faire (son objet), où elle est installée (son siège social), comment elle s’appelle (sa dénomination)...
 
@@ -21,27 +40,12 @@ Société coopérative **Scopyleft**, à responsabilité limitée, à capital va
 
 ### Objet
 
-La coopérative a pour objet de **travailler avec des humains, sur des projets éthiques intéressants, tout en privilégiant la qualité de vie et le plaisir.**
+La coopérative a pour objet de
 
-(TODO: pas super recevable amha)
+TODO
 
 Ainsi que toutes activités annexes, connexes ou complémentaires s'y rattachant directement ou indirectement, ainsi que toutes opérations civiles, commerciales, industrielles, mobilières, immobilières, de crédit, utiles directement ou indirectement à la réalisation de l'objet social.
 
-### Valeurs
-
-TODO: on les met ici ?
-
-Les acteurs de Scopyleft partagent les valeurs suivantes :
-
-* Honnêteté Intellectuelle
-* Courage
-* Bien être
-* Respect
-* Partage
-
-### Activités
-
-ainsi que toutes activités annexes, connexes ou complémentaires s’y rattachant directement ou indirectement, et toutes opérations civiles, commerciales, industrielles, mobilières, immobilières, de crédit, utiles directement ou indirectement à la réalisation de l’objet social.
 
 ### Siège Social
 
@@ -54,7 +58,10 @@ Il peut être transféré en tout autre lieu par décision extraordinaire des as
 La durée de la société est fixée à 99 ans à compter du jour de son immatriculation au Registre du Commerce et des Sociétés, sauf dissolution anticipée ou prorogation.
 
 
-## TITRE II : Capital Social
+---
+
+TITRE II : Capital Social
+-------------------------
 
 > Le titre II détaille les caractéristiques des parts sociales, les modalités des versements au capital par les associés.
 
@@ -91,31 +98,26 @@ Montant du capital, apports en numéraire :
 <td>1000</td>
 </tr>
 <tr>
+<td>Lanlois</td>
+<td>Stéphane</td>
 <td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>4, chemin de la Magnanerie - 34 Clapiers</td>
+<td>TODO</td>
 <td>1000</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Agnano</td>
+<td>Vincent</td>
+<td>TODO</td>
+<td>TODO</td>
+<td>TODO</td>
 <td>1000</td>
 </tr>
 </tbody>
 </table>
 
-soit un total de 4000€, laquelle somme a été déposée le.............au crédit d'un compte ouvert au nom de la société en formation à la banque........................ainsi qu'il en est justifié au moyen ..........
+soit un total de 4000€, laquelle somme a été déposée le.............au crédit d'un compte ouvert au nom de la société en formation à la banque Crédit Coopératif ou NEF ? ainsi qu'il en est justifié au moyen ..........
 
-Banque où sera déposé le capital :
-
-* Nom : Crédit Coopératif ou NEF ?
-* Contact (éventuellement) :
-* Adresse :
 
 ### Variabilité du capital
 
@@ -125,7 +127,7 @@ Il peut diminuer à la suite de démissions, exclusions ou décès, ou rembourse
 
 ### Parts sociales
 
-Aucun associé ne peut détenir plus de 50 % des parts sociales.
+Aucun associé ne peut détenir plus de 50% des parts sociales.
 
 ### Engagements de souscription
 
@@ -140,7 +142,7 @@ Aucun associé ne peut détenir plus de 50 % des parts sociales.
 
 > Généralement, les statuts de SCOP prévoient un engagement minimum correspondant à un pourcentage des salaires bruts (éventuellement plafonné à un montant à définir) qui est retenu chaque mois sur le salaire de l’associé salarié.
 
-Engagement de souscription: OUI ou  NON
+Engagement de souscription: **OUI** ou **NON**
 
 Niveau d’engagement de souscription :
 ……% du salaire :  Plafonné ou  Non plafonné
@@ -149,7 +151,10 @@ Modalités de souscription et de libération :
 Prélèvement mensuel : …………………
 Autres : (prélèvement sur participation, apport de compte courant...) …………………….
 
-## TITRE III : Admission – Retrait – Durée - Objet – Siège Social
+---
+
+TITRE III : Admission – Retrait – Durée - Objet – Siège Social
+--------------------------------------------------------------
 
 > Le titre III donne les renseignements sur la façon dont on peut devenir associé, sur les obligations qui en découlent, sur la façon dont on perd la qualité d’associé, et sur les règles financières correspondantes...
 
@@ -166,10 +171,13 @@ Dans ce cas, si le salarié refuse de poser sa candidature (d’adhérer au proj
 
 Candidature obligatoire :  OUI ou  NON
 Délai pour la candidature obligatoire
-Candidature obligatoire après ……… mois de présence.
+Candidature obligatoire après 12 mois de présence.
 
 
-## TITRE IV : Administration – Contrôle
+---
+
+TITRE IV : Administration – Contrôle
+------------------------------------
 
 > Le titre IV donne les précisions utiles sur la désignation et le fonctionnement des instances responsables de la SCOP.
 
@@ -179,28 +187,31 @@ Les premiers co-gérants sont Langlois Stéphane, Perriault Nicolas, Agnano Vinc
 
 Leurs fonctions expireront le 31 décembre 2014 sous réserve de la faculté de réélection prévue ci-dessous.
 
-### OBLIGATIONS ET DROITS DES GERANTS
+### Obligation et droit des gérants
 
 lls doivent être associés ; les deux tiers doivent être salariés. En cas de gérant unique, il est obligatoirement salarié.
 
 S'ils n'ont pas conclu un contrat de travail avec la coopérative, ou si, du fait de l'exercice de leur mandat, ils ne peuvent exercer les fonctions prévues à leur contrat de travail, les gérants sont considérés, conformément à la loi sur les coopératives de production, comme travailleurs employés de la coopérative au regard des présents statuts et pour l'application de la législation du travail et de la sécurité sociale.
 
-### DUREE DES FONCTIONS
+### Durée des fonctions
 
 Les gérants sont choisis par les associés pour une durée de 2 ans.
 
 Ils sont rééligibles et révocables.
 
-### POUVOIRS DES GERANTS
+### Pouvoir des gérants
 
 Conformément à la loi du 24 juillet 1966, chacun des gérants dispose de tous les pouvoirs nécessaires pour agir en toutes circonstances au nom de la coopérative dans les limites de son objet social sous la réserve des pouvoirs conférés à l'assembiée des associés par la loi et les statuts.
 
-## TITRE V : Assemblées d’Associés
+---
+
+TITRE V : Assemblées d’Associés
+-------------------------------
 
 > Le titre V précise les règles de convocation et de fonctionnement des différentes assemblées générales (fonction, pouvoirs, modalités de vote...)
 > Mis à part le principe 1 homme = 1 voix, ces règles de fonctionnement des assemblées dans les SCOP sont les mêmes que dans les sociétés classiques de type SA ou SARL.
 
-### DISPOSITIONS COMMUNES AUX DIFFERENTES ASSEMBLEES
+### Dispositions communes aux différentes assemblées
 
 Les associés sont réunis en assemblées pour prendre des décisions soit à caractère ordinaire, soit à caractère extraordinaire. En aucun cas, les assemblées ne peuvent être remplacées par des consultations écrites.
 
@@ -218,6 +229,8 @@ L'ordre du jour est arrêté par l'auteur de la convocation. Un ou plusieurs ass
 
 Dans ce cas, le gérant est tenu d'adresser par lettre recommandée un ordre du jour rectifié à tous les associés.
 
+L'assemblée ne peut délibérer que sur les questions portées à l'ordre du jour. Néanmoins, il peut toujours être procédé à la révocation du gérant même si la question n'a pas été inscrite à l'ordre du jour.
+
 #### Feuille de présence
 
 Il est établi une feuille de présence comportant les noms, prénoms et domiciles des associés et le nombre de parts sociales dont chacun est titulaire. Elle est signée par tous les associés présents, tant pour eux-mêmes que pour ceux qu'ils peuvent représenter.
@@ -225,10 +238,6 @@ Il est établi une feuille de présence comportant les noms, prénoms et domicil
 #### Bureau
 
 L'assemblée est présidée par le gérant qui pourra, s'il le juge utile, désigner un secrétaire pris ou non parmi les associés.
-
-#### Ordre du jour
-
-L'assemblée ne peut délibérer que sur les questions portées à l'ordre du jour. Néanmoins, il peut toujours être procédé à la révocation du gérant même si la question n'a pas été inscrite à l'ordre du jour.
 
 #### Vote
 
@@ -238,17 +247,17 @@ La désignation des gérants a lieu à bulletins secrets. Pour toutes les autres
 
 Les délibérations des assemblées générales sont constatées par des procés-verbaux portés sur un registre spécial et signés par les gérants.
 
-### DROIT DE VOTE
+### Droit de vote
 
 Chaque associé à droit de vote dans toutes les assemblées avec une voix.
 
 Le droit de vote de tout associé qui n'aurait pas rempli les engagements prévus à l'article XX par le moyen de l'article XX, est suspendu 30 jours après mise en demeure par le gérant, et ne reprend que lorsque les obligations de l'article XX auront été remplies.
 
-### POUVOIRS
+### Pouvoirs
 
 Un associé empêché de participer personnellement à l'assemblée générale ne peut se faire représenter que par un autre associé. Il ne peut être attribué qu'un pouvoir par associé.
 
-### DELIBERATIONS
+### Délibérations
 
 #### Décisions ordinaires
 
@@ -262,7 +271,9 @@ Les décisions concernant la révocation du gérant sont toujours prises à la m
 
 Les modifications des statuts sont décidées par une majorité représentant les cinq sixièmes du nombre total des associés.
 
-### COMPETENCES DE L'ASSEMBLEE ORDINAIRE
+### Compétences des assemblées
+
+#### Compétences de l'Assemblée Ordinaire
 
 L'assemblée ordinaire annuelle des associés, le cas échéant réunie extraordinairement pour examiner les questions dont la solution ne souffre pas d'attendre la prochaine assemblée annuelle :
 
@@ -275,22 +286,26 @@ L'assemblée ordinaire annuelle des associés, le cas échéant réunie extraord
 - ratifie la répartition des bénéfices conformément aux dispositions de l'article 38 et peut décider la conversion en parts sociales des répartitions revenant aux associés
 - délibère sur toutes questions portées à l'ordre du jour
 
-### COMPETENCES DE L'ASSEMBLEE EXTRAORDINAIRE
+#### Compétences de l'Assemblée Extraordinaire
 
 L'assemblée des associés peut prononcer l'exclusion d'un associé dans les conditions de l'article XX.
+
 Elle peut modifier les statuts dans les conditions prévues à l'article XX. mais ne peut augmenter les engagements des associés, sauf le cas particulier des articles XX et XX prévu expressément par la loi.
 
-## TITRE VI : Comptes Sociaux - Répartition des Bénéfices
+---
+
+TITRE VI : Comptes Sociaux - Répartition des Bénéfices
+------------------------------------------------------
 
 > Le titre VI détaille les particularités que la SCOP a choisies au sujet de ses informations comptables, et les modalités de répartition de son bénéfice (excédents nets de gestion).
 
-### Exercice Social :
+### Exercice Social
 
 L'année sociale commence le 1er janvier et finit le 31 décembre.
 
 Par exception, le premier exercice commencera à dater de l'immatriculation de la société au Registre du Commerce et se terminera le 31 décembre 2013.
 
-### Répartition des excédents :
+### Répartition des excédents
 
 <table>
 <thead>
@@ -323,20 +338,26 @@ Par exception, le premier exercice commencera à dater de l'immatriculation de l
 * soit pour moitié au prorata du temps de travail et pour l’autre moitié au prorata des salaires
 
 
-## TITRE VII : Dissolution – Liquidation – Contestations
+---
+
+TITRE VII : Dissolution – Liquidation – Contestations
+-----------------------------------------------------
 
 > Le titre VII présente la façon dont peuvent se régler, au besoin, la disparition de la Société ou les graves désaccords entre les associés, ou entre les associés et la SCOP, ou entre deux SCOP.
 
-### EXPIRATION DE LA COOPERATIVE - DISSOLUTION.
+### Expiration de la coopérative - Dissolution
 
 A l'expiration de la coopérative ou en cas de dissolution anticipée, l'assemblée générale règle la liquidation conformément à la loi, et nomme un ou plusieurs liquidateurs.
 
 Aprés l'extinction du passif, paiement des frais de liquidation et, s'il y a lieu, des répartitions différées, les associés n'ont droit qu'au remboursement de la valeur nominale de leurs parts, sous déduction, le cas échéant, de la partie non libérée de celle-ci.
 
-## TITRE VIII : Actes accomplis pour le compte de la Société en formation
+
+---
+
+TITRE VIII : Actes accomplis pour le compte de la Société en formation
+----------------------------------------------------------------------
 
 > Le titre VIII mentionne les informations sur les opérations effectuées avant la création pour le compte de la Société en formation.
-
 
 <table>
 <thead>
@@ -364,6 +385,7 @@ Conformément à la loi, la société ne jouira de la personnalité morale qu'à
 Les gérants de la société sont tenus, dés à présent, de remplir toutes les formalités nécessaires pour que cette immatriculation soit accomplie dans les plus courts délais.
 
 Il a été accompli, dès avant ce jour, par M , pour le compte de la société en formation les actes énoncés dans un état annexé aux présentes indiquant pour chacun d'eux l'engagement qui en résultera pour la société.
+
 Les soussignés déclarent approuver ces engagements et la signature des statuts emportera pour la société reprise des engagements.
 
 Les soussignés conviennent que, jusqu'à ce que la société ait acquis la jouissance de la personnalité morale, les actes et engagements entrant dans l'objet social seront accomplis ou souscrits par messieurs Langlois Stéphane, Perriault Nicolas, Agnano Vincent et Larlet David appelés à exercer la gérance.
