@@ -30,8 +30,6 @@ Nos valeurs sont :
 TITRE I : Forme – Dénomination – Durée – Objet – Siège Social
 -------------------------------------------------------------
 
-> Le titre I regroupe les indications générales sur la société : date de création, pour quoi faire (son objet), où elle est installée (son siège social), comment elle s’appelle (sa dénomination)...
-
 ### Dénomination
 
 La société a pour dénomination :
@@ -40,9 +38,12 @@ Société coopérative **Scopyleft**, à responsabilité limitée, à capital va
 
 ### Objet
 
-La coopérative a pour objet de
+La coopérative a pour objet :
 
-TODO
+1. L'étude, le conseil, l'accompagnement, l'organisation et le suivi de projets informatiques,
+2. La création, le développement et l'exploitation d'applications informatiques,
+3. La réalisation et la mise en place de formation à tous les outils informatiques,
+4. L'organisation d'évènements communautaires autour des nouvelles technologies de l'information et de la communication.
 
 Ainsi que toutes activités annexes, connexes ou complémentaires s'y rattachant directement ou indirectement, ainsi que toutes opérations civiles, commerciales, industrielles, mobilières, immobilières, de crédit, utiles directement ou indirectement à la réalisation de l'objet social.
 
@@ -98,7 +99,7 @@ Montant du capital, apports en numéraire :
 <td>1000</td>
 </tr>
 <tr>
-<td>Lanlois</td>
+<td>Langlois</td>
 <td>Stéphane</td>
 <td></td>
 <td>4, chemin de la Magnanerie - 34 Clapiers</td>
@@ -202,6 +203,10 @@ Ils sont rééligibles et révocables.
 ### Pouvoir des gérants
 
 Conformément à la loi du 24 juillet 1966, chacun des gérants dispose de tous les pouvoirs nécessaires pour agir en toutes circonstances au nom de la coopérative dans les limites de son objet social sous la réserve des pouvoirs conférés à l'assembiée des associés par la loi et les statuts.
+
+### Révision coopérative
+
+La coopérative fera procéder tous les ans à la révision coopérative prévue par la loi 84-1027 du23/11/1984 modifiée par le décret 88-245 du 10/03/1988 et dont le contenu a été fixé par un arrêté du 19/03/1989.
 
 ---
 
