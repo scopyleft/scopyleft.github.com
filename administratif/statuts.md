@@ -109,9 +109,9 @@ Montant du capital, apports en numéraire :
 <tr>
 <td>Agnano</td>
 <td>Vincent</td>
-<td>TODO</td>
-<td>TODO</td>
-<td>TODO</td>
+<td>Célibataire</td>
+<td>103, rue Antoine Jérôme Balard - Les 3 horizons, appt A004, 34790 Grabels</td>
+<td>30/03/1981 à Mons (BE)</td>
 <td>1000</td>
 </tr>
 </tbody>
