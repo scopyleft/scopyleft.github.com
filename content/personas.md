@@ -1,5 +1,7 @@
 # Collaborateurs rêvés
 
+*Nota: nous ne sommes pas à l'aise avec le mot **client** ; nous lui préférons le terme de **collaborateur**.*
+
 ## Marc, l'entrepreneur avec des idées structurées et la volonté de bien faire
 
 Marc est un homme de 35 ans ayant déjà monté une start-up mais s’est bien cassé la gueule.
