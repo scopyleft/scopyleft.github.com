@@ -17,7 +17,7 @@ La motivation c'est avoir envie de faire quelque chose ensemble, mais aussi de c
 
 ### Expérience
 
-Pour se lancer dans une telle aventure, il faut avoir confiance dans la valeur de son travail et quelque part s'être fait ses preuves pour bien comprendre comment tourne le système — et ses sources de frustrations — et ainsi être capable de proposer des pistes d'évolution.
+Pour se lancer dans une telle aventure, il faut avoir confiance dans la valeur de son travail et quelque part avoir ses preuves pour bien comprendre comment tourne le système — et ses sources de frustrations — et ainsi être capable de proposer des pistes d'évolution.
 
 ### Risque
 
@@ -57,7 +57,7 @@ Une fois ces étapes validées, il est temps d'aller faire un bilan de pré-diag
 Les avantages suite à cette inscription sont de 2 natures :
 
 * concurrentiel : avec un accès privilégié à la commande publique ou « droit de préférence » lors de l'attribution des marchés (à équivalence de prix ou d'offre (ou de piston ?)) ;
-* fiscal : diminution de la part d'impôt sur les société entraîné par une augmentation de la part de participation et de la réserve (ce n'est pas de la concurrence déloyale, c'est pareil pour une SàRL classique mais celle-ci va généralement faire passer ça en bénéfices car c'est plus profitable, à court terme en tout cas…)
+* fiscal : diminution de la part d'impôt sur les sociétés entraînée par une augmentation de la part de participation et de la réserve (ce n'est pas de la concurrence déloyale, c'est pareil pour une SàRL classique mais celle-ci va généralement faire passer ça en bénéfices car c'est plus profitable, à court terme en tout cas…)
 
 Tout ça pour ça ?! Oui c'est pas grand chose au final (même s'il y a également des aides propres aux SCOP : SOCODEN, SOFISCOP, SCOPINVEST, etc) mais on ne décide pas non plus d'avoir cette démarche pour maximiser le profit donc c'est pas plus mal ;-).
 
