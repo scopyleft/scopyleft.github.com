@@ -1,6 +1,6 @@
-# Collaborateurs rêvés
+# Partenaires rêvés
 
-*Nota: nous ne sommes pas à l'aise avec le mot **client** ; nous lui préférons le terme de **collaborateur**.*
+**Nota: nous ne sommes pas à l'aise avec le mot *client* ; nous lui préférons le terme de <ins>partenaire</ins>.**
 
 ## Marc, l'entrepreneur avec des idées structurées et la volonté de bien faire
 
@@ -57,7 +57,7 @@ Elle a entendu parler de Scopyleft par son fils, un peu geek, qui l'a déjà con
 **Points roulants : prototypage, expertise technique.**
 
 
-# Collaborateurs généralement évités
+# Partenariats généralement évités
 
 ## John, responsable commercial dans une grosse SSII parisienne
 
