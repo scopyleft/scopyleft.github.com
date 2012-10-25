@@ -70,7 +70,7 @@ John demande à ce que chaque intervenant, placé en régie chez le client, envo
 **Points bloquants : divergeance de valeurs humaines et professionnelles, relation hiérarchique client/prestataire.**
 
 
-## Geneviève, la cliente Grand Compte, gros projet, gros budget
+## Geneviève, l'interlocutrice Grand Compte, gros projet, gros budget
 
 Geneviève est directrice de la communication d’un groupe international ayant des bureaux en France, à Paris. Elle nous contacte car elle souhaiterait un devis pour la refonte de l’intranet corpo du groupe France.
 
