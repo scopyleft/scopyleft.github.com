@@ -1,6 +1,6 @@
 # Partenaires rêvés
 
-**Nota: nous ne sommes pas à l'aise avec le mot *client* ; nous lui préférons le terme de <ins>partenaire</ins>.**
+**Nota: nous ne sommes pas à l'aise avec le mot *client* ; nous lui préférons le terme de [<ins>partenaire</ins>](http://www.youtube.com/watch?v=rOPoP4YWgmk).**
 
 ## Marc, l'entrepreneur avec des idées structurées et la volonté de bien faire
 
