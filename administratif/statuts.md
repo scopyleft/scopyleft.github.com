@@ -1,5 +1,4 @@
-Statuts
-=======
+# Statuts
 
 Sources :
 

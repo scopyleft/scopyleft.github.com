@@ -2,7 +2,7 @@
 
 **SOCIETE COOPERATIVE DE PRODUCTION A RESPONSABILITE LIMITEE, A CAPITAL VARIABLE**
 
-SIEGE : 5, chemin de la Magmamerie, 34830 Clapiers
+SIEGE : 5, chemin de la Magmamerie, 34830 Clapiers
 
 **RCS « VILLE »****EN COURS**
 
@@ -27,14 +27,14 @@ QUALITE D’ASSOCIE.
 ## Préambule
 
 Le choix de la forme de Société coopérative de production constitue une
-**adhésion** à des valeurs coopératives fondamentales :
+**adhésion** à des valeurs coopératives fondamentales :
 
 -   la prééminence de la personne humaine ;
 -   la démocratie ;
 -   la solidarité et le partage.
 
 En complément de ces valeurs fondamentales ou découlant de celles-ci,
-l’identité coopérative se définit par :
+l’identité coopérative se définit par :
 
 -   la reconnaissance de la dignité du travail ;
 -   le droit à la formation ;
@@ -93,7 +93,7 @@ production.
 Pour l'exercice en commun des professions des associés, il est créé
 entre les soussignés et il existe entre eux, et ceux qui deviendront par
 la suite associés, une Société Coopérative de Production à
-responsabilité limitée, à capital variable régie par :
+responsabilité limitée, à capital variable régie par :
 
 - les présents statuts ;
 - la loi n° 78-763 du 19 juillet 1978 portant statut des sociétés
@@ -107,7 +107,7 @@ responsabilité limitée, à capital variable régie par :
 
 ### Dénomination
 
-La société a pour dénomination : Scopyleft
+La société a pour dénomination : Scopyleft
 
 Tous actes et documents émanant de la société et destinés aux tiers,
 notamment les lettres, factures, annonces et publications diverses,
@@ -116,7 +116,7 @@ immédiatement et lisiblement des mots « Société coopérative de
 production à responsabilité limitée, à capital variable » ou Scop ARL à
 capital variable.
 
-L’une ou l’autre de ces trois appellations peut être utilisée :
+L’une ou l’autre de ces trois appellations peut être utilisée :
 
 -   Société Coopérative Ouvrière de Production ;
 -   Société Coopérative de Travailleurs ;
@@ -130,7 +130,7 @@ dissolution anticipée ou prorogation.
 
 ### Objet
 
-La Société a pour objet :
+La Société a pour objet :
 
 - objet 1
 - objet 2
@@ -158,7 +158,7 @@ Le capital social initial est fixé à 4000 € divisé en 4 parts de
 1000 € chacune entièrement souscrites et libérées, réparties entre les
 associés en proportion de leurs apports.
 
-Les soussignés, dont les noms suivent, apportent à la Société :
+Les soussignés, dont les noms suivent, apportent à la Société :
 
 -   M. \<…\> € représentés par \<…\> parts sociales ;
 -   M. \<…\> € représentés par \<…\> parts sociales ;
@@ -179,11 +179,11 @@ qualité d’associé (e).*
 #### apports en nature
 
 *M \<…\> apporte à la Société sous les garanties ordinaires et de
-droit :*
+droit :*
 
-- Désignation : \<…\>
+- Désignation : \<…\>
 
-- Evaluation : \<…\>
+- Evaluation : \<…\>
 
 Aucun apport n’ayant une valeur supérieure à 30 000 €
 et la valeur totale de l’ensemble des biens n’excédant pas la moitié du
@@ -194,7 +194,7 @@ figure en annexe (Annexe I).*
 *En contrepartie de son apport M \<…\> a reçu \<…\> parts sociales d’une
 valeur nominale de \<…\> €.*
 
-L’ensemble des apports s’élève à la somme de \<…\> € représentant :
+L’ensemble des apports s’élève à la somme de \<…\> € représentant :
 
 -   Les apports en numéraire pour un montant total de 4000 €.
 -   Les apports en nature pour un montant total de 4000 €.
@@ -255,7 +255,7 @@ Aucun associé ne peut détenir plus de 50 % des parts sociales.
 La responsabilité de chaque associé ou détenteur de parts est limitée à
 la valeur des parts qu'il a souscrites ou acquises.
 
-*Articles 10 – 11-12 : articles indissociables*
+*Articles 10 – 11-12 : articles indissociables*
 
 ****\
 
@@ -275,7 +275,7 @@ Toutefois, l'Assemblée générale peut, par délibération dûment motivée
 prise au début de l'exercice social, fixer les engagements prévus à
 l'alinéa 1er à un montant inférieur.
 
-***Ou bien :******pour un montant fixé en début de chaque exercice par
+***Ou bien :******pour un montant fixé en début de chaque exercice par
 l’assemblée des associés et qui ne peut être supérieur à 10 % de la
 rémunération brute soumise à cotisations sociales perçue de la Société
 au cours de l’exercice. A défaut de fixation en début d’exercice, le
@@ -283,7 +283,7 @@ taux de l’exercice précédent continue à s’appliquer.*
 
 **\
 
-***S’il n’y a que deux associés, ajouter**** : Cependant, le nombre de
+***S’il n’y a que deux associés, ajouter**** : Cependant, le nombre de
 parts souscrites par chacun des deux associés doit être égal, aucun
 associé ne pouvant détenir plus de la moitié du capital social.*
 
@@ -352,7 +352,7 @@ participation, peuvent être investis en parts sociales de la Société.
 Autres souscriptions
 
 Les autres souscriptions sont celles effectuées par les associés
-employés ou non dans la Société, après autorisation du gérant (ou bien :
+employés ou non dans la Société, après autorisation du gérant (ou bien :
 après autorisation de l’assemblée des associés).
 
 \
@@ -382,7 +382,7 @@ TITRE III - Associés – Acquisition et perte de la qualité d’associé
 
 *Associés*
 
-Les associés sont divisés en deux catégories :
+Les associés sont divisés en deux catégories :
 
 -   les associés employés dans la Société ou considérés comme tels ;
 -   les associés non employés dans la Société.
@@ -395,14 +395,14 @@ de cent associés. En cas de dépassement du nombre maximum, la Scop devra
 changer de forme**.
 
 **Les associés employés doivent détenir 51 % du capital social. Les
-associés concernés sont :**
+associés concernés sont :**
 
 -   les associés salariés en activité ;
 -   les associés salariés retraités, licenciés pour motif économique ou
     pour inaptitude auxquels la rupture du contrat de travail ne fait
     pas automatiquement perdre la qualité d’associé.
 
-**Les associés employés devant détenir 65 % des droits de vote sont :**
+**Les associés employés devant détenir 65 % des droits de vote sont :**
 
 -   les associés salariés en activité ;
 -   tous les anciens salariés associés, quelque soit le motif de la
@@ -467,7 +467,7 @@ d'annexe au contrat de travail qui devra y faire référence.
 
 Le salarié qui présente sa candidature avant le terme du délai prescrit
 entre dans le cadre de la candidature volontaire et les dispositions
-ci-après sont applicables :
+ci-après sont applicables :
 
 -   Si le candidat est employé dans la Société depuis moins d’un an à la
     date de sa candidature, le gérant peut agréer ou rejeter la demande.
@@ -481,7 +481,7 @@ ci-après sont applicables :
 
 \
 
--   *Variante n°2 : Candidature volontaire des salariés de la Société*
+-   *Variante n°2 : Candidature volontaire des salariés de la Société*
 
 Tout salarié peut présenter sa candidature au sociétariat.
 
@@ -522,7 +522,7 @@ prend effet à la date de leur souscription.
 
 *Perte de la qualité d’associé*
 
-La qualité d'associé se perd :
+La qualité d'associé se perd :
 
 Par la démission de cette qualité, notifiée par écrit au gérant.
 
@@ -530,12 +530,12 @@ Cette démission prend effet immédiatement. Si elle est donnée par un
 associé employé dans la Société, celui-ci est réputé démissionnaire de
 son contrat de travail dès notification de sa démission*.*
 
-***Ou bien :*** *celui-ci n’est pas réputé démissionnaire de son contrat
+***Ou bien :*** *celui-ci n’est pas réputé démissionnaire de son contrat
 de travail*
 
 Par la démission de l'emploi occupé, ou par tout autre mode de rupture
 du contrat de travail à l’exclusion des modes de rupture expressément
-énumérés ci-après qui ne font pas perdre la qualité d’associé :
+énumérés ci-après qui ne font pas perdre la qualité d’associé :
 
 La perte de la qualité d’associé intervient dès la notification de la
 rupture du contrat de travail par la partie qui en a pris l’initiative
@@ -555,7 +555,7 @@ notification de la rupture de son contrat de travail.
 \
 
 Modes de rupture du contrat de travail ne faisant pas perdre la qualité
-d’associé :
+d’associé :
 
 -   Le départ ou la mise à la retraite,
 -   Le licenciement pour motif économique et l'invalidité rendant
@@ -574,7 +574,7 @@ d’associé, sur décision de l’assemblée des associés.
 
 \
 
-***Ou bien**** :**suppression de cet article et ajouter un paragraphe
+***Ou bien**** :**suppression de cet article et ajouter un paragraphe
 précisant que  la rupture du contrat de travail ne fait pas perdre la
 qualité d’associé.*
 
@@ -734,7 +734,7 @@ développement.
 \
 
 Le montant des pertes à imputer sur le capital se calcule selon la
-formule suivante :
+formule suivante :
 
 Perte x (capital / capital + réserves statutaires).
 
@@ -820,7 +820,7 @@ remboursement partiel, porte intérêt à un taux fixé par l'assemblée des
 associés et qui ne peut être inférieur au taux du livret A de la Caisse
 d'Epargne au 31 décembre de l'exercice précédent.
 
-***Ou bien**** :**Le montant dû aux anciens associés ou aux associés
+***Ou bien**** :**Le montant dû aux anciens associés ou aux associés
 ayant demandé un remboursement partiel peut porter intérêt à un taux
 fixé par l'assemblée des associés.*
 
@@ -920,7 +920,7 @@ Révocation
 
 La révocation est prononcée à la majorité du nombre total des voix sur
 1ère convocation et à la majorité des voix des associés présents ou
-représentés sur 2ème convocation. (***Ou bien :****La révocation est
+représentés sur 2ème convocation. (***Ou bien :****La révocation est
 prononcée à la majorité du nombre total des voix).*
 
 **\
@@ -1004,7 +1004,7 @@ par la loi 84-1027 du 23/11/1984 modifiée par le décret 88-245 du
 
 \
 
-En outre, la révision coopérative devra intervenir sans délai si :
+En outre, la révision coopérative devra intervenir sans délai si :
 
 -   elle est demandée par le dixième des associés ;
 -   trois exercices consécutifs font apparaître des pertes comptables ;
@@ -1138,11 +1138,11 @@ ne peut se faire représenter que par un autre associé.
 
 \
 
-Les règles suivantes doivent être respectées :
+Les règles suivantes doivent être respectées :
 
--   Si la Scop comprend moins de 20 associés : un associé ne peut
+-   Si la Scop comprend moins de 20 associés : un associé ne peut
     disposer que d’un pouvoir ;
--   Si la Scop comprend au moins 20 associés : un associé ne peut
+-   Si la Scop comprend au moins 20 associés : un associé ne peut
     disposer, en plus de sa propre voix, d’un nombre de voix excédant le
     vingtième des associés.
 
@@ -1164,11 +1164,11 @@ l'adoption des autres projets de résolutions.
 
 Décisions ordinaires
 
--   Première consultation :
+-   Première consultation :
 
-**Quorum** : aucune condition de quorum n’est exigée.
+**Quorum** : aucune condition de quorum n’est exigée.
 
-**Majorité** : les décisions de l'assemblée des associés doivent être
+**Majorité** : les décisions de l'assemblée des associés doivent être
 prises par une majorité représentant plus de la moitié du nombre total
 d'associés.
 
@@ -1181,7 +1181,7 @@ seront prises à la majorité des présents ou représentés.
 \
 
 ***Ou bien****si l’option a été prise dans l’article relatif à la
-nomination ou à la révocation du gérant :*
+nomination ou à la révocation du gérant :*
 
 *Les décisions concernant la nomination ou la révocation du gérant sont
 toujours prises à la majorité absolue de l'ensemble des associés et à
@@ -1191,16 +1191,16 @@ Décisions extraordinaires
 
 -   Première consultation
 
-**Quorum :**les****trois quarts du total des droits de vote.
+**Quorum :**les****trois quarts du total des droits de vote.
 
-**Majorité :**les****trois quarts du total des droits de vote présents
+**Majorité :**les****trois quarts du total des droits de vote présents
 ou représentés.
 
 -   Deuxième consultation
 
-**Quorum :** la moitié du total des droits de vote.
+**Quorum :** la moitié du total des droits de vote.
 
-**Majorité :**les trois quarts du total des droits de vote présents ou
+**Majorité :**les trois quarts du total des droits de vote présents ou
 représentés.
 
 \
@@ -1216,7 +1216,7 @@ représentés.
 L'assemblée ordinaire annuelle des associés, le cas échéant réunie
 extraordinairement pour examiner les questions dont la solution ne
 souffre pas d'attendre la prochaine assemblée annuelle, exerce les
-pouvoirs qui lui sont conférés par la loi et notamment :
+pouvoirs qui lui sont conférés par la loi et notamment :
 
 -   approuve ou redresse les comptes ;
 -   ratifie la répartition des bénéfices si une pré- répartition a été
@@ -1248,7 +1248,7 @@ expressément prévu par la loi du 19 juillet 1978.
 \
 
 Elle peut notamment décider ou autoriser, sans que l’énumération ait un
-caractère limitatif :
+caractère limitatif :
 
 -   L’exclusion d’un associé qui aurait causé un préjudice matériel ou
     moral à la Société ;
@@ -1297,7 +1297,7 @@ exercices antérieurs et impôts.
 Excédents de gestion
 
 Pour déterminer les excédents nets de gestion à partir du compte
-résultat, il convient :
+résultat, il convient :
 
 -   de déduire les reports déficitaires antérieurs ;
 -   d'ajouter les reports bénéficiaires antérieurs ;
@@ -1328,7 +1328,7 @@ l'exercice et communiquée aux associés lors d’une assemblée générale
 ordinaire réunie extraordinairement ou par lettre remise en main propre
 contre décharge. Elle est ratifiée par l’Assemblée Générale Ordinaire
 appelée à statuer sur les comptes de l’exercice. Le gérant et
-l'Assemblée sont tenus de respecter les règles suivantes :
+l'Assemblée sont tenus de respecter les règles suivantes :
 
 Réserve légale
 
@@ -1355,7 +1355,7 @@ pourcentage des excédents nets au moins égal à 25 %. Les droits des
 bénéficiaires sur cette répartition sont établis au prorata de \<*à
 compléter*\>
 
-***Remarque****** :****Si la part travail tient lieu de Réserve spéciale
+***Remarque****** :****Si la part travail tient lieu de Réserve spéciale
 de participation, il est plus simple de retenir les conditions
 d’attribution de la participation qui prévalent c'est-à-dire la seule
 condition de trois mois d’ancienneté.*
@@ -1364,7 +1364,7 @@ condition de trois mois d’ancienneté.*
 
 **\
 
-***Option : affectation d’un coefficient d’ancienneté***
+***Option : affectation d’un coefficient d’ancienneté***
 
 *Par application de l’article 33-3 de la loi du 19 juillet 1978 portant
 statut des Scop,****la répartition ainsi attribuée à chaque bénéficiaire
@@ -1373,13 +1373,13 @@ l’ancienneté de celui-ci au service de la Société. Cette ancienneté
 s’apprécie en années complètes à la clôture de l’exercice sur les
 résultats duquel la participation est calculée. *
 
-*Les coefficients sont les suivants :*
+*Les coefficients sont les suivants :*
 
-*Ancienneté comprise entre \<…\> et \<…\> : coefficient \<…\>.*
+*Ancienneté comprise entre \<…\> et \<…\> : coefficient \<…\>.*
 
-*Ancienneté comprise entre \<…\> et \<…\> : coefficient \<…\>.*
+*Ancienneté comprise entre \<…\> et \<…\> : coefficient \<…\>.*
 
-*Ancienneté comprise entre \<…\> et \<…\> : coefficient \<…\>.*
+*Ancienneté comprise entre \<…\> et \<…\> : coefficient \<…\>.*
 
 Intérêts aux parts sociales
 
@@ -1402,7 +1402,7 @@ générale ordinaire qui a droit à la rémunération.
 
 \
 
-***Ou bien****** :*** *en cas de cession ou de remboursement de parts
+***Ou bien****** :*** *en cas de cession ou de remboursement de parts
 sociales en cours d’exercice, la rémunération est due au prorata de la
 durée de détention au cours de l’exercice*.
 
@@ -1437,7 +1437,7 @@ revalorisation des rentes viagères.*
 
 ***Variante n° 2***
 
-Les excédents nets sont affectés et répartis de la manière suivante :
+Les excédents nets sont affectés et répartis de la manière suivante :
 
 \
 
@@ -1467,7 +1467,7 @@ trois mois de présence dans l'exercice, soit six mois d'ancienneté dans
 la Société ; les droits des bénéficiaires sur cette répartition sont
 établis au prorata \<…\> (*à compléter*).
 
-***Remarque :****Si la part travail tient lieu de Réserve spéciale de
+***Remarque :****Si la part travail tient lieu de Réserve spéciale de
 participation, il est plus simple de retenir les conditions
 d’attribution de la participation qui prévalent c'est-à-dire la seule
 condition de trois mois d’ancienneté.*
@@ -1492,7 +1492,7 @@ En cas de cession, sauf disposition contraire prévue dans l’acte de
 cession, c’est le détenteur des parts sociales au jour de l’assemblée
 générale ordinaire qui a droit à la rémunération.
 
-*Ou bien* : *en cas de cession ou de remboursement de parts sociales en
+*Ou bien* : *en cas de cession ou de remboursement de parts sociales en
 cours d’exercice, la rémunération est due au prorata de la durée de
 détention au cours de l’exercice*.
 
@@ -1531,24 +1531,24 @@ revalorisation des rentes viagères.*
 
 *A défaut de décision de répartition prise par le gérant et communiquée
 aux associés avant la clôture de l’exercice, la répartition sera la
-suivante :*
+suivante :*
 
 **\
 
-**Réserve légale :***compléter par pourcentage d’affectation*
+**Réserve légale :***compléter par pourcentage d’affectation*
 
 **\
 
-**Fonds de développement :***compléter par pourcentage d’affectation*
+**Fonds de développement :***compléter par pourcentage d’affectation*
 
 **\
 
-**Ristourne aux travailleurs :***compléter par pourcentage
+**Ristourne aux travailleurs :***compléter par pourcentage
 d’affectation*
 
 **\
 
-**Intérêts aux parts sociales :***compléter par pourcentage
+**Intérêts aux parts sociales :***compléter par pourcentage
 d’affectation*
 
 **\
@@ -1558,7 +1558,7 @@ d’affectation*
 Possibilité légale
 
 S'il a été conclu un accord pour la participation des salariés aux
-résultats de l'entreprise :
+résultats de l'entreprise :
 
 -   l'attribution aux travailleurs peut, selon les termes de cet accord,
     être affectée en tout ou partie à la réserve spéciale de
@@ -1572,7 +1572,7 @@ résultats de l'entreprise :
 Comptabilisation de la réserve spéciale de participation
 
 Si la Société utilise les possibilités rappelées ci-dessus, les règles
-de comptabilisation suivantes s'appliqueront :
+de comptabilisation suivantes s'appliqueront :
 
 -   la réserve spéciale de participation et les réserves tenant lieu de
     PPI ne feront pas l'objet d'une comptabilisation avant la
@@ -1665,7 +1665,7 @@ d’arbitrage de la Confédération générale des Scop.
 
 \
 
-Les contestations concernées sont celles pouvant s’élever :
+Les contestations concernées sont celles pouvant s’élever :
 
 -   entre les associés ou anciens associés eux-mêmes au sujet des
     affaires sociales, notamment de l'application des présents statuts
@@ -1808,7 +1808,7 @@ la loi.
 
 \
 
-Signatures des associés :
+Signatures des associés :
 
 Annexe I
 
@@ -1845,16 +1845,16 @@ Suivant acte sous seing privé en date du \<...\> il a été constitué,
 sous la dénomination \<...\>, une Société coopérative ouvrière de
 production à responsabilité limitée régie par la loi n° 78-463 du 19
 juillet 1978 et les dispositions réglementaires en vigueur, dont le
-siège social est : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, l’objet social
-est : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, d’une durée de \<...\> années à
+siège social est : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, l’objet social
+est : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, d’une durée de \<...\> années à
 compter de l'immatriculation de la Société au RCS,, dont le capital
 variable ne peut être inférieur ni à \_\_\_\_\_\_\_\_\_\_\_€ ni, par le
 jeu de la variabilité, à la moitié du capital le plus élevé atteint par
 la Scop depuis sa création. Les parts ne sont pas numérotées. Le capital
-est divisé en parts de ... € chacune de valeur nominale. Gérant : \<…\>,
+est divisé en parts de ... € chacune de valeur nominale. Gérant : \<…\>,
 demeurant \<…\>
 
-Immatriculation : au RCS de \<…\>
+Immatriculation : au RCS de \<…\>
 
 \
 
