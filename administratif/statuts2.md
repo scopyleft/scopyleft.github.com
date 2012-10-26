@@ -88,15 +88,11 @@ Pour l'exercice en commun des professions des associés, il est créé entre les
 
 ### Dénomination
 
-La société a pour dénomination : Scopyleft
+La société a pour dénomination : **Scopyleft**
 
 Tous actes et documents émanant de la société et destinés aux tiers, notamment les lettres, factures, annonces et publications diverses, doivent indiquer la dénomination sociale, précédée ou suivie immédiatement et lisiblement des mots « Société coopérative de production à responsabilité limitée, à capital variable » ou Scop ARL à capital variable.
 
-L’une ou l’autre de ces trois appellations peut être utilisée :
-
-- Société Coopérative Ouvrière de Production ;
-- Société Coopérative de Travailleurs ;
-- Société Coopérative de Production.
+L’appellation suivante peut être utilisée : Société Coopérative et Participative.
 
 ### Durée
 
