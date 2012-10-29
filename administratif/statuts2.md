@@ -20,7 +20,7 @@ LES SOUSSIGNES
 
 - M Larlet David, 17, rue des Suisses - 13200 Arles, né le 23/04/1982 à Marseille (13)
 - M Perriault Nicolas, 178 chemin du Puech Saint Peyre - 34170 Castelnau le Lez, né le 13/09/1976 à Clamart (92)
-- M Langlois Stéphane, 5 chemin de la Magnanerie - 34830 Clapiers, né le <date> à <ville>
+- M Langlois Stéphane, 5 chemin de la Magnanerie - 34830 Clapiers, né le 23 mai 1967 à Cholet (49)
 - M Agnano Vincent, 103 rue Antoiérôme Balard / appt A004 - 34790 Grabels, né le 30/03/1981 à Mons (BE)
 
 ont établi ainsi qu'il suit les statuts d'une Scop ARL devant exister entre eux et toute personne qui viendrait ultérieurement à acquérir la qualité d'associé.
