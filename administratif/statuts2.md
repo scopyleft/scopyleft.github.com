@@ -9,7 +9,7 @@ A faire :
 
 **SOCIETE COOPERATIVE DE PRODUCTION A RESPONSABILITE LIMITEE, A CAPITAL VARIABLE**
 
-SIEGE : 5, chemin de la Magnamerie, 34830 Clapiers
+SIEGE : 5, chemin de la Magnanerie, 34830 Clapiers
 
 **RCS « VILLE »****EN COURS**
 
@@ -107,8 +107,7 @@ La Société a pour objet :
 - La création, le développement et l'exploitation d'applications informatiques,
 - La réalisation et la mise en place de formation à tous les outils informatiques,
 - L'organisation d'évènements communautaires autour des nouvelles technologies de l'information et de la communication.
-- l’adhésion et la participation aux outils financiers et aux structures
-du Mouvement Scop. <mention union des scops ?>
+- l’adhésion et la participation aux outils financiers et aux structures du Mouvement Scop. <mention union des scops ?>
 
 Et toutes activités annexes, connexes ou complémentaires s'y rattachant directement ou indirectement, ainsi que toutes opérations civiles, commerciales, industrielles, mobilières, immobilières, de crédit, utiles directement ou indirectement à la réalisation de l'objet social.
 
@@ -135,8 +134,6 @@ Les soussignés, dont les noms suivent, apportent à la Société :
 
 Soit un total de 4000 € représentant le montant intégralement libéré des parts, laquelle somme a été régulièrement déposée le <date> à un compte ouvert au nom de la Société en formation à la banque <banque> ainsi qu’il en est justifié au moyen du récépissé établi par la banque dépositaire.
 
-<!--- Pour les PACSÉS -->
-*M \<…\> apporte \<…\> étant précisé, en application des dispositions de l’article 515-5 du code civil, qu’il (elle) réalise le présent apport en division par moitié avec M. \<…\> avec qui il (elle) a contracté un pacte civil de solidarité le \<…\>. Toutefois, seul (e) M \<…\> aura la qualité d’associé (e).*
 
 #### apports en nature
 
@@ -254,10 +251,9 @@ Toute personne sollicitant son admission comme associé doit présenter sa candi
 
 ### Candidats employés dans la Société
 
-<!--- TODO : choisir une variante --->
-- *Variante n° 1 Candidature obligatoire (préconisée par la CG Scop)*
+#### Candidature obligatoire
 
-Les contrats de travail conclus par la Société doivent être écrits et doivent prévoir que tout travailleur doit présenter sa candidature comme associé, au terme d’un délai de <nombre> années après son entrée en fonction.
+Les contrats de travail conclus par la Société doivent être écrits et doivent prévoir que tout travailleur doit présenter sa candidature comme associé, au terme d’un délai de 1 année après son entrée en fonction.
 
 Le candidat est considéré comme associé à la date de l’assemblée générale suivant le dépôt de la candidature auprès du gérant, sauf si ladite assemblée des associés appelée à statuer sur le rejet de cette candidature, la rejette. Le rejet de la candidature doit avoir été mis à l’ordre du jour. La majorité requise pour l’adoption du rejet de candidature est la majorité requise pour la modification des statuts.
 
@@ -270,13 +266,6 @@ Le salarié qui présente sa candidature avant le terme du délai prescrit entre
 - Si le candidat est employé dans la Société depuis moins d’un an à la date de sa candidature, le gérant peut agréer ou rejeter la demande. S’il l’agrée, il la soumet à la prochaine Assemblée générale ordinaire qui statue à la majorité ordinaire.
 - Si le candidat est employé dans la Société depuis plus d'un an, sa candidature est obligatoirement soumise par le gérant à la prochaine Assemblée générale ordinaire qui statue à la majorité ordinaire.
 - Le salarié qui a n’a pas été admis n’est pas dispensé de représenter sa candidature dans le cadre de sa candidature obligatoire.
-
--   *Variante n°2 : Candidature volontaire des salariés de la Société*
-
-Tout salarié peut présenter sa candidature au sociétariat.
-
-- Si le candidat est employé dans la Société depuis moins d’un an à la date de sa candidature, le gérant peut agréer ou rejeter la demande. S’il l’agrée, il la soumet à la prochaine Assemblée générale     ordinaire qui statue à la majorité ordinaire.
-- Si le candidat est employé dans la Société depuis plus d'un an, sa candidature est obligatoirement soumise par le gérant à la prochaine Assemblée générale ordinaire qui statue à la majorité ordinaire.
 
 Le candidat peut présenter sa candidature aussi souvent qu’il le souhaite.
 
@@ -334,11 +323,10 @@ Une convocation spéciale de l'Assemblée doit être adressée à celui-ci pour 
 
 La perte de la qualité d'associé intervient dans ce cas à la date de l'assemblée qui a prononcé l'exclusion.
 
-<!--- TODO : Si les statuts prévoient un engagement de souscription --->
+
 #### Par la non réalisation de l’engagement de souscription
 
-L'associé qui, de son fait, est en retard de plus de six mois dans l'exécution de l’engagement de souscription statutaire, et de la signature du bulletin de souscription correspondant, est considéré de plein droit comme démissionnaire du sociétariat, trois mois après avoir été invité à se mettre en règle par lettre recommandée avec accusé de
-réception, s'il n'a pas régularisé dans ce délai.
+L'associé qui, de son fait, est en retard de plus de six mois dans l'exécution de l’engagement de souscription statutaire, et de la signature du bulletin de souscription correspondant, est considéré de plein droit comme démissionnaire du sociétariat, trois mois après avoir été invité à se mettre en règle par lettre recommandée avec accusé de réception, s'il n'a pas régularisé dans ce délai.
 
 La démission prend effet automatiquement trois mois après l’envoi de la lettre. Si elle intéresse un associé employé dans la Société, celui-ci doit être informé dans la lettre de mise en demeure, qu’à défaut de régularisation, il sera également réputé démissionnaire de son contrat de travail de plein droit.
 
@@ -378,6 +366,8 @@ Si une réserve de revalorisation des parts sociales est constituée, les salari
 
 Pour le calcul de la valeur de remboursement de la part sociale, il est convenu que les pertes qui apparaissent à la clôture de l’exercice s'imputent pour partie sur les réserves statutaires et pour partie sur le capital. L’imputation sur la réserve légale est interdite.
 
+<TODO: poser la question de l'utilité réelle de la réserve légale et ses utilisations potentielles>
+
 Les réserves statutaires sont principalement constituées par le fonds de développement.
 
 Le montant des pertes à imputer sur le capital se calcule selon la formule suivante :
@@ -387,16 +377,17 @@ Perte x (capital / capital + réserves statutaires).
 - le montant du capital à retenir est celui du dernier jour de l’exercice auquel a été réintégré le montant du capital qui était détenu par les associés sortants ;
 - les réserves statutaires sont celles inscrites au bilan au dernier jour de l’exercice.
 
-<!--- TODO : imputer les pertes sur la reserve statutaires ou la revalorisation des parts sociales ? --->
-***Variante 1***
+<!--- TODO : discuter avec Pierre Auriau, plutôt variante 2 après discussion interne --->
+##### Variante 1
 
-*Pour le calcul de la valeur de remboursement de la part sociale, il est convenu que les pertes s'imputent prioritairement sur les réserves statutaires.* *L’imputation sur la réserve légale est interdite.*
+Pour le calcul de la valeur de remboursement de la part sociale, il est convenu que les pertes s'imputent prioritairement sur les réserves statutaires. L’imputation sur la réserve légale est interdite.
 
-*Les réserves statutaires sont principalement constituées par le fonds de développement.*
+Les réserves statutaires sont principalement constituées par le fonds de développement.
 
-*****Variante 2***
+##### Variante 2
 
-*Il est convenu que les pertes s'imputent prioritairement sur la réserve de revalorisation des parts sociales puis (indiquer ici texte de base ou variante 1).*
+Il est convenu que les pertes s'imputent prioritairement sur la réserve de revalorisation des parts sociales puis sur les réserves statutaires. L’imputation sur la réserve légale est interdite.
+
 
 #### Pertes survenant dans un délai de cinq ans
 
@@ -428,15 +419,6 @@ Le montant dû aux anciens associés ou aux associés ayant demandé un rembours
 
 Les dispositions du présent article sont applicables aux héritiers et ayants droit de l'associé décédé.
 
-### Obligations des anciens associés
-
-Sauf accord exprès de l'assemblée des associés, tout associé s'interdit, pendant la période durant laquelle il fait partie de la Scop, et pendant une période de <valeur> ans à compter du jour de son départ, de créer, gérer, exploiter directement ou indirectement une entreprise ayant en tout ou en partie le même objet que la Société et exerçant son activité dans la zone géographique définie ci-après.
-
-Cette interdiction porte sur la zone géographique comprise dans un rayon de <valeur> kilomètres à vol d’oiseau, du siège social et/ou de tout établissement permanent, de la Société.
-
-Elle ne fait pas obstacle à l’exercice d’une activité salariée.
-
-La violation de l’interdiction pourra donner lieu à attribution de dommages et intérêts au profit de la Scop.
 
 ---
 
@@ -448,7 +430,7 @@ La Société est administrée par un ou plusieurs gérants personnes physiques d
 
 Les premiers gérants de la Société sont messieurs Langlois Stéphane, Perriault Nicolas, Agnago Vincent et David Larlet.
 
-Leurs fonctions expireront le 31/12/2014 sous réserve de la faculté de
+Leurs fonctions expireront le 31/12/2013 sous réserve de la faculté de
 réélection prévue ci-dessous.
 
 ### Obligations et droits des gérants
@@ -461,7 +443,7 @@ S'ils n'ont pas conclu un contrat de travail avec la Société, ou si, du fait d
 
 #### Nomination
 
-Les gérants sont choisis par les associés pour une durée de 2 ans. La nomination est prononcée à la majorité du nombre total des voix sur première convocation et à la majorité des voix des associés présents ou représentés sur deuxième convocation.
+Les gérants sont choisis par les associés pour une durée de 1 an. La nomination est prononcée à la majorité du nombre total des voix sur première convocation et à la majorité des voix des associés présents ou représentés sur deuxième convocation.
 
 Ils sont rééligibles et révocables.
 
@@ -700,18 +682,19 @@ La décision de répartition est prise par le gérant avant la clôture de l'exe
 
 15% sont affectés à la réserve légale qui reçoit cette dotation jusqu'à ce qu'elle soit égale au montant le plus élevé atteint par le capital.
 
+Ce montant atteint, cette dotation est affectée au fonds de développement.
+
 #### Fonds de développement
 
 Le fonds de développement doit être doté chaque année.
+
+
+<Question : peut-on le décider lors de l'ag et non dans les statuts ?>
 
 #### Ristourne aux salariés
 
 Il sera attribué à tous les travailleurs associés ou non, employés dans la Société et comptant à la clôture de l'exercice, soit trois mois de présence dans l'exercice, soit six mois d'ancienneté dans la Société, un pourcentage des excédents nets au moins égal à 25 %. Les droits des bénéficiaires sur cette répartition sont établis au prorata de <valeur>.
 
-
-<option : coefficient d'ancienneté>
-
-#### Affectation d'un coefficient d'ancienneté
 
 Par application de l’article 33-3 de la loi du 19 juillet 1978 portant statut des Scop, la répartition ainsi attribuée à chaque bénéficiaire est affectée d’un coefficient au maximum égal à 2 proportionnel à l’ancienneté de celui-ci au service de la Société. Cette ancienneté s’apprécie en années complètes à la clôture de l’exercice sur les résultats duquel la participation est calculée.
 
@@ -729,17 +712,13 @@ Les parts sociales ouvrant droit à rémunération sont celles qui existaient au
 
 En cas de cession, sauf disposition contraire prévue dans l’acte de cession, c’est le détenteur des parts sociales au jour de l’assemblée générale ordinaire qui a droit à la rémunération.
 
-<choix dessus ou dessous>
-
-En cas de cession ou de remboursement de parts sociales en cours d’exercice, la rémunération est due au prorata de la durée de détention au cours de l’exercice.
-
 Le taux d’intérêt est le même pour toutes les parts sociales.
 
 Le versement des intérêts aux parts sociales a lieu, sauf affectation à
 la création de nouvelles parts sociales, au plus tard neuf mois après la
 clôture de l'exercice.
 
-<option>
+<Question: sur l'intérêt de garder cette option (plutôt à virer après discussion en interne) >
 
 #### Réserve de revalorisation des parts sociales
 
@@ -753,16 +732,6 @@ L’associé sortant remplissant la condition d’ancienneté visée à
 l’alinéa précédent a droit à une part de la réserve en proportion de sa
 part de capital dans le capital total et dans la limite du barème de
 revalorisation des rentes viagères.
-
-
-**A défaut de décision de répartition prise par le gérant et communiquée
-aux associés avant la clôture de l’exercice, la répartition sera la
-suivante :**
-
-* Réserve légale : <pourcentage>
-* Fonds de développement : <pourcentage>
-* Ristourne aux travailleurs : <pourcentage>
-* Intérêts aux parts sociales : <pourcentage>
 
 
 ### Accord de participation
