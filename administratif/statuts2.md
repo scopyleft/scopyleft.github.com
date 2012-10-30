@@ -1,47 +1,47 @@
-<!---
+<!--
 Le doc original contient des notes de pied de page qui ne sont pas reportées ici.
-A faire :
+A faire :
 - remplacer les "<inconnues>" apres concertation
 - resourdre les TODO
---->
+-->
 
 # SCOPYLEFT
 
 **SOCIETE COOPERATIVE DE PRODUCTION A RESPONSABILITE LIMITEE, A CAPITAL VARIABLE**
 
-SIEGE : 5, chemin de la Magnanerie, 34830 Clapiers
+SIEGE : 5, chemin de la Magnanerie, 34830 Clapiers
 
-**RCS « VILLE »****EN COURS**
+**RCS « VILLE » **EN COURS**
 
 
-# Status
+# Statuts
 
-LES SOUSSIGNES
+LES SOUSSIGNÉS
 
-- M Larlet David, 17, rue des Suisses - 13200 Arles, né le 23/04/1982 à Marseille (13)
-- M Perriault Nicolas, 178 chemin du Puech Saint Peyre - 34170 Castelnau le Lez, né le 13/09/1976 à Clamart (92)
-- M Langlois Stéphane, 5 chemin de la Magnanerie - 34830 Clapiers, né le 23 mai 1967 à Cholet (49)
-- M Agnano Vincent, 103 rue Antoiérôme Balard / appt A004 - 34790 Grabels, né le 30/03/1981 à Mons (BE)
+-   M Larlet David, 17, rue des Suisses - 13200 Arles, né le 23/04/1982 à Marseille (13)
+-   M Perriault Nicolas, 178 chemin du Puech Saint Peyre - 34170 Castelnau le Lez, né le 13/09/1976 à Clamart (92)
+-   M Langlois Stéphane, 5 chemin de la Magnanerie - 34830 Clapiers, né le 23 mai 1967 à Cholet (49)
+-   M Agnano Vincent, 103 rue Antoiérôme Balard / appt A004 - 34790 Grabels, né le 30/03/1981 à Mons (BE)
 
 ont établi ainsi qu'il suit les statuts d'une Scop ARL devant exister entre eux et toute personne qui viendrait ultérieurement à acquérir la qualité d'associé.
 
 
 ## Préambule
 
-Le choix de la forme de Société coopérative de production constitue une **adhésion** à des valeurs coopératives fondamentales :
+Le choix de la forme de Société coopérative de production constitue une **adhésion** à des valeurs coopératives fondamentales :
 
--   la prééminence de la personne humaine ;
--   la démocratie ;
+-   la prééminence de la personne humaine ;
+-   la démocratie ;
 -   la solidarité et le partage.
 
-En complément de ces valeurs fondamentales ou découlant de celles-ci, l’identité coopérative se définit par :
+En complément de ces valeurs fondamentales ou découlant de celles-ci, l’identité coopérative se définit par :
 
--   la reconnaissance de la dignité du travail ;
--   le droit à la formation ;
--   le droit à la créativité et à l’initiative ;
--   la responsabilité dans un projet partagé ;
--   la transparence et la légitimité du pouvoir ;
--   la pérennité de l’entreprise fondée sur des réserves ;
+-   la reconnaissance de la dignité du travail ;
+-   le droit à la formation ;
+-   le droit à la créativité et à l’initiative ;
+-   la responsabilité dans un projet partagé ;
+-   la transparence et la légitimité du pouvoir ;
+-   la pérennité de l’entreprise fondée sur des réserves ;
 -   l’ouverture du monde extérieur.
 
 Ce choix de Société, au plein sens du terme, suppose la mise en pratique des 5 principes suivants.
@@ -78,21 +78,21 @@ L’adhésion de coopérateurs salariés à notre Société coopérative les ren
 
 ### Forme
 
-Pour l'exercice en commun des professions des associés, il est créé entre les soussignés et il existe entre eux, et ceux qui deviendront par la suite associés, une Société Coopérative de Production à responsabilité limitée, à capital variable régie par :
+Pour l'exercice en commun des professions des associés, il est créé entre les soussignés et il existe entre eux, et ceux qui deviendront par la suite associés, une Société Coopérative de Production à responsabilité limitée, à capital variable régie par :
 
-- les présents statuts ;
-- la loi n° 78-763 du 19 juillet 1978 portant statut des sociétés coopératives ouvrières de production et ses décrets d'application ;
-- la loi n° 47-1775 du 10 septembre 1947 portant statut de la coopération ;
-- le livre II du Code de commerce et plus particulièrement par les articles L 223-1 à L.223-43, R 223-1 à R 223-36, L 231-1 à L 231-8 et R 210 -1 et suivants.
+-  les présents statuts ;
+-  la loi n° 78-763 du 19 juillet 1978 portant statut des sociétés coopératives ouvrières de production et ses décrets d'application ;
+-  la loi n° 47-1775 du 10 septembre 1947 portant statut de la coopération ;
+-  le livre II du Code de commerce et plus particulièrement par les articles L.223-1 à L.223-43, R 223-1 à R 223-36, L.231-1 à L.231-8 et R.210 -1 et suivants.
 
 
 ### Dénomination
 
-La société a pour dénomination : **Scopyleft**
+La société a pour dénomination : **Scopyleft**
 
 Tous actes et documents émanant de la société et destinés aux tiers, notamment les lettres, factures, annonces et publications diverses, doivent indiquer la dénomination sociale, précédée ou suivie immédiatement et lisiblement des mots « Société coopérative de production à responsabilité limitée, à capital variable » ou Scop ARL à capital variable.
 
-L’appellation suivante peut être utilisée : Société Coopérative et Participative.
+L’appellation suivante peut être utilisée : Société Coopérative et Participative.
 
 ### Durée
 
@@ -100,14 +100,13 @@ La durée de la Société est fixée à 99 ans à compter du jour de son immatri
 
 ### Objet
 
-La Société a pour objet :
+La Société a pour objet :
 
-
-- L'étude, le conseil, l'accompagnement, l'organisation et le suivi de projets informatiques,
-- La création, le développement et l'exploitation d'applications informatiques,
-- La réalisation et la mise en place de formation à tous les outils informatiques,
-- L'organisation d'évènements communautaires autour des nouvelles technologies de l'information et de la communication.
-- l’adhésion et la participation aux outils financiers et aux structures du Mouvement Scop. <mention union des scops ?>
+-   L'étude, le conseil, l'accompagnement, l'organisation et le suivi de projets informatiques,
+-   La création, le développement et l'exploitation d'applications informatiques,
+-   La réalisation et la mise en place de formation à tous les outils informatiques,
+-   L'organisation d'évènements communautaires autour des nouvelles technologies de l'information et de la communication.
+-   L’adhésion et la participation aux outils financiers et aux structures du Mouvement Scop.
 
 Et toutes activités annexes, connexes ou complémentaires s'y rattachant directement ou indirectement, ainsi que toutes opérations civiles, commerciales, industrielles, mobilières, immobilières, de crédit, utiles directement ou indirectement à la réalisation de l'objet social.
 
@@ -123,51 +122,51 @@ Il peut être transféré en tout autre lieu par décision des associés statuan
 
 ### Capital social initial et apports
 
-Le capital social initial est fixé à 8000 € divisé en 4 parts de 2000 € chacune entièrement souscrites et libérées, réparties entre les associés en proportion de leurs apports.
+Le capital social initial est fixé à 8000 € divisé en 4 parts de 2000 € chacune entièrement souscrites et libérées, réparties entre les associés en proportion de leurs apports.
 
-Les soussignés, dont les noms suivent, apportent à la Société :
+Les soussignés, dont les noms suivent, apportent à la Société :
 
--   M. Larlet David : 1000 € représentés par 20 parts sociales ;
--   M. Perriault Nicolas : 1000 € représentés par 20 parts sociales ;
--   M. Langlois Stéphane : 1000 € représentés par 20 parts sociales ;
--   M. Agnano Vincent : 1000 € représentés par 20 parts sociales ;
+-   M. Larlet David : 1000 € représentés par 20 parts sociales ;
+-   M. Perriault Nicolas : 1000 € représentés par 20 parts sociales ;
+-   M. Langlois Stéphane : 1000 € représentés par 20 parts sociales ;
+-   M. Agnano Vincent : 1000 € représentés par 20 parts sociales ;
 
-Soit un total de 4000 € représentant le montant intégralement libéré des parts, laquelle somme a été régulièrement déposée le <date> à un compte ouvert au nom de la Société en formation à la banque <banque> ainsi qu’il en est justifié au moyen du récépissé établi par la banque dépositaire.
+Soit un total de 4000 € représentant le montant intégralement libéré des parts, laquelle somme a été régulièrement déposée le <XXX:date> à un compte ouvert au nom de la Société en formation à la banque <XXX:banque> ainsi qu’il en est justifié au moyen du récépissé établi par la banque dépositaire.
 
 
 #### apports en nature
 
-M Larlet David apporte à la Société sous les garanties ordinaires et de droit :
+M Larlet David apporte à la Société sous les garanties ordinaires et de droit :
 
-- Désignation : Apple Macbook
-- Evaluation : 1000 €
+- Désignation : Apple Macbook
+- Evaluation : 1000 €
 
-M Perriault Nicolas apporte à la Société sous les garanties ordinaires et de droit :
+M Perriault Nicolas apporte à la Société sous les garanties ordinaires et de droit :
 
-- Désignation : Apple Macbook
-- Evaluation : 1000 €
+- Désignation : Apple Macbook
+- Evaluation : 1000 €
 
-M Langlois Stéphane apporte à la Société sous les garanties ordinaires et de droit :
+M Langlois Stéphane apporte à la Société sous les garanties ordinaires et de droit :
 
-- Désignation : Apple Macbook
-- Evaluation : 1000 €
+- Désignation : Apple Macbook
+- Evaluation : 1000 €
 
-M Agnano Vincent apporte à la Société sous les garanties ordinaires et de droit :
+M Agnano Vincent apporte à la Société sous les garanties ordinaires et de droit :
 
-- Désignation : Apple Macbook
-- Evaluation : 1000 €
+- Désignation : Apple Macbook
+- Evaluation : 1000 €
 
-Aucun apport n’ayant une valeur supérieure à 30 000 € et la valeur totale de l’ensemble des biens n’excédant pas la moitié du capital social, les associés, à l’unanimité, ont décidé d’évaluer sous leur responsabilité, les apports à 4000 €. L’état des apports en nature figure en annexe (Annexe I).*
+Aucun apport n’ayant une valeur supérieure à 30 000 € et la valeur totale de l’ensemble des biens n’excédant pas la moitié du capital social, les associés, à l’unanimité, ont décidé d’évaluer sous leur responsabilité, les apports à 4000 €. L’état des apports en nature figure en annexe (Annexe I).*
 
-En contrepartie de son apport M Larlet David a reçu 20 parts sociales d’une valeur nominale de 1000 €.
-En contrepartie de son apport M Perriault Nicolas a reçu 20 parts sociales d’une valeur nominale de 1000 €.
-En contrepartie de son apport M Langlois Stéphane David a reçu 20 parts sociales d’une valeur nominale de 1000 €.
-En contrepartie de son apport M Agnano Vincent a reçu 20 parts sociales d’une valeur nominale de 1000 €.
+-   En contrepartie de son apport M Larlet David a reçu 20 parts sociales d’une valeur nominale de 1000 €.
+-   En contrepartie de son apport M Perriault Nicolas a reçu 20 parts sociales d’une valeur nominale de 1000 €.
+-   En contrepartie de son apport M Langlois Stéphane David a reçu 20 parts sociales d’une valeur nominale de 1000 €.
+-   En contrepartie de son apport M Agnano Vincent a reçu 20 parts sociales d’une valeur nominale de 1000 €.
 
-L’ensemble des apports s’élève à la somme de 8000 € représentant :
+L’ensemble des apports s’élève à la somme de 8000 € représentant :
 
-- Les apports en numéraire pour un montant total de 4000 €.
-- Les apports en nature pour un montant total de 4000 €.
+- Les apports en numéraire pour un montant total de 4000 €.
+- Les apports en nature pour un montant total de 4000 €.
 
 
 ### Variabilité du capital
@@ -180,7 +179,7 @@ Par application de l’article 7 de la loi du 10 septembre 1947 modifié par la 
 
 ### Capital minimum
 
-Le capital social ne peut être inférieur à 200 €.
+Le capital social ne peut être inférieur à 200 €.
 
 Il ne peut être réduit du fait de remboursements à moins de la moitié du capital le plus élevé atteint depuis la constitution de la Scop.
 
@@ -217,21 +216,21 @@ Les sommes qu'elles représentent sont assimilées à des créances ordinaires e
 
 ### Associés
 
-Les associés sont divisés en deux catégories :
+Les associés sont divisés en deux catégories :
 
--   les associés employés dans la Société ou considérés comme tels ;
+-   les associés employés dans la Société ou considérés comme tels ;
 -   les associés non employés dans la Société.
 
 La Scop doit comprendre de façon permanente au minimum deux associés salariés en activité dans l’entreprise. Elle ne peut pas comprendre plus de cent associés. En cas de dépassement du nombre maximum, la Scop devra changer de forme.
 
-Les associés employés doivent détenir 51 % du capital social. Les associés concernés sont :
+Les associés employés doivent détenir 51 % du capital social. Les associés concernés sont :
 
--   les associés salariés en activité ;
+-   les associés salariés en activité ;
 -   les associés salariés retraités, licenciés pour motif économique ou pour inaptitude auxquels la rupture du contrat de travail ne fait pas automatiquement perdre la qualité d’associé.
 
-Les associés employés devant détenir 65 % des droits de vote sont :
+Les associés employés devant détenir 65 % des droits de vote sont :
 
--   les associés salariés en activité ;
+-   les associés salariés en activité ;
 -   tous les anciens salariés associés, quelque soit le motif de la
     rupture de leur contrat de travail, qu’ils soient restés associés ou
     aient été réadmis au sociétariat.
@@ -261,7 +260,7 @@ Si la candidature n'a pas été présentée au terme du délai ci-dessus, l'int�
 
 Tout nouveau salarié devra obligatoirement être averti de ces dispositions. Les statuts lui seront communiqués et tiendront lieu d'annexe au contrat de travail qui devra y faire référence.
 
-Le salarié qui présente sa candidature avant le terme du délai prescrit entre dans le cadre de la candidature volontaire et les dispositions ci-après sont applicables :
+Le salarié qui présente sa candidature avant le terme du délai prescrit entre dans le cadre de la candidature volontaire et les dispositions ci-après sont applicables :
 
 - Si le candidat est employé dans la Société depuis moins d’un an à la date de sa candidature, le gérant peut agréer ou rejeter la demande. S’il l’agrée, il la soumet à la prochaine Assemblée générale ordinaire qui statue à la majorité ordinaire.
 - Si le candidat est employé dans la Société depuis plus d'un an, sa candidature est obligatoirement soumise par le gérant à la prochaine Assemblée générale ordinaire qui statue à la majorité ordinaire.
@@ -282,7 +281,7 @@ Si l’assemblée générale ordinaire décide une émission de parts sociales d
 
 ### Perte de la qualité d’associé
 
-**La qualité d'associé se perd :**
+**La qualité d'associé se perd :**
 
 #### Par la démission de cette qualité
 
@@ -291,13 +290,13 @@ Cette démission prend effet immédiatement. Si elle est donnée par un associé
 
 #### Par la démission de l'emploi occupé
 
-Ou par tout autre mode de rupture du contrat de travail à l’exclusion des modes de rupture expressément énumérés ci-après qui ne font pas perdre la qualité d’associé :
+Ou par tout autre mode de rupture du contrat de travail à l’exclusion des modes de rupture expressément énumérés ci-après qui ne font pas perdre la qualité d’associé :
 
 La perte de la qualité d’associé intervient dès la notification de la rupture du contrat de travail par la partie qui en a pris l’initiative (date de première présentation de la lettre recommandée ou de la remise en main propre contre décharge) et si la rupture du contrat de travail intervient par accord des parties, à la date de prise d’effet de la rupture.
 
 Dans le cas où l’associé salarié a fait part au gérant de sa demande de conserver la qualité d’associé, une assemblée devra être convoquée avant la fin du préavis. Si l’assemblée refuse le maintien de la qualité d’associé, ce dernier sera réputé avoir perdu cette qualité à la date de notification de la rupture de son contrat de travail.
 
-Modes de rupture du contrat de travail ne faisant pas perdre la qualité d’associé :
+Modes de rupture du contrat de travail ne faisant pas perdre la qualité d’associé :
 
 - Le départ ou la mise à la retraite,
 - Le licenciement pour motif économique et l'invalidité rendant l'intéressé inapte au travail,
@@ -370,14 +369,14 @@ Pour le calcul de la valeur de remboursement de la part sociale, il est convenu 
 
 Les réserves statutaires sont principalement constituées par le fonds de développement.
 
-Le montant des pertes à imputer sur le capital se calcule selon la formule suivante :
+Le montant des pertes à imputer sur le capital se calcule selon la formule suivante :
 
 Perte x (capital / capital + réserves statutaires).
 
-- le montant du capital à retenir est celui du dernier jour de l’exercice auquel a été réintégré le montant du capital qui était détenu par les associés sortants ;
+- le montant du capital à retenir est celui du dernier jour de l’exercice auquel a été réintégré le montant du capital qui était détenu par les associés sortants ;
 - les réserves statutaires sont celles inscrites au bilan au dernier jour de l’exercice.
 
-<!--- TODO : discuter avec Pierre Auriau, plutôt variante 2 après discussion interne --->
+<!-- TODO : discuter avec Pierre Auriau, plutôt variante 2 après discussion interne -->
 ##### Variante 1
 
 Pour le calcul de la valeur de remboursement de la part sociale, il est convenu que les pertes s'imputent prioritairement sur les réserves statutaires. L’imputation sur la réserve légale est interdite.
@@ -467,10 +466,10 @@ En cas de pluralité de gérants, chacun des gérants dispose de l’intégralit
 
 La Société fera procéder tous les ans à la révision coopérative prévue par la loi 84-1027 du 23/11/1984 modifiée par le décret 88-245 du 10/03/1988 et dont le contenu a été fixé par un arrêté du 19/03/1989.
 
-En outre, la révision coopérative devra intervenir sans délai si :
+En outre, la révision coopérative devra intervenir sans délai si :
 
--   elle est demandée par le dixième des associés ;
--   trois exercices consécutifs font apparaître des pertes comptables ;
+-   elle est demandée par le dixième des associés ;
+-   trois exercices consécutifs font apparaître des pertes comptables ;
 -   les pertes d'un exercice s'élèvent à la moitié au moins du montant
     le plus élevé atteint par le capital.
 
@@ -546,11 +545,11 @@ Le droit de vote de tout associé qui n'aurait pas rempli l’engagement de sous
 
 Un associé empêché de participer personnellement à l'assemblée générale ne peut se faire représenter que par un autre associé.
 
-Les règles suivantes doivent être respectées :
+Les règles suivantes doivent être respectées :
 
--   Si la Scop comprend moins de 20 associés : un associé ne peut
-    disposer que d’un pouvoir ;
--   Si la Scop comprend au moins 20 associés : un associé ne peut
+-   Si la Scop comprend moins de 20 associés : un associé ne peut
+    disposer que d’un pouvoir ;
+-   Si la Scop comprend au moins 20 associés : un associé ne peut
     disposer, en plus de sa propre voix, d’un nombre de voix excédant le
     vingtième des associés.
 
@@ -564,9 +563,9 @@ Les pouvoirs adressés à la Société sans désignation d'un mandataire sont co
 
 ##### Première consultation
 
-**Quorum** : aucune condition de quorum n’est exigée.
+**Quorum** : aucune condition de quorum n’est exigée.
 
-**Majorité** : les décisions de l'assemblée des associés doivent être
+**Majorité** : les décisions de l'assemblée des associés doivent être
 prises par une majorité représentant plus de la moitié du nombre total
 d'associés.
 
@@ -584,49 +583,49 @@ bulletins secrets.
 
 ##### Première consultation
 
-**Quorum** : les trois quarts du total des droits de vote.
+**Quorum** : les trois quarts du total des droits de vote.
 
-**Majorité** : les trois quarts du total des droits de vote présents ou représentés.
+**Majorité** : les trois quarts du total des droits de vote présents ou représentés.
 
 ##### Deuxième consultation
 
-**Quorum** : la moitié du total des droits de vote.
+**Quorum** : la moitié du total des droits de vote.
 
-**Majorité** : les trois quarts du total des droits de vote présents ou
+**Majorité** : les trois quarts du total des droits de vote présents ou
 représentés.
 
 Les modifications des statuts sont décidées par une majorité représentant les trois quarts du total des droits de vote présents ou représentés.
 
 ### Compétence de l'assemblée ordinaire
 
-L'assemblée ordinaire annuelle des associés, le cas échéant réunie extraordinairement pour examiner les questions dont la solution ne souffre pas d'attendre la prochaine assemblée annuelle, exerce les pouvoirs qui lui sont conférés par la loi et notamment :
+L'assemblée ordinaire annuelle des associés, le cas échéant réunie extraordinairement pour examiner les questions dont la solution ne souffre pas d'attendre la prochaine assemblée annuelle, exerce les pouvoirs qui lui sont conférés par la loi et notamment :
 
--   approuve ou redresse les comptes ;
+-   approuve ou redresse les comptes ;
 -   ratifie la répartition des bénéfices si une pré- répartition a été
-    décidée par le gérant ;
+    décidée par le gérant ;
 -   prononce, dans les conditions prévues aux statuts, l'admission des
-    associés ;
--   nomme le gérant, contrôle sa gestion et le révoque ;
+    associés ;
+-   nomme le gérant, contrôle sa gestion et le révoque ;
 -   s'il y a lieu, nomme et révoque les membres du conseil de
-    surveillance ;
--   approuve les conventions passées entre la Société et les associés ;
+    surveillance ;
+-   approuve les conventions passées entre la Société et les associés ;
 -   décide ou ratifie la répartition des bénéfices et peut décider la
     conversion en parts sociales des répartitions revenant aux
-    associés ;
+    associés ;
 -   délibère sur toutes questions portées à l'ordre du jour n’emportant
-    pas modification des statuts ;
+    pas modification des statuts ;
 -   décide les émissions de titres participatifs.
 
 ### Compétence de l'assemblée extraordinaire
 
 L'assemblée des associés a compétence pour modifier les statuts, mais ne peut augmenter les engagements des associés sans leur accord unanime, sauf le cas particulier de l’engagement de souscription au capital expressément prévu par la loi du 19 juillet 1978.
 
-Elle peut notamment décider ou autoriser, sans que l’énumération ait un caractère limitatif :
+Elle peut notamment décider ou autoriser, sans que l’énumération ait un caractère limitatif :
 
 -   L’exclusion d’un associé qui aurait causé un préjudice matériel ou
-    moral à la Société ;
--   La modification de la dénomination sociale ;
--   La prorogation ou la dissolution anticipée de la Société ;
+    moral à la Société ;
+-   La modification de la dénomination sociale ;
+-   La prorogation ou la dissolution anticipée de la Société ;
 -   La fusion de la Société.
 
 
@@ -657,14 +656,14 @@ Le résultat est constitué par les produits de l'exercice, y compris les produi
 #### Excédents de gestion
 
 Pour déterminer les excédents nets de gestion à partir du compte
-résultat, il convient :
+résultat, il convient :
 
--   de déduire les reports déficitaires antérieurs ;
--   d'ajouter les reports bénéficiaires antérieurs ;
+-   de déduire les reports déficitaires antérieurs ;
+-   d'ajouter les reports bénéficiaires antérieurs ;
 -   de déduire les plus values nettes résultant de la cession
     d’immobilisations ou de la réévaluation des actifs immobilisés, dont
     le montant après paiement de l'impôt est viré à un poste de
-    réserves ;
+    réserves ;
 -   de déduire le montant de la provision pour investissement
     lorsqu'elle a été constituée par dotation à poste spécial, lors de
     l'arrêté des comptes du sixième exercice précédent et qui est
@@ -676,7 +675,7 @@ En cas de réévaluation de bilan, l'écart enregistré n'entre ni dans le compt
 
 ### Répartition des excédents nets
 
-La décision de répartition est prise par le gérant avant la clôture de l'exercice et communiquée aux associés lors d’une assemblée générale ordinaire réunie extraordinairement ou par lettre remise en main propre contre décharge. Elle est ratifiée par l’Assemblée Générale Ordinaire appelée à statuer sur les comptes de l’exercice. Le gérant et l'Assemblée sont tenus de respecter les règles suivantes :
+La décision de répartition est prise par le gérant avant la clôture de l'exercice et communiquée aux associés lors d’une assemblée générale ordinaire réunie extraordinairement ou par lettre remise en main propre contre décharge. Elle est ratifiée par l’Assemblée Générale Ordinaire appelée à statuer sur les comptes de l’exercice. Le gérant et l'Assemblée sont tenus de respecter les règles suivantes :
 
 #### Réserve légale
 
@@ -689,7 +688,8 @@ Ce montant atteint, cette dotation est affectée au fonds de développement.
 Le fonds de développement doit être doté chaque année.
 
 
-<Question : peut-on le décider lors de l'ag et non dans les statuts ?>
+<Question : peut-on le décider lors de l'ag et non dans les statuts ?>
+<Réponse : oui ; la proposition doit être faite par la gérance durant l'année de l'exercice en cours>
 
 #### Ristourne aux salariés
 
@@ -698,11 +698,11 @@ Il sera attribué à tous les travailleurs associés ou non, employés dans la S
 
 Par application de l’article 33-3 de la loi du 19 juillet 1978 portant statut des Scop, la répartition ainsi attribuée à chaque bénéficiaire est affectée d’un coefficient au maximum égal à 2 proportionnel à l’ancienneté de celui-ci au service de la Société. Cette ancienneté s’apprécie en années complètes à la clôture de l’exercice sur les résultats duquel la participation est calculée.
 
-Les coefficients sont les suivants :
+Les coefficients sont les suivants :
 
-* Ancienneté comprise entre <ans> et <ans> : coefficient <valeur>.
-* Ancienneté comprise entre <ans> et <ans> : coefficient <valeur>.
-* Ancienneté comprise entre <ans> et <ans> : coefficient <valeur>.
+* Ancienneté comprise entre <ans> et <ans> : coefficient <valeur>.
+* Ancienneté comprise entre <ans> et <ans> : coefficient <valeur>.
+* Ancienneté comprise entre <ans> et <ans> : coefficient <valeur>.
 
 #### Intérêts aux parts sociales
 
@@ -719,8 +719,9 @@ la création de nouvelles parts sociales, au plus tard neuf mois après la
 clôture de l'exercice.
 
 <Question: sur l'intérêt de garder cette option (plutôt à virer après discussion en interne) >
+<Réponse: voir résolution précédente ; en gros, on dégage cette notion de valorisation des parts sociales>
 
-#### Réserve de revalorisation des parts sociales
+#### Réserve de revalorisation des parts sociales (XXX: section à supprimer)
 
 <pourcentage> % sont affectés à la réserve de revalorisation des parts
 sociales.
@@ -738,11 +739,11 @@ revalorisation des rentes viagères.
 
 #### Possibilité légale
 
-S'il a été conclu un accord pour la participation des salariés aux résultats de l'entreprise :
+S'il a été conclu un accord pour la participation des salariés aux résultats de l'entreprise :
 
 -   l'attribution aux travailleurs peut, selon les termes de cet accord,
     être affectée en tout ou partie à la réserve spéciale de
-    participation des salariés ;
+    participation des salariés ;
 -   les dotations faites sur les résultats d'un exercice, à la réserve
     légale et au fonds de développement, peuvent tenir lieu de la
     provision pour investissement (PPI) que la Société peut constituer à
@@ -751,18 +752,18 @@ S'il a été conclu un accord pour la participation des salariés aux résultats
 
 #### Comptabilisation de la réserve spéciale de participation
 
-Si la Société utilise les possibilités rappelées ci-dessus, les règles de comptabilisation suivantes s'appliqueront :
+Si la Société utilise les possibilités rappelées ci-dessus, les règles de comptabilisation suivantes s'appliqueront :
 
 -   la réserve spéciale de participation et les réserves tenant lieu de
     PPI ne feront pas l'objet d'une comptabilisation avant la
-    détermination du résultat dont elles font partie ;
+    détermination du résultat dont elles font partie ;
 -   le compte de résultat devra être subdivisé de manière à faire
     apparaître distinctement le montant de la réserve spéciale de
     participation et le montant de la réserve légale et du fonds de
-    développement tenant lieu de PPI ;
+    développement tenant lieu de PPI ;
 -   la réserve spéciale de participation et les réserves tenant lieu de
     PPI seront déduites du résultat fiscal lors de la clôture des
-    comptes de l'exercice (tableau 2058 AN déductions diverses) ;
+    comptes de l'exercice (tableau 2058 AN déductions diverses) ;
 -   la liasse fiscale comprendra les informations complémentaires
     définies par la lettre du Service de la Législation Fiscale à la
     Confédération des SCOP en date du 01.10.1987.
@@ -798,12 +799,12 @@ La Société adhère à la Confédération Générale des Scop, association rég
 
 Toutes les contestations qui pourraient s'élever au cours de la vie de la Société ou de sa liquidation seront soumises à la Commission d’arbitrage de la Confédération générale des Scop.
 
-Les contestations concernées sont celles pouvant s’élever :
+Les contestations concernées sont celles pouvant s’élever :
 
 -   entre les associés ou anciens associés eux-mêmes au sujet des
     affaires sociales, notamment de l'application des présents statuts
     et tout ce qui en découle, ainsi qu'au sujet de toutes les affaires
-    traitées entre la Société et ses associés ou anciens associés ;
+    traitées entre la Société et ses associés ou anciens associés ;
 -   entre la Société et une autre Société, soit au sujet des affaires
     sociales ou de toute autre affaire traitée.
 
@@ -851,7 +852,7 @@ A compter de son immatriculation, ils seront entièrement pris en charge par la 
 
 Fait à Montpellier, le 01/12/2012 en autant d'exemplaires que requis par la loi.
 
-Signatures des associés :
+Signatures des associés :
 
 
 ---
