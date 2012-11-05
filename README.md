@@ -1,3 +1,3 @@
 # Scopyleft
 
-Nos essais, nos échecs, nos doutes, nos envies. Notre histoire.
+Site en cours d'évolution.
