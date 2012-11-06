@@ -1,6 +1,6 @@
-# Scopyleft
+# scopyleft
 
-## Notre vision
+## Notre pitch
 
 > Travailler avec des humains, sur des projets éthiques intéressants, tout en privilégiant la qualité de vie et le plaisir.
 
