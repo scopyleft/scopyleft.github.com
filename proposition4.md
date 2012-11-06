@@ -2,7 +2,7 @@
 
 ## Notre pitch
 
-> Travailler avec des humains, sur des projets éthiques intéressants, tout en privilégiant la qualité de vie et le plaisir.
+### Travailler avec des humains, sur des projets éthiques intéressants, tout en privilégiant la qualité de vie et le plaisir.
 
 ## Nos valeurs
 
@@ -20,7 +20,7 @@
 * conseil, formations et ateliers méthodologiques et techniques
 * facilitation dans l'implémentation de Scrum, XP, Kanban et Lean
 
-Nous travaillons uniquement en régie.
+Nous travaillons en régie.
 
 ## Notre équipe
 
@@ -29,6 +29,6 @@ Nous travaillons uniquement en régie.
 * [Stéphane Langlois](mailto:stephane.langlois@scopyleft.fr)
 * [David Larlet](https://larlet.fr/david/)
 
-## Nous contacter
+## Contactez-nous
 
-Par [email](m&#x61;ilto:bonjour%40scopyleft&#46;fr), sur [twitter](https://twitter.com/scopyleft) ou [github](https://github.com/scopyleft/).
+Par [email](m&#x61;ilto:bonjour%40scopyleft&#46;fr), sur [twitter](https://twitter.com/scopyleft) ou [github](https://github.com/scopyleft/). Ou par [téléphone](tel:+33611782563).
