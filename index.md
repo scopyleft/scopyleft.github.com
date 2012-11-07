@@ -26,9 +26,9 @@ Nous travaillons en régie.
 
 * [Nicolas Perriault](https://nicolas.perriault.net/)
 * [Vincent Agnano](http://vinyll.github.com/)
-* [Stéphane Langlois](mailto:stephane.langlois@scopyleft.fr)
+* [Stéphane Langlois](m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr)
 * [David Larlet](https://larlet.fr/david/)
 
 ## Contactez-nous
 
-Par [email](m&#x61;ilto:bonjour%40scopyleft&#46;fr), sur [twitter](https://twitter.com/scopyleft) ou [github](https://github.com/scopyleft/). Ou par [téléphone](tel:+33611782563).
+Par [email](m&#x61;ilto:bonjour%40scopyleft&#46;fr), sur [twitter](https://twitter.com/scopyleft) ou par [téléphone](tel:+33611782563) (Stéphane).
