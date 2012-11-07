@@ -1,12 +1,10 @@
 # scopyleft
 
-## Notre pitch
-
-### Travailler avec des humains, sur des projets éthiques intéressants, tout en privilégiant la qualité de vie et le plaisir.
+### Travailler avec des humains, sur des projets éthiques intéressants, tout en privilégiant la qualité de vie et le plaisir de chacun.
 
 ## Nos valeurs
 
-* **Honnêteté intellectuelle** : emettre les idées qui sont en conjonction avec nos valeurs, en toute bonne foi et sans détour.
+* **Honnêteté intellectuelle** : émettre les idées qui sont en conjonction avec nos valeurs, en toute bonne foi et sans détour.
 * **Courage** : discuter lorsque les projets ne sont plus en adéquation avec nos exigences de qualité ou nos engagements éthiques. Savoir dire « non » ou « je ne sais pas ».
 * **Bien-être** : favoriser la qualité de vie de chacun pour assurer son contentement propre et la pérennité du cadre de travail commun.
 * **Respect** : être à l'écoute des différences de point de vue et encourager le consentement plus que le consensus.
