@@ -9,7 +9,7 @@
 * **Bien-être** : favoriser la qualité de vie de chacun pour assurer son contentement propre et la pérennité du cadre de travail commun.
 * **Respect** : être à l'écoute des différences de point de vue et encourager le consentement plus que le consensus.
 * **Partage** : partager explicitement une compréhension commune pour changer et favoriser l'amélioration continue. Une équipe solidaire partage les tâches et émancipe les individus.
-* **[Transparence](https://github.com/scopyleft)** : les intentions et les actions internes sont visibles et disponibles pour renforcer la confiance des intervenants et leurs permettre de s'engager pleinement.
+* **[Transparence](https://github.com/scopyleft)** : les intentions et les actions internes sont visibles et disponibles pour renforcer la confiance des intervenants et leur permettre de s'engager pleinement.
 
 ## Nos compétences
 
