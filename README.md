@@ -3,7 +3,7 @@
 Clone the repo, init submodules:
 
 ```
-$ git co sources
+$ git checkout sources
 $ git submodule init
 $ git submodule update
 ```
@@ -11,7 +11,7 @@ $ git submodule update
 Create a Python virtualenv:
 
 ```
-$ virtualenv --no-site-packages `pwd`/env
+$ virtualenv --no-site-packages `pwd`/env  # OR mkvirtualenv --no-site-packages scopyleft
 $ pip install -r requirements.txt
 $ source enb/bin/activate
 ```
