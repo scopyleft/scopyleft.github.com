@@ -16,6 +16,7 @@ FLATPAGES_AUTO_RELOAD = True
 FLATPAGES_EXTENSION = '.md'
 FLATPAGES_ROOT = 'pages'
 FREEZER_DESTINATION = 'master'
+FREEZER_REMOVE_EXTRA_FILES = False # to keep git related stuff in there
 
 # App configuration
 FEED_MAX_LINKS = 25

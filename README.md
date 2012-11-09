@@ -6,6 +6,12 @@ Clone the repo, init submodules:
 $ git checkout sources
 $ git submodule init
 $ git submodule update
+$ cd master
+$ git branch
+master
+* sources
+$ git co master
+$ cd ..
 ```
 
 Create a Python virtualenv:
@@ -32,6 +38,8 @@ Update and deploy to the `master` branch:
 
 ```
 $ cd master # hint: it's a submodule, hence the trick
+$ git branch
+* master # double check you're on the master branch!
 $ git ci -a -m"updated new version"
 $ git push
 ```
