@@ -52,6 +52,7 @@ def build():
     freezer.freeze()
     local("cp ./static/*.ico ./master/")
     local("cp ./static/*.txt ./master/")
+    local("cp ./static/CNAME ./master/")
     print("Done.")
 
 
