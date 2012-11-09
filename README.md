@@ -12,13 +12,13 @@ $ source enb/bin/activate
 To serve the site locally:
 
 ```
-$ ./build serve --debug
+$ ./builder.py serve --debug
 ```
 
 To build the static site into the `master` submodule:
 
 ```
-$ ./build build master
+$ ./builder.py build
 ```
 
 Update and deploy to master:
