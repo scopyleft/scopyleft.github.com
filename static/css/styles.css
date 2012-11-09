@@ -1,0 +1,66 @@
+body {
+    font-size: 140%;
+    width: 620px;
+    padding: 10px;
+    margin: 0 auto 30px;
+    background: #fff url(../images/billie_holiday.png);
+    font-family: "Hoefler Text", Palatino, Georgia, serif;
+}
+h1 {
+    font-size: 140px;
+    line-height: 0;
+    text-align: center;
+    font-weight: 300;
+}
+h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+header blockquote {
+    font-size: larger;
+    text-align: center;
+    font-weight: 300;
+}
+ul, p {
+    font-size: large;
+}
+p {
+    text-align: center;
+}
+ul {
+    line-height: 1.25;
+}
+#equipe {
+    list-style: none;
+    padding-bottom: 30px;
+    padding-top: 0;
+    margin-top: 0;
+}
+#equipe li {
+    float: left;
+    width: 50%;
+}
+#equipe img {
+    float: left;
+    border-radius: 48px;
+}
+#equipe li {
+    padding-bottom: 10px;
+}
+#equipe a {
+    display: block;
+    padding: 13px 0 0 56px;
+}
+#contactez-nous {
+    padding-top: 10px;
+    clear: both;
+}
+table {
+    margin-left: 40px;
+    width: 100%;
+    text-align: center;
+}
+table td {
+    font-size: large;
+    padding: 8px 4px;
+}

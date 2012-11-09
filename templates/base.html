@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    {% block extra_head %}{% endblock %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{% block page_title %}Accueil{% endblock page_title %} | scopyleft</title>
+    <meta name="description" content="scopyleft accompagne vos projets Web dans une démarche de qualité">
+    <meta name="viewport" content="width=device-width">
+    {%- assets filter="cssmin", output="packed.css",
+        "css/styles.css"
+    %}
+        <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
+    {%- endassets %}
+</head>
+<body>
+    <header>
+        <h1 id="scopyleft">scopyleft</h1>
+        <blockquote><q>
+            Travailler entre humains, sur des projets<br>
+            éthiques et intéressants, tout en privilégiant<br>
+            le bien-être et le plaisir de chacun.
+        </q></blockquote>
+    </header>
+
+    {% block content %}{% endblock content %}
+
+    <footer>
+        <h2 id="contactez-nous">Contactez-nous</h2>
+        <p>Par <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
+            sur <a href="https://twitter.com/scopyleft">twitter</a>
+            ou par <a href="tel:+33611782563">téléphone</a> (Stéphane).</p>
+    </footer>
+</body>
+</html>
