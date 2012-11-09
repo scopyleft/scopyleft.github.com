@@ -6,4 +6,4 @@ N'hésitez pas à nous faire part de vos remarques et suggestions via les [issue
 
 ## Technique
 
-Les sources des pages HTML générées sur la branche `master` proviennent des fichiers markdown de la branche `sources`.
+Les sources des pages HTML générées sur la branche `master` proviennent des fichiers markdown de la branche [`sources`](https://github.com/scopyleft/scopyleft.github.com/tree/sources) et sont générées par un [générateur de site statique maison](https://github.com/scopyleft/scopyleft.github.com/tree/sources#scopyleft-site-generator).
