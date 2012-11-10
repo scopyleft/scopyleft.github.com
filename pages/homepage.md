@@ -1,7 +1,7 @@
 ## Nos valeurs
 
 * **Honnêteté intellectuelle** : émettre les idées qui sont en conjonction avec nos valeurs, en toute bonne foi et sans détour.
-* **Courage** : discuter lorsque les projets ne sont plus en adéquation avec nos exigences de qualité ou nos engagements éthiques. Savoir dire « non » ou « je ne sais pas ».
+* **Courage** : discuter lorsque les projets ne sont plus en adéquation avec nos exigences de qualité ou nos engagements éthiques. Savoir dire « non » ou « je ne sais pas ».
 * **Bien-être** : favoriser la qualité de vie de chacun pour assurer son contentement propre et la pérennité du cadre de travail commun.
 * **Respect** : être à l'écoute des différences de point de vue et encourager le consentement plus que le consensus.
 * **Partage** : partager explicitement une compréhension commune pour changer et favoriser l'amélioration continue. Une équipe solidaire partage les tâches et émancipe les individus.
@@ -9,10 +9,12 @@
 
 ## Nos compétences
 
-* accompagnement dans la réalisation de produits Web
-* développement et architecture Web et mobile
-* conseil, formations et ateliers méthodologiques et techniques
-* facilitation dans l'implémentation de Scrum, XP, Kanban et Lean
+* Accompagnement dans la réalisation de produits Web
+* Développement et architecture Web et mobile
+* Conseil, formations et ateliers méthodologiques et techniques
+* Facilitation dans l'implémentation de Scrum, XP, Kanban et Lean
+
+## Notre approche
 
 <table>
   <thead>
@@ -48,7 +50,7 @@
 
 <h2 id="notre-equipe">Notre équipe</h2>
 
-<ul id="equipe">
+<ul class="equipe">
   <li><img src="/static/images/nicolas-perriault.jpg">
     <a href="https://nicolas.perriault.net/">Nicolas Perriault</a></li>
   <li><img src="/static/images/vincent-agnano.jpg">
