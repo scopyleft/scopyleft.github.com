@@ -28,8 +28,14 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 1em;
 }
 
-h1.logo {
-    font-size: 140px;
+h2 {
+    clear: left;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.logo {
+    font-size: 160px;
     line-height: 0;
     text-align: center;
     font-weight: 300;
@@ -37,23 +43,23 @@ h1.logo {
     border-top: none;
 }
 
-h2 {
-    font-size: xx-large;
-    text-align: center;
-}
-
 header blockquote {
-    font-size: 120%;
+    font-size: 130%;
     text-align: center;
     font-weight: normal;
     font-family: Palatino, Georgia, serif;
     font-style: italic;
-    letter-spacing: .03em;
-    padding: 1em 1em 0 1em;
+    letter-spacing: .05em;
+    padding-top: 1em;
 }
+    header blockquote cite {
+        display: block;
+        margin-top: 1em;
+        text-align: right;
+    }
 
-p {
-    text-align: center;
+hr {
+    display: none;
 }
 
 ul {
@@ -64,6 +70,22 @@ ul {
 }
     ul li {
         margin-bottom: .7em;
+    }
+
+.valeurs {
+}
+    .valeurs dt {
+        float: left;
+        width: 25%;
+        margin: 0;
+        text-align: right;
+    }
+    .valeurs dd {
+        float: left;
+        width: 70%;
+        min-height: 3.5em;
+        padding: .1em 0 0 1em;
+        margin: 0;
     }
 
 .approche {
@@ -79,8 +101,8 @@ ul {
 .equipe {
     list-style: none;
     padding-bottom: 30px;
-    width: 500px;
     margin: 0 auto;
+    font-size: 90%;
 }
     .equipe li {
         float: left;
@@ -118,3 +140,7 @@ table {
     tbody tr th {
         width: 50px;
     }
+
+footer p {
+    text-align: center;
+}
