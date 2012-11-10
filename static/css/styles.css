@@ -48,8 +48,7 @@ header blockquote {
     font-family: Palatino, Georgia, serif;
     font-style: italic;
     letter-spacing: .03em;
-    padding-left: 6em;
-    margin-bottom: 1.5em;
+    padding: 1em;
 }
 
 p {
