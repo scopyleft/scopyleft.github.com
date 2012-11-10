@@ -1,3 +1,5 @@
+---
+
 ## Nos valeurs
 
 * **Honnêteté intellectuelle** : émettre les idées qui sont en conjonction avec nos valeurs, en toute bonne foi et sans détour.
@@ -16,37 +18,19 @@
 
 ## Notre approche
 
-<table>
-  <thead>
-    <tr>
-      <th>Besoins clients</th>
-      <th></th>
-      <th>Propositions scopyleft</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Amélioration de la qualité d'une application web existante</td>
-      <th>→</th>
-      <td>Audit et propositions de formations techniques sur mesure</td>
-    </tr>
-    <tr>
-      <td>Concrétisation d'une idée (nouvelle activité, startup)</td>
-      <th>→</th>
-      <td>Accompagnement : redéfinition du besoin et réalisation d'un prototype fonctionnel</td>
-    </tr>
-    <tr>
-      <td>Recherche thématique dans une base de données</td>
-      <th>→</th>
-      <td>Conception d'un moteur de recherche utilisant Django avec recherche à facettes</td>
-    </tr>
-    <tr>
-      <td>Volonté d'échanger avec la communauté</td>
-      <th>→</th>
-      <td>Assistance à la libération de code en open-source</td>
-    </tr>
-  </tbody>
-</table>
+<dl class="approche">
+  <dt>Q: Amélioration de la qualité d'une application web existante</dt>
+  <dd>A: Audit et propositions de formations techniques sur mesure.</dd>
+
+  <dt>Q: Concrétisation d'une idée (nouvelle activité, startup)</dt>
+  <dd>A: Accompagnement, affinage du besoin et réalisation d'un prototype fonctionnel.</dd>
+
+  <dt>Q: Recherche thématique dans une base de données</dt>
+  <dd>A: Conception d'un moteur de recherche utilisant Django avec recherche à facettes.</dd>
+
+  <dt>Q: Volonté d'échanger avec la communauté</dt>
+  <dd>A: Assistance à la libération de code en open-source.</dd>
+</dl>
 
 <h2 id="notre-equipe">Notre équipe</h2>
 
