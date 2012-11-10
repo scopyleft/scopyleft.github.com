@@ -4,7 +4,7 @@ body {
     width: 620px;
     padding: 1em;
     margin: 0 auto 3em;
-    background: #fff url(../images/billie_holiday.png);
+    background: #fff url(/static/images/billie_holiday.png);
     color: #111;
     font-family: "Hoefler Text", Palatino, Georgia, serif;
 }
