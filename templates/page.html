@@ -1,6 +1,11 @@
 {% extends "base.html" %}
 
-{% block page_title %}Accueil{% endblock page_title %}
+{% block page_title %}page.title{% endblock page_title %}
+
+{% block quote %}
+    <q>{{ page.quote }}</q>
+    <cite>{{ page.quote_author }}</cite>
+{% endblock quote %}
 
 {% block content %}
 {{ page.body|markdown }}

@@ -1,3 +1,7 @@
+title: (version niko)
+quote: Ils ne savaient pas que c'était possible, alors ils l'ont fait.
+quote_author: Mark Twain
+
 ---
 
 ## <a name="scopyleft"></a>Scopyleft ?

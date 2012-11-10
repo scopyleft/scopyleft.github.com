@@ -32,7 +32,7 @@ asset_manager = AssetManager(app)
 
 @app.route('/')
 def index():
-    return render_template('page.html', page=pages.get_or_404('homepage'))
+    return render_template('homepage.html', page=pages.get_or_404('homepage'))
 
 
 @app.route('/<path:path>/')
