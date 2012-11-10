@@ -2,7 +2,7 @@
 
 ## <a name="scopyleft"></a>Scopyleft ?
 
-Scopyleft est une coopérative [accompagnatrice](#competences) de projets Web, qui se veut être au cahier des charges de 400 pages ce que le Saint-Bernard est à la victime d'avanlanche.
+Scopyleft est une coopérative [accompagnatrice](#competences) de projets Web, qui se veut être au porteur d’un cahier des charges de 400 pages ce que le Saint-Bernard est à la victime d’avalanche.
 
 ## <a name="manifeste"></a>Manifeste
 
@@ -39,29 +39,29 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
 ## <a name="approche"></a>Par exemple
 
 <dl class="approche">
-  <dt>Q: J'ai un super projet, en voici le cahier des charges de 400 pages</dt>
-  <dd>R: Humph, merci beaucoup (waouh, il est lourd !) En fait nous on ne travaille généralement pas avec un cahier des charges, mais plutôt avec des <em>user stories</em>, un <em>backlog</em>, des <em>tests d'acceptance</em>… Hé, ne t'enfuies pas, c'est très simple et on peut t’expliquer ça très facilement si tu nous en laisses la chance :)</dd>
+  <dt>Q: J’ai un super projet, en voici le cahier des charges de 400 pages</dt>
+  <dd>R: Humph, merci beaucoup (waouh, il est lourd !) En fait nous on ne travaille généralement pas avec un cahier des charges, mais plutôt avec des <em>user stories</em>, un <em>backlog</em>, des <em>tests d’acceptance</em>… Hé, ne t’enfuies pas, c’est très simple et on peut t’expliquer ça très facilement si tu nous en laisses la chance :)</dd>
 
   <dt>Q: J’exige que vous réalisiez mon site en PHP</dt>
   <dd>R: Non.</dd>
 
   <dt>Q: Je voudrais améliorer les performances de mon application, là</dt>
-  <dd>R: Sans problème, on va d'abord regarder le code pour voir s'il n'y a pas des optimisations à faire à ce niveau, puis éventuellement on vous propose un atelier technique en suivant pour épauler vos équipes</dd>
+  <dd>R: Sans problème, on va d’abord regarder le code pour voir s’il n’y a pas des optimisations à faire à ce niveau, puis éventuellement on vous propose un atelier technique en suivant pour épauler vos équipes</dd>
 
-  <dt>Q: J'ai une mission en régie sur site de six mois à Paris pour un de mes clients grand compte leader de son marché…</dt>
+  <dt>Q: J’ai une mission en régie sur site de six mois à Paris pour un de mes clients grand compte leader de son marché…</dt>
   <dd>R: Non.</dd>
 
-  <dt>Q: J'ai l'idée du siècle, mais j'ai pas beaucoup de sous</dt>
-  <dd>R: Qu'à cela ne tienne, et si on commençait d'abord par concevoir un prototype rapide pour valider l'idée et les usages derrière ? On peut aussi partir sur un <a href="http://en.wikipedia.org/wiki/Minimum_viable_product">Produit Minimum Viable</a>, c'est un peu plus cher mais ça constituera une base solide à faire évoluer par la suite !</dd>
+  <dt>Q: J’ai l’idée du siècle, mais j’ai pas beaucoup de sous</dt>
+  <dd>R: Qu’à cela ne tienne, et si on commençait d’abord par concevoir un prototype rapide pour valider l’idée et les usages derrière ? On peut aussi partir sur un <a href="http://en.wikipedia.org/wiki/Minimum_viable_product">Produit Minimum Viable</a>, c’est un peu plus cher mais ça constituera une base solide à faire évoluer par la suite !</dd>
 
-  <dt>Q: Nan, mais j'ai <u>vraiment</u> pas de sous</dt>
-  <dd>R: Alors en ce cas et si l'utilité sociale et/ou technique de l'opération est avérée, on peut convenir de libérer le code que nous allons produire, afin de bénéficier des apports de la communauté tout en apportant notre pierre à l'édifice. Deal ?</dd>
+  <dt>Q: Nan, mais j’ai <u>vraiment</u> pas de sous</dt>
+  <dd>R: Alors en ce cas et si l’utilité sociale et/ou technique de l’opération est avérée, on peut convenir de libérer le code que nous allons produire, afin de bénéficier des apports de la communauté tout en apportant notre pierre à l’édifice. Deal ?</dd>
 
   <dt>Q: Han, hors de question</dt>
   <dd>R: Alors tant pis.</dd>
 
-  <dt>Q: Pouvez-vous m'envoyer un CV au format Word ?</dt>
-  <dd>R: Malencontreusement non eu égard à nos exigences vis à vis de <a href="#honneteté">l'honnêteté intellectuelle</a>. Si si, on s'est compris.</dd>
+  <dt>Q: Pouvez-vous m’envoyer un CV au format Word ?</dt>
+  <dd>R: Malencontreusement non eu égard à nos exigences vis à vis de <a href="#honneteté">l’honnêteté intellectuelle</a>. Si si, on s’est compris.</dd>
 </dl>
 
 ## <a name="notre-equipe"></a>Da Crew
