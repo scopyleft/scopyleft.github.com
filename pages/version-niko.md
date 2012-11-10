@@ -34,7 +34,7 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
 
 * On fabrique des applications Web et mobile qui fonctionnent bien
 * On organise des ateliers méthodologiques et techniques pour vous montrer des trucs rigolos comme [Scrum](http://fr.wikipedia.org/wiki/Scrum_(m%C3%A9thode)), [Kanban](http://fr.wikipedia.org/wiki/Kanban), [XP](http://fr.wikipedia.org/wiki/Extreme_programming), [Python](http://python.org/), [Django](http://djangoproject.com/) ou [CasperJS](http://casperjs.org/)
-* On vous aide à mettre en place des choses compliquées, mais on réfléchit ensemble pour voir si ça serait pas mieux si ça restait simple
+* On vous aide éventuellement à mettre en place des choses compliquées, mais on réfléchit ensemble pour voir si ça serait pas mieux que ça reste simple et focalisé sur la valeur essentielle du produit.
 
 ## <a name="approche"></a>Par exemple
 
