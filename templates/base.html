@@ -14,21 +14,24 @@
     {%- endassets %}
 </head>
 <body>
+    <a name="top"></a>
     <header>
         <h1 class="logo">scopyleft</h1>
-        <blockquote><q>
-            Travailler entre humains, sur des projets éthiques et intéressants,
-            tout en privilégiant le bien-être et le plaisir de chacun.
-        </q></blockquote>
+        <blockquote>
+            <q>Ils ne savaient pas que c'était impossible, alors ils l'ont fait.</q>
+            <cite>Mark Twain</cite>
+        </blockquote>
     </header>
 
     {% block content %}{% endblock content %}
 
     <footer>
-        <h2 class="contactez-nous">Contactez-nous</h2>
-        <p>Par <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
+        <h2 class="contactez-nous"><a name="contact"></a>Contact</h2>
+        <p class="center">
+            Par <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
             sur <a href="https://twitter.com/scopyleft">twitter</a>
             ou par <a href="tel:+33611782563">téléphone</a> (Stéphane).</p>
     </footer>
+    <a href="{{ url_for("page", path='version-niko') }}"></a>
 </body>
 </html>

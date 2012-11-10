@@ -32,11 +32,12 @@ asset_manager = AssetManager(app)
 
 @app.route('/')
 def index():
-    try:
-        page = filter(lambda p: p.path == 'homepage', pages)[0]
-    except:
-        abort(404)
-    return render_template('page.html', page=page)
+    return render_template('page.html', page=pages.get_or_404('homepage'))
+
+
+@app.route('/<path:path>/')
+def page(path):
+    return render_template('page.html', page=pages.get_or_404(path))
 
 
 @app.errorhandler(404)
