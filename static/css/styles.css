@@ -5,7 +5,7 @@ body {
     padding: 1em;
     margin: 0 auto 3em;
     background: #fff url(/static/images/billie_holiday.png);
-    color: #111;
+    color: #222;
     font-family: "Hoefler Text", Palatino, Georgia, serif;
 }
 
@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6, th, dt {
     font-family: Palatino, Georgia, serif;
     font-size: 120%;
     margin-top: 1em;
+    color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
