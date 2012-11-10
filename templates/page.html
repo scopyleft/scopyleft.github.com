@@ -10,3 +10,26 @@
 {% block content %}
 {{ page.body|markdown }}
 {% endblock content %}
+
+{% block extrajs %}
+    <datalist id="quotes">
+        <option value="Ils ne savaient pas que c'était impossible, alors ils l'ont fait." data-author="Mark Twain"/>
+        <option value="Ça marchera jamais leur truc" data-author="Alain Madelin"/>
+        <option value="Non vraiment, c'est pas une blague ? Et ils y croient vraiment ?" data-author="Goldman Sachs Group"/>
+        <option value="Si ça passe, c'est beau." data-author="Édouard Bracame"/>
+        <option value="Ce n'est pas un signe de bonne santé que d'être bien adapté à une société profondément malade." data-author="Krishnamurti"/>
+    </datalist>
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script>
+        var catalog = $('#quotes option').map(function(i, option) {
+            return { quote: $(option).val(), author: $(option).data('author') };
+        });
+        setTimeout(function() {
+            setInterval(function() {
+                var item = catalog[Math.round(Math.random() * (catalog.length - 1))];
+                $('header blockquote q').html(item.quote);
+                $('header blockquote cite').html(item.author);
+            }, 10000);
+        }, 20000);
+    </script>
+{% endblock extrajs %}
