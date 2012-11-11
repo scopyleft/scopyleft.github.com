@@ -43,6 +43,10 @@ h2 {
     margin: 0 0 .7em;
     border-top: none;
 }
+    .logo a {
+        color: #000;
+        text-decoration: none;
+    }
 
 header blockquote {
     font-size: 130%;
