@@ -6,7 +6,7 @@ quote_author: Mark Twain
 
 ## <a name="scopyleft"></a>Scopyleft ?
 
-Scopyleft est une coopérative [accompagnatrice](#competences) de projets Web, qui se veut être au porteur d’un cahier des charges de 400 pages ce que le Saint-Bernard est à la victime d’avalanche.
+Scopyleft est une coopérative [accompagnatrice](#competences) de projets Web, qui se veut être au porteur de projet ce que la balise ARVA est à la sortie en haute montagne.
 
 ## <a name="manifeste"></a>Manifeste
 
