@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 
+import os
+
 from argh import *
 from fabric.api import local
-from flask import Flask, render_template, abort
+from flask import Flask, render_template
 from flask_frozen import Freezer
 from flaskext.flatpages import FlatPages
 from flaskext.markdown import Markdown
@@ -11,6 +13,7 @@ from flaskext.assets import Environment as AssetManager
 # Configuration
 DEBUG = False
 BASE_URL = 'https://scopyleft.fr'
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 ASSETS_DEBUG = DEBUG
 FLATPAGES_AUTO_RELOAD = True
 FLATPAGES_EXTENSION = '.md'
@@ -68,7 +71,27 @@ def serve(server='127.0.0.1', port=5000, debug=DEBUG):
     app.run(host=server, port=port, debug=debug)
 
 
+@command
+def deploy(commit_message):
+    """ Deploys this site to github pages.
+    """
+    build()
+    build()
+    print("Deploying website from %s to github..." % ROOT_DIR)
+    os.chdir(os.path.join(ROOT_DIR, FREEZER_DESTINATION))
+    local("git ci -a -m'%s'" % commit_message)
+    print("Pushing to master branch")
+    local("git push")
+    os.chdir(ROOT_DIR)
+    local('pwd')
+    local("git add %s" % FREEZER_DESTINATION)
+    local("git ci -a -m'%s'" % commit_message)
+    print("Pushing to sources branch")
+    local("git push")
+    print("New version has been commited, pushed & deployed to github.")
+
+
 if __name__ == '__main__':
     parser = ArghParser()
-    parser.add_commands([build, serve, ])
+    parser.add_commands([build, serve, deploy, ])
     parser.dispatch()
