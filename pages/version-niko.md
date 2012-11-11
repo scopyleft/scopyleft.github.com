@@ -64,6 +64,16 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
   <dt>Q: Han, hors de question ! <small>t'façon j'ai tout breveté, na</small></dt>
   <dd>R: Alors tant pis.</dd>
 
+  <dt>Q: Pouvez-vous réaliser mon site de bourse en ligne à l’armement nucléaire fiscalement optimisé ?</dt>
+  <dd>
+    R: Navrés, nous ne travaillons pas sur les projets en contradiction avec <a href="#manifeste">nos valeurs et notre éthique</a> ; nous ne réaliserons donc pas :
+    <ul>
+      <li>De site à caractère raciste, xénophobe, diffamatoire, religieux, pornographique ;</li>
+      <li>De site outillant la malhonnêteté intellectuelle, la manipulation frauduleuse, l'escroquerie ;</li>
+      <li>Toute entreprise à caractère illégal.</li>
+    </ul>
+  </dd>
+
   <dt>Q: Pouvez-vous m’envoyer un CV au format Word ? <small>que je puisse enlever votre logo et mettre le mien à la place <small>et rajouter que vous faites du PHP</small></small></dt>
   <dd>R: Non.</dd>
 </dl>
