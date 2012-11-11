@@ -59,6 +59,14 @@ header blockquote {
         text-align: right;
     }
 
+dd ul {
+    margin-left: 2em;
+    list-style-type: square;
+}
+    dd li {
+        margin-bottom: .5em;
+    }
+
 hr {
     display: none;
 }
