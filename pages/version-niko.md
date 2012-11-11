@@ -44,7 +44,7 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
 
 <dl class="approche">
   <dt>Q: J’ai un super projet, en voici le cahier des charges de 400 pages</dt>
-  <dd>R: Humph, merci beaucoup (waouh, il est lourd !) En fait on ne travaille généralement pas avec un cahier des charges, mais plutôt avec des <em>user stories</em>, un <em>backlog</em>, des <em>tests d’acceptance</em>… Hé, ne t’enfuis pas, c’est très simple et on peut t’expliquer ça très facilement si tu nous en laisses la chance :)</dd>
+  <dd>R: Humph, merci beaucoup (waouh, il est lourd !) En fait on ne travaille généralement pas avec un cahier des charges, mais plutôt avec des <em>user stories</em>, un <em>backlog</em>, des <em>tests d’acceptance</em>… Hé, ne t’enfuis pas, c’est très simple et on peut t’expliquer ça très facilement si vous nous en laisses la chance :)</dd>
 
   <dt>Q: J’exige que vous réalisiez mon site en PHP</dt>
   <dd>R: Non.</dd>

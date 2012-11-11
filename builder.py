@@ -77,18 +77,18 @@ def deploy(commit_message):
     """
     build()
     build()
-    print("Deploying website from %s to github..." % ROOT_DIR)
+    print('Deploying website from %s to github...' % ROOT_DIR)
     os.chdir(os.path.join(ROOT_DIR, FREEZER_DESTINATION))
-    local("git ci -a -m'%s'" % commit_message)
-    print("Pushing to master branch")
-    local("git push")
+    local('git ci -a -m"%s"' % commit_message)
+    print('Pushing to master branch')
+    local('git push')
     os.chdir(ROOT_DIR)
     local('pwd')
-    local("git add %s" % FREEZER_DESTINATION)
-    local("git ci -a -m'%s'" % commit_message)
-    print("Pushing to sources branch")
-    local("git push")
-    print("New version has been commited, pushed & deployed to github.")
+    local('git add %s' % FREEZER_DESTINATION)
+    local('git ci -a -m"%s"' % commit_message)
+    print('Pushing to sources branch')
+    local('git push')
+    print('New version has been commited, pushed & deployed to github.')
 
 
 if __name__ == '__main__':
