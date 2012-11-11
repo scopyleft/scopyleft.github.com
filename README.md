@@ -34,14 +34,10 @@ To build the static site into the `master` submodule:
 $ ./builder.py build
 ```
 
-Update and deploy to the `master` branch:
+To build, commit, push and deploy to github:
 
 ```
-$ cd master # hint: it's a submodule, hence the trick
-$ git branch
-* master # double check you're on the master branch!
-$ git ci -a -m"updated new version"
-$ git push
+$ ./builder.py deploy "commit message related to modifications"
 ```
 
 It's automatically pushed online at [scopyleft.fr](http://scopyleft.fr) thanks to github pages.
