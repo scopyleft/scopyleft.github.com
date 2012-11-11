@@ -33,6 +33,10 @@ markdown_manager = Markdown(app)
 asset_manager = AssetManager(app)
 
 
+def discover_urls():
+    return [('page', dict(path=page.path)) for page in pages]
+
+
 @app.route('/')
 def index():
     return render_template('homepage.html', page=pages.get_or_404('homepage'))
@@ -46,6 +50,7 @@ def page(path):
 @app.errorhandler(404)
 def page_not_found(error):
     return render_template('404.html'), 404
+
 
 @command
 def build():
@@ -92,6 +97,7 @@ def deploy(commit_message):
 
 
 if __name__ == '__main__':
+    freezer.register_generator(discover_urls)
     parser = ArghParser()
     parser.add_commands([build, serve, deploy, ])
     parser.dispatch()

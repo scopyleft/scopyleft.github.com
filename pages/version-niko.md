@@ -1,4 +1,5 @@
 title: (version niko)
+author: Nicolas
 quote: Ils ne savaient pas que c'était impossible, alors ils l'ont fait.
 quote_author: Mark Twain
 
@@ -6,7 +7,7 @@ quote_author: Mark Twain
 
 ## <a name="scopyleft"></a>Scopyleft ?
 
-Scopyleft est une coopérative [accompagnatrice](#competences) de projets Web, qui se veut être au porteur de projet ce que la balise ARVA est à la sortie en haute montagne.
+Scopyleft est une coopérative [accompagnatrice](#competences) de projets Web qui se veut être au porteur de projet ce que la balise ARVA est à la sortie en haute montagne.
 
 ## <a name="manifeste"></a>Manifeste
 
@@ -21,13 +22,13 @@ Scopyleft est une coopérative [accompagnatrice](#competences) de projets Web, q
   <dd>On assume notre éthique, nos succès, nos doutes et nos échecs. Mieux, on les partage avec vous.</dd>
 
   <dt><a name="bien-être"></a>Bien-être</dt>
-  <dd>On abhorre le stress. On croit que le plaisir est un facteur essentiel d’équilibre et de réussite.</dd>
+  <dd>On abhorre le stress. On croit que le plaisir est un <a href="/bien-etre/">facteur essentiel d’équilibre et de réussite</a>.</dd>
 
   <dt><a name="partage"></a>Partage</dt>
   <dd>On croit que la générosité et l’Open Source sont facteurs de progrès social et économique. Si si.</dd>
 
   <dt><a name="transparence"></a>Transparence</dt>
-  <dd>On ne vous cache <a href="https://github.com/scopyleft" title="Compte github Scopyleft">rien</a>, pas même <a href="https://docs.google.com/spreadsheet/ccc?key=0Al7gTbdJfUcPdFVkZ1BXdVRuMTlocFJWYjdUeU9MTmc#gid=14">la compta</a>.</dd>
+  <dd>On ne vous cache <a href="https://github.com/scopyleft" title="Compte github Scopyleft">rien</a>, pas même <a href="https://docs.google.com/spreadsheet/ccc?key=0Al7gTbdJfUcPdFVkZ1BXdVRuMTlocFJWYjdUeU9MTmc#gid=14">la compta</a>. On vous dit <a href="/transparence/">pourquoi</a>.</dd>
 </dl>
 
 ---
