@@ -68,8 +68,8 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
   <dd>
     R: Navrés, nous ne travaillons pas sur les projets en contradiction avec <a href="#manifeste">nos valeurs et notre éthique</a> ; nous ne réaliserons donc pas :
     <ul>
-      <li>De site à caractère raciste, xénophobe, diffamatoire, religieux, pornographique ;</li>
-      <li>De site outillant la malhonnêteté intellectuelle, la manipulation frauduleuse, l'escroquerie ;</li>
+      <li>De site à caractère raciste, xénophobe, diffamatoire, guerrier, religieux, pornographique ;</li>
+      <li>De site outillant la malhonnêteté intellectuelle, la manipulation frauduleuse, l'escroquerie et globalement qui peut nous apparaître comme potentiellement dangereux pour ses utilisateurs cibles ;</li>
       <li>Toute entreprise à caractère illégal.</li>
     </ul>
   </dd>
