@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> | scopyleft</title>
+    <meta name="description" content="scopyleft accompagne vos projets Web dans une démarche de qualité">
+    <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="/static/packed.css?1352666865">
+</head>
+<body>
+    <a name="top"></a>
+    <header>
+        <h1 class="logo">scopyleft</h1>
+        
+    
+
+    </header>
+
+    
+<h2>Nos valeurs</h2>
+<ul>
+<li><strong>Honnêteté intellectuelle</strong> : émettre les idées qui sont en conjonction avec nos valeurs, en toute bonne foi et sans détour.</li>
+<li><strong>Courage</strong> : discuter lorsque les projets ne sont plus en adéquation avec nos exigences de qualité ou nos engagements éthiques. Savoir dire « non » ou « je ne sais pas ».</li>
+<li><strong>Bien-être</strong> : favoriser la qualité de vie de chacun pour assurer son contentement propre et la pérennité du cadre de travail commun.</li>
+<li><strong>Respect</strong> : être à l'écoute des différences de point de vue et encourager le consentement plus que le consensus.</li>
+<li><strong>Partage</strong> : partager explicitement une compréhension commune pour changer et favoriser l'amélioration continue. Une équipe solidaire partage les tâches et émancipe les individus.</li>
+<li><strong><a href="https://github.com/scopyleft">Transparence</a></strong> : les intentions et les actions internes sont visibles et disponibles pour renforcer la confiance des intervenants et leur permettre de s'engager pleinement.</li>
+</ul>
+<h2>Nos compétences</h2>
+<ul>
+<li>Accompagnement dans la réalisation de produits Web</li>
+<li>Développement et architecture Web et mobile</li>
+<li>Conseil, formations et ateliers méthodologiques et techniques</li>
+<li>Facilitation dans l'implémentation de Scrum, XP, Kanban et Lean</li>
+</ul>
+<h2>Notre approche</h2>
+<dl class="approche">
+  <dt>Q: Amélioration de la qualité d'une application web existante</dt>
+  <dd>A: Audit et propositions de formations techniques sur mesure.</dd>
+
+  <dt>Q: Concrétisation d'une idée (nouvelle activité, startup)</dt>
+  <dd>A: Accompagnement, affinage du besoin et réalisation d'un prototype fonctionnel.</dd>
+
+  <dt>Q: Recherche thématique dans une base de données</dt>
+  <dd>A: Conception d'un moteur de recherche utilisant Django avec recherche à facettes.</dd>
+
+  <dt>Q: Volonté d'échanger avec la communauté</dt>
+  <dd>A: Assistance à la libération de code en open-source.</dd>
+</dl>
+
+<h2 id="notre-equipe">Notre équipe</h2>
+
+<ul class="equipe">
+  <li><img src="/static/images/nicolas-perriault.jpg">
+    <a href="https://nicolas.perriault.net/">Nicolas Perriault</a></li>
+  <li><img src="/static/images/vincent-agnano.jpg">
+    <a href="http://vinyll.github.com/">Vincent Agnano</a></li>
+  <li><img src="/static/images/stephane-langlois.png">
+    <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane Langlois</a></li>
+  <li><img src="/static/images/david-larlet.jpg">
+    <a href="https://larlet.fr/david/">David Larlet</a></li>
+</ul>
+
+
+    <footer>
+        <h2 class="contactez-nous"><a name="contact"></a>Contact</h2>
+        <p class="center">
+            Par <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
+            sur <a href="https://twitter.com/scopyleft">twitter</a>
+            ou par <a href="tel:+33611782563">téléphone</a> (Stéphane).</p>
+    </footer>
+    <a href="/version-niko/"></a>
+    
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script>
+        jQuery(function($) {
+            var $blockquote = $('header blockquote');
+            var catalog = $blockquote.find('datalist option').map(function(i, option) {
+                return { quote: $(option).val(), author: $(option).data('author') };
+            });
+            function changeQuote() {
+                var item = catalog[Math.round(Math.random() * (catalog.length - 1))];
+                $blockquote.find('q').html(item.quote);
+                $blockquote.find('cite').html(item.author);
+            }
+            $blockquote.on('click', changeQuote);
+        });
+    </script>
+
+</body>
+</html>

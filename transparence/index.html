@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Transparence | scopyleft</title>
+    <meta name="description" content="scopyleft accompagne vos projets Web dans une démarche de qualité">
+    <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="/static/packed.css?1352666865">
+</head>
+<body>
+    <a name="top"></a>
+    <header>
+        <h1 class="logo">scopyleft</h1>
+        
+    
+
+    </header>
+
+    
+<h1>Transparence</h1>
+<p>Une de nos valeurs est la transparence. Il est très difficile d’être transparent en France, à la fois dans ses réussites (manque d’humilité) et dans ses échecs (culture de la perfection). Nous pensons que l’on gagne à partager son expérience en toutes circonstances.</p>
+<p>Avec nos collaborateurs tout d’abord afin de pouvoir travailler dans la confiance, personne n’aime les mauvaises surprises et il vaut mieux réagir au plus vite lorsqu’une réponse n’est pas/plus adaptée. La transparence de nos tarifs et de nos intentions aussi avec l’affichage de documents comptables et le détail de nos activités, facturées ou non.</p>
+<p>Avec nos proches ensuite (par « proches » j’entends les personnes qui suivent notre aventure de près ou de loin) afin de montrer ce qui est possible, ce qui marche, ce qui échoue, ce qui peut être inspirant. Mais aussi d’avoir des retours, des suggestions, des garde-fous lorsque l’on tente des choses sans aucunes garanties si ce n’est celle d’avoir essayé.</p>
+<p>Pour cela, nous publions le plus de documents possibles et leurs histoires <a href="https://github.com/scopyleft/">sur GitHub</a> et vous êtes bien sûr encouragés à discuter et améliorer ces documents !</p>
+
+
+    <footer>
+        <h2 class="contactez-nous"><a name="contact"></a>Contact</h2>
+        <p class="center">
+            Par <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
+            sur <a href="https://twitter.com/scopyleft">twitter</a>
+            ou par <a href="tel:+33611782563">téléphone</a> (Stéphane).</p>
+    </footer>
+    <a href="/version-niko/"></a>
+    
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script>
+        jQuery(function($) {
+            var $blockquote = $('header blockquote');
+            var catalog = $blockquote.find('datalist option').map(function(i, option) {
+                return { quote: $(option).val(), author: $(option).data('author') };
+            });
+            function changeQuote() {
+                var item = catalog[Math.round(Math.random() * (catalog.length - 1))];
+                $blockquote.find('q').html(item.quote);
+                $blockquote.find('cite').html(item.author);
+            }
+            $blockquote.on('click', changeQuote);
+        });
+    </script>
+
+</body>
+</html>
