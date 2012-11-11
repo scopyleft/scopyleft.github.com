@@ -78,7 +78,7 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
   <dd>R: Non.</dd>
 </dl>
 
-## <a name="notre-equipe"></a>La ScopyCrew
+## <a name="notre-equipe"></a>Le ScopyCrew
 
 <ul class="equipe">
   <li><img src="/static/images/nicolas-perriault.jpg">
