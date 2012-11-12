@@ -168,6 +168,19 @@ footer p {
         font-size: 75px;
     }
     .valeurs dt {
-        font-size: 18px;
+        display: block;
+        float: none;
+        width: auto;
+        font-size: 20px;
+        text-align: left;
+        font-weight: bolder;
+    }
+    .valeurs dd {
+        display: block;
+        float: none;
+        width: auto;
+        min-height: auto;
+        padding: 0;
+        margin: 0 0 1em;
     }
 }
