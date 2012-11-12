@@ -1,4 +1,4 @@
-title: (version niko)
+title: Accueil
 author: Nicolas
 
 est une coopérative accompagnatrice de projets Web qui propose de vous aider dans la conception de votre prochaine application. Nous savons faire des choses, et nous aimons les faire bien, *avec vous*.
