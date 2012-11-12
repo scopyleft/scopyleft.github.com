@@ -7,4 +7,4 @@ Nous pensons qu’il est possible de travailler dans le respect de la santé de 
 
 Nous aimons les challenges et les technologies innovantes qui font partie intégrante de notre épanouissement lorsqu’ils sont réalisés dans un cadre adapté. Pour arriver à cela, nous refusons de travailler dans l’urgence ou avec des méthodes traditionnelles génératrices d’un stress assurément destructeur.
 
-L’émulation au sein de notre équipe est le moteur de notre productivité et de nos objectifs de qualité. Nous essayons de ne pas oublier que notre métier est passionnant et amusant — et nous essayons de faire en sorte que le votre le soit également au travers de notre collaboration.
+L’émulation au sein de notre équipe est le moteur de notre productivité et de nos objectifs de qualité. Nous essayons de ne pas oublier que notre métier est passionnant et amusant — et nous essayons de faire en sorte que le vôtre le soit également au travers de notre collaboration.
