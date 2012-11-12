@@ -48,7 +48,6 @@ h2 {
         text-decoration: none;
     }
 
-<<<<<<< HEAD
 dd ul {
     margin-left: 2em;
     list-style-type: square;
@@ -89,63 +88,6 @@ ul {
 
 .approche {
 }
-=======
-header blockquote {
-    font-size: 130%;
-    text-align: center;
-    font-weight: normal;
-    font-family: Palatino, Georgia, serif;
-    font-style: italic;
-    letter-spacing: .05em;
-    padding-top: 1em;
-}
-    header blockquote cite {
-        display: block;
-        margin-top: 1em;
-        text-align: right;
-    }
-
-dd ul {
-    margin-left: 2em;
-    list-style-type: square;
-}
-    dd li {
-        margin-bottom: .5em;
-    }
-
-hr {
-    display: none;
-}
-
-ul {
-    line-height: 1.3;
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-}
-    ul li {
-        margin-bottom: .7em;
-    }
-
-.valeurs {
-}
-    .valeurs dt {
-        float: left;
-        width: 25%;
-        margin: 0;
-        text-align: right;
-    }
-    .valeurs dd {
-        float: left;
-        width: 70%;
-        min-height: 3.5em;
-        padding: .1em 0 0 1em;
-        margin: 0;
-    }
-
-.approche {
-}
->>>>>>> 4483b67a1f93e6ae14592c1aa48a075ee88bb8dc
     .approche dt {
         font-weight: bold;
         font-size: 100%;
@@ -185,7 +127,6 @@ table {
     width: 100%;
     text-align: center;
     line-height: 1.2em
-<<<<<<< HEAD
 }
     tbody td {
         font-size: large;
@@ -211,18 +152,6 @@ footer blockquote {
         display: block;
         margin-top: 1em;
         text-align: right;
-=======
-}
-    tbody td {
-        font-size: large;
-        padding: 8px;
-    }
-    tbody th {
-        text-align: center;
-    }
-    tbody tr th {
-        width: 50px;
->>>>>>> 4483b67a1f93e6ae14592c1aa48a075ee88bb8dc
     }
 
 footer p {
