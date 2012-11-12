@@ -69,6 +69,9 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
     </ul>
   </dd>
 
+  <dt>Q: Proposez-vous de la Tierce Maintenance Applicative ?</dt>
+  <dd>R: Rarement, pour ainsi dire jamais. Nous pouvons éventuellement reprendre un existant pour le faire évoluer, mais cette décision est avant tout aliénée à une étude de code préalable dans tous les cas.</dd>
+
   <dt>Q: Pouvez-vous m’envoyer un CV au format Word ? <small>que je puisse enlever votre logo et mettre le mien à la place <small>et rajouter que vous faites du PHP</small></small></dt>
   <dd>R: Non.</dd>
 </dl>
