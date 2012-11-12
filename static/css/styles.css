@@ -157,3 +157,17 @@ footer blockquote {
 footer p {
     text-align: center;
 }
+
+@media only screen and (max-width: 620px) {
+    body {
+        width: auto;
+        font-size: 18px;
+    }
+    .logo {
+        margin: 0 0 1em;
+        font-size: 90px;
+    }
+    .valeurs dt {
+        font-size: 18px;
+    }
+}
