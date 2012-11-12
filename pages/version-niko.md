@@ -1,7 +1,5 @@
 title: (version niko)
 author: Nicolas
-quote: Ils ne savaient pas que c'était impossible, alors ils l'ont fait.
-quote_author: Mark Twain
 
 ---
 
