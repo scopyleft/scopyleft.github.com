@@ -7,38 +7,21 @@
     <title>(version niko) | scopyleft</title>
     <meta name="description" content="scopyleft accompagne vos projets Web dans une démarche de qualité">
     <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="/static/packed.css?1352667126">
+        <link rel="stylesheet" type="text/css" href="/static/packed.css?1352706212">
 </head>
 <body>
     <a name="top"></a>
     <header>
         <h1 class="logo"><a href="/">scopyleft</a></h1>
         
+
     
-    <blockquote>
-        <q>Ils ne savaient pas que c&#39;était impossible, alors ils l&#39;ont fait.</q>
-        <cite>Mark Twain</cite>
-        <datalist>
-            <option value="Ils ne savaient pas que c'était impossible, alors ils l’ont fait." data-author="Mark Twain"/>
-            <option value="Si ça passe, c’est beau." data-author="Édouard Bracame"/>
-            <option value="Leur legereté et agilité estoit encore plus digne d’estre regardée, que non pas leurs magnificences et sumptuosité." data-author="Jacques Amyot"/>
-            <option value="Ça marchera jamais leur truc" data-author="Alain Madelin"/>
-            <option value="Ce n’est pas un signe de bonne santé que d’être bien adapté à une société profondément malade." data-author="Krishnamurti"/>
-            <option value="Non vraiment, c’est pas une blague ? Et ils y croient vraiment ?" data-author="Goldman Sachs Group"/>
-            <option value="Scrum, c'est un peu le pédiluve de l’agilité." data-author="Stéphane Langlois"/>
-            <option value="Souviens-toi de la fragilité des choses humaines." data-author="Fénelon"/>
-            <option value="Attendre d’en savoir assez pour agir, c’est se condamner à l’inaction." data-author="Jean Rostand"/>
-            <option value="Si ce que tu manges ne te grise pas, c’est que tu n'avais pas assez faim." data-author="Gide, Nourritures terrestres"/>
-            <option value="Celui qui préfére la richesse ou la puissance à des amis sûrs n'a pas son bon sens." data-author="Euripide"/>
-            <option value="Jamais on obtient de meilleurs résultats que lorsque tout le monde trouve son compte dans une affaire." data-author="Euripide"/>
-            <option value="Il n’est richesse que d'hommes." data-author="Jean Bodin"/>
-            <option value="Ce qui est nécessaire n'est jamais ridicule." data-author="Cardinal de Retz"/>
-            <option value="La vie ne se comprend que par un retour en arrière, mais on ne la vit qu’en avant." data-author="Kierkegaard"/>
-            <option value="Si l’on m’apprenait que la fin du monde est pour demain, je planterais quand même un pommier." data-author="Martin Luther"/>
-            <option value="Ignorant d’où je viens, incertain où je vais." data-author="Lamartine"/>
-        </datalist>
-    </blockquote>
-    
+        <blockquote>
+            <q>Travailler entre humains, sur des projets éthiques et intéressants,
+            tout en privilégiant le bien-être et le plaisir de chacun.</q>
+        </blockquote>
+        
+
 
     </header>
 
@@ -138,21 +121,5 @@
     </footer>
     <a href="/version-niko/"></a>
     
-    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-    <script>
-        jQuery(function($) {
-            var $blockquote = $('header blockquote');
-            var catalog = $blockquote.find('datalist option').map(function(i, option) {
-                return { quote: $(option).val(), author: $(option).data('author') };
-            });
-            function changeQuote() {
-                var item = catalog[Math.round(Math.random() * (catalog.length - 1))];
-                $blockquote.find('q').html(item.quote);
-                $blockquote.find('cite').html(item.author);
-            }
-            $blockquote.on('click', changeQuote);
-        });
-    </script>
-
 </body>
 </html>

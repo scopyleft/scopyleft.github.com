@@ -7,14 +7,21 @@
     <title> | scopyleft</title>
     <meta name="description" content="scopyleft accompagne vos projets Web dans une démarche de qualité">
     <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="/static/packed.css?1352667126">
+        <link rel="stylesheet" type="text/css" href="/static/packed.css?1352706212">
 </head>
 <body>
     <a name="top"></a>
     <header>
         <h1 class="logo"><a href="/">scopyleft</a></h1>
         
+
     
+        <blockquote>
+            <q>Travailler entre humains, sur des projets éthiques et intéressants,
+            tout en privilégiant le bien-être et le plaisir de chacun.</q>
+        </blockquote>
+        
+
 
     </header>
 
@@ -73,21 +80,5 @@
     </footer>
     <a href="/version-niko/"></a>
     
-    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-    <script>
-        jQuery(function($) {
-            var $blockquote = $('header blockquote');
-            var catalog = $blockquote.find('datalist option').map(function(i, option) {
-                return { quote: $(option).val(), author: $(option).data('author') };
-            });
-            function changeQuote() {
-                var item = catalog[Math.round(Math.random() * (catalog.length - 1))];
-                $blockquote.find('q').html(item.quote);
-                $blockquote.find('cite').html(item.author);
-            }
-            $blockquote.on('click', changeQuote);
-        });
-    </script>
-
 </body>
 </html>
