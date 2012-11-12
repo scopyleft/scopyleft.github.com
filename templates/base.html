@@ -17,12 +17,6 @@
     <a name="top"></a>
     <header>
         <h1 class="logo"><a href="/">scopyleft</a></h1>
-        {% block quote %}
-        <blockquote>
-            <q>Travailler entre humains, sur des projets éthiques et intéressants,
-            tout en privilégiant le bien-être et le plaisir de chacun.</q>
-        </blockquote>
-        {% endblock quote %}
     </header>
 
     {% block content %}{% endblock content %}
@@ -33,6 +27,13 @@
             Par <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
             sur <a href="https://twitter.com/scopyleft">twitter</a>
             ou par <a href="tel:+33611782563">téléphone</a> (Stéphane).</p>
+        <hr />
+        {% block quote %}
+        <blockquote>
+            <q>Travailler entre humains, sur des projets éthiques et intéressants,
+            tout en privilégiant le bien-être et le plaisir de chacun.</q>
+        </blockquote>
+        {% endblock quote %}
     </footer>
     {% block extrajs %}{% endblock extrajs %}
 </body>

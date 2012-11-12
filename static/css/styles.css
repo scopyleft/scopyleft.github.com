@@ -48,21 +48,6 @@ h2 {
         text-decoration: none;
     }
 
-header blockquote {
-    font-size: 130%;
-    text-align: center;
-    font-weight: normal;
-    font-family: Palatino, Georgia, serif;
-    font-style: italic;
-    letter-spacing: .05em;
-    padding-top: 1em;
-}
-    header blockquote cite {
-        display: block;
-        margin-top: 1em;
-        text-align: right;
-    }
-
 dd ul {
     margin-left: 2em;
     list-style-type: square;
@@ -152,6 +137,21 @@ table {
     }
     tbody tr th {
         width: 50px;
+    }
+
+footer blockquote {
+    font-size: 130%;
+    text-align: center;
+    font-weight: normal;
+    font-family: Palatino, Georgia, serif;
+    font-style: italic;
+    letter-spacing: .05em;
+    padding-top: 1em;
+}
+    footer blockquote cite {
+        display: block;
+        margin-top: 1em;
+        text-align: right;
     }
 
 footer p {
