@@ -41,3 +41,4 @@ $ ./builder.py deploy "commit message related to modifications"
 ```
 
 It's automatically pushed online at [scopyleft.fr](http://scopyleft.fr) thanks to github pages.
+
