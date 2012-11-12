@@ -1,17 +1,13 @@
 title: (version niko)
 author: Nicolas
 
----
-
-## <a name="scopyleft"></a>Scopyleft ?
-
-Scopyleft est une coopérative [accompagnatrice](#competences) de projets Web qui se veut être au porteur de projet ce que la balise ARVA est à la sortie en haute montagne.
+est une coopérative accompagnatrice de projets Web qui propose de vous aider dans la conception de votre prochaine application. Nous savons faire des choses, et nous aimons les faire bien, *avec vous*.
 
 ## <a name="manifeste"></a>Manifeste
 
 <dl class="valeurs">
   <dt><a name="honneteté"></a>Honnêteté</dt>
-  <dd>On dit ce que l’on pense, on fait ce que l’on dit et on n'essaye pas de <em>faire les malins</em>.</dd>
+  <dd>On dit ce que l’on pense, on fait ce que l’on dit et on n'essaye pas de <em><a href="/honnetete/">faire les malins</a></em>.</dd>
 
   <dt><a name="respect"></a>Respect</dt>
   <dd>On fait confiance à nos interlocuteurs par défaut, et on demande la réciproque.</dd>
@@ -43,7 +39,7 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
 
 <dl class="approche">
   <dt>Q: J’ai un super projet, en voici le cahier des charges de 400 pages</dt>
-  <dd>R: Humph, merci beaucoup (waouh, il est lourd !) En fait on ne travaille généralement pas avec un cahier des charges, mais plutôt avec des <em>user stories</em>, un <em>backlog</em>, des <em>tests d’acceptance</em>… Hé, ne t’enfuis pas, c’est très simple et on peut t’expliquer ça très facilement si vous nous en laisses la chance :)</dd>
+  <dd>R: Humph, merci beaucoup (waouh, il est lourd !) En fait on ne travaille généralement pas avec un cahier des charges, mais plutôt avec des <em>user stories</em>, un <em>backlog</em>, des <em>tests d’acceptance</em>… Hé, ne vous enfuyez pas, c’est très simple et on peut vous expliquer ça très facilement si vous nous en laissez la chance :)</dd>
 
   <dt>Q: J’exige que vous réalisiez mon site en PHP</dt>
   <dd>R: Non.</dd>
