@@ -19,7 +19,7 @@ Create a Python virtualenv:
 ```
 $ virtualenv --no-site-packages `pwd`/env  # OR mkvirtualenv --no-site-packages scopyleft
 $ pip install -r requirements.txt
-$ source enb/bin/activate
+$ source env/bin/activate
 ```
 
 From the `sources` branch, serve the site locally:
