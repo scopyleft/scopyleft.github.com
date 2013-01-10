@@ -8,7 +8,7 @@
     <updated>{{ build_date|to_rfc2822 }}</updated>
     <author>
         <name>scopyleft</name>
-        <uri>https://scopyleft.fr/</uri>
+        <uri>{{ base_url }}/</uri>
     </author>
     <rights>Copyright (c) 2013, scopyleft</rights>
 {% block content %}
