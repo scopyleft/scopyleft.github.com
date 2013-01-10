@@ -1,9 +1,14 @@
 #!/usr/bin/env python
 
+"""XXX: expliquer pourquoi c'est publiquement accessible en HTTP sur github"""
+
+import locale
 import os
 
 from argh import *
+from datetime import datetime
 from fabric.api import local
+
 from flask import Flask, render_template
 from flask_frozen import Freezer
 from flaskext.flatpages import FlatPages
@@ -13,20 +18,22 @@ from flaskext.assets import Environment as AssetManager
 # Configuration
 DEBUG = False
 BASE_URL = 'https://scopyleft.fr'
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
 SOURCES_DIR = os.path.join(ROOT_DIR, 'sources')
+STATIC_DIR = os.path.join(SOURCES_DIR, 'static')
+TEMPLATES_DIR = os.path.join(SOURCES_DIR, 'templates')
 ASSETS_DEBUG = DEBUG
 FLATPAGES_AUTO_RELOAD = True
 FLATPAGES_EXTENSION = '.md'
 FLATPAGES_ROOT = os.path.join(SOURCES_DIR, 'pages')
-FREEZER_DESTINATION = 'master'
+FREEZER_DESTINATION = ROOT_DIR
 FREEZER_REMOVE_EXTRA_FILES = False # to keep git related stuff in there
 
 # App configuration
 FEED_MAX_LINKS = 25
 SECTION_MAX_LINKS = 12
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder=TEMPLATES_DIR, static_folder=STATIC_DIR)
 app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
@@ -34,8 +41,25 @@ markdown_manager = Markdown(app)
 asset_manager = AssetManager(app)
 
 
+@app.template_filter()
+def to_rfc2822(dt):
+    if not dt:
+        return
+    current_locale = locale.getlocale(locale.LC_TIME)
+    locale.setlocale(locale.LC_TIME, "en_US")
+    formatted = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+    locale.setlocale(locale.LC_TIME, current_locale)
+    return formatted
+
+
 def discover_urls():
     return [('page', dict(path=page.path)) for page in pages]
+
+
+def get_blog_posts(pages, limit=None):
+    posts = sorted([p for p in pages if p.path.startswith('blog')],
+        key=lambda p: p.meta.get('date'), reverse=True)
+    return posts[:limit] if limit is not None else posts
 
 
 @app.route('/')
@@ -43,9 +67,21 @@ def index():
     return render_template('page.html', page=pages.get_or_404('homepage'))
 
 
+@app.route('/blog/')
+def blog():
+    return render_template('blog.html', pages=get_blog_posts(pages))
+
+
+@app.route('/syndication/')
+def feed():
+    return render_template('base.rss', build_date=datetime.now(),
+        pages=get_blog_posts(pages, limit=FEED_MAX_LINKS))
+
+
 @app.route('/<path:path>/')
 def page(path):
-    return render_template('page.html', page=pages.get_or_404(path))
+    template = 'post.html' if path.startswith('blog') else 'page.html'
+    return render_template(template, page=pages.get_or_404(path))
 
 
 @app.errorhandler(404)
@@ -61,9 +97,9 @@ def build():
     app.debug = False
     asset_manager.config['ASSETS_DEBUG'] = False
     freezer.freeze()
-    local("cp ./static/*.ico ./master/")
-    local("cp ./static/*.txt ./master/")
-    local("cp ./static/CNAME ./master/")
+    local("cp ./sources/static/*.ico ./static/")
+    local("cp ./sources/static/*.txt ./static/")
+    local("cp ./sources/static/CNAME ./static/")
     print("Done.")
 
 
@@ -77,28 +113,8 @@ def serve(server='127.0.0.1', port=5000, debug=DEBUG):
     app.run(host=server, port=port, debug=debug)
 
 
-@command
-def deploy(commit_message):
-    """ Deploys this site to github pages.
-    """
-    build()
-    build()
-    print('Deploying website from %s to github...' % ROOT_DIR)
-    os.chdir(os.path.join(ROOT_DIR, FREEZER_DESTINATION))
-    local('git commit -a -m"%s"' % commit_message)
-    print('Pushing to master branch')
-    local('git push')
-    os.chdir(ROOT_DIR)
-    local('pwd')
-    local('git add %s' % FREEZER_DESTINATION)
-    local('git commit -a -m"%s"' % commit_message)
-    print('Pushing to sources branch')
-    local('git push')
-    print('New version has been commited, pushed & deployed to github.')
-
-
 if __name__ == '__main__':
     freezer.register_generator(discover_urls)
     parser = ArghParser()
-    parser.add_commands([build, serve, deploy, ])
+    parser.add_commands([build, serve, ])
     parser.dispatch()

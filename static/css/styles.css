@@ -188,3 +188,13 @@ footer p {
         margin: 0 0 1em;
     }
 }
+
+/* blog */
+.blog-post aside {
+    text-align: center;
+}
+
+.blog-post blockquote {
+    font-style: italic;
+    font-family: Palatino, Georgia, serif;
+}
