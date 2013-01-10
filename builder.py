@@ -17,7 +17,7 @@ from flaskext.assets import Environment as AssetManager
 
 # Configuration
 DEBUG = False
-BASE_URL = 'https://scopyleft.fr'
+BASE_URL = 'http://scopyleft.fr'
 ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
 SOURCES_DIR = os.path.join(ROOT_DIR, 'sources')
 STATIC_DIR = os.path.join(SOURCES_DIR, 'static')
@@ -27,7 +27,7 @@ FLATPAGES_AUTO_RELOAD = True
 FLATPAGES_EXTENSION = '.md'
 FLATPAGES_ROOT = os.path.join(SOURCES_DIR, 'pages')
 FREEZER_DESTINATION = ROOT_DIR
-FREEZER_REMOVE_EXTRA_FILES = False # to keep git related stuff in there
+FREEZER_REMOVE_EXTRA_FILES = False  # to keep git related stuff in there
 
 # App configuration
 FEED_MAX_LINKS = 25
