@@ -1,5 +1,5 @@
 Fabric==1.5.0
-Flask==0.8
+Flask==0.9
 Flask-Assets==0.6.2
 Flask-FlatPages==0.2
 Flask-Markdown==0.3
@@ -7,10 +7,9 @@ Frozen-Flask==0.9
 Jinja2==2.6
 Markdown==2.1.1
 PyYAML==3.10
+Pygments==1.5
 Werkzeug==0.8.3
-argh>=0.15.1
+argh==0.17.2
 cssmin==0.1.4
 distribute==0.6.19
 jsmin==2.0.2
-webassets==0.6
-wsgiref==0.1.2
