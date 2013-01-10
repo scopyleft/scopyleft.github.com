@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block page_title %}Blog{% endblock page_title %}
+
+{% block body_class %}blog{% endblock body_class %}
+
+{% block page_heading %}
+    <h1 class="logo">Blog scopyleft</h1>
+{% endblock page_heading %}
+
+{% block content %}
+{% for page in pages %}
+    <section>
+        {% include "_post.html" %}
+    </section>
+{% endfor %}
+{% endblock content %}
+
+{% block footer_link %}
+    <a href="{{ url_for("index") }}">accueil</a>
+{% endblock footer_link %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block page_title %}{{ page.title }}{% endblock page_title %}
+
+{% block quote %}
+{% if not page.quote %}
+    {{ super() }}
+{% else %}
+    <blockquote>
+        <q>{{ page.quote }}</q>
+        <cite>{{ page.quote_author }}</cite>
+    </blockquote>
+{% endif %}
+{% endblock quote %}
+
+{% block content %}
+{{ page.body|markdown }}
+{% endblock content %}

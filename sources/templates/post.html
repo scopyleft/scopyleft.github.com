@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block page_title %}{{ page.title }} | Blog{% endblock page_title %}
+
+{% block body_class %}blog{% endblock body_class %}
+
+{% block page_heading %}
+    <h1 class="logo">Blog scopyleft</h1>
+{% endblock page_heading %}
+
+{% block content %}
+    {% include "_post.html" %}
+{% endblock content %}

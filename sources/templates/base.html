@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>{% block page_title %}Accueil{% endblock page_title %} | scopyleft</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="scopyleft accompagne vos projets Web dans une démarche de qualité">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="alternate" type="application/rss+xml" href="{{ url_for("feed") }}" title="Blog Scopyleft">
+    {%- assets filter="cssmin", output="packed.css",
+        "css/styles.css"
+    %}
+        <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
+    {%- endassets %}
+    {% block extra_head %}{% endblock %}
+</head>
+<body class="{% block body_class %}default{% endblock body_class %}">
+    <a id="top"></a>
+    <header>
+        {% block page_heading %}
+            <h1 class="logo"><a href="/">scopyleft</a></h1>
+        {% endblock page_heading %}
+    </header>
+
+    {% block content %}{% endblock content %}
+
+    <footer>
+        <h2 class="contactez-nous"><a id="contact"></a>Contact</h2>
+        <p class="center">
+            Par <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
+            sur <a href="https://twitter.com/scopyleft">twitter</a>
+            ou par téléphone au <a href="tel:+33611782563">06 11 78 25 63</a> (Stéphane).</p>
+        <hr />
+        {% block quote %}
+        <blockquote>
+            <q>Travailler entre humains, sur des projets éthiques et intéressants,
+            tout en privilégiant le bien-être et le plaisir de chacun.</q>
+        </blockquote>
+        {% endblock quote %}
+        <hr>
+        <nav><p>•
+        {% block footer_link %}
+            <a href="{{ url_for("blog") }}">le blog</a>
+        {% endblock footer_link %}•</p>
+        </nav>
+    </footer>
+    {% block extrajs %}{% endblock extrajs %}
+</body>
+</html>

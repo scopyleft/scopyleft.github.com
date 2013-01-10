@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{% block title %}scopyleft{% endblock %}</title>
+    <subtitle>Dernières mises à jour du blog</subtitle>
+    <link href="{{ BASE_URL }}"/>
+    <id>{{ BASE_URL }}</id>
+    <updated>{{ build_date|to_rfc2822 }}</updated>
+    <author>
+        <name>scopyleft</name>
+        <uri>https://scopyleft.fr/</uri>
+    </author>
+    <rights>Copyright (c) 2013, scopyleft</rights>
+{% block content %}
+    {%- for page in pages %}
+    <entry xml:lang="fr">
+        <title>{{ page.title }}</title>
+        <link href="{{ BASE_URL }}/{{ page.path }}/" rel="alternate" type="text/html" />
+        <updated>{{ page.date|to_rfc2822 }}</updated>
+        <id>{{ BASE_URL }}/{{ page.path }}/</id>
+        <summary type="html">{{- page.html|escape -}}</summary>
+    </entry>
+    {%- endfor %}
+{% endblock %}
+</feed>
