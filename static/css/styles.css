@@ -162,6 +162,23 @@ footer p {
     text-align: center;
 }
 
+/* blog */
+
+.blog-post aside {
+    text-align: center;
+}
+
+.blog-post blockquote {
+    font-style: italic;
+    font-family: Palatino, Georgia, serif;
+}
+
+.blog .logo {
+    font-size: 4.5em;
+}
+
+/* media queries */
+
 @media only screen and (max-width: 620px) {
     body {
         width: auto;
@@ -170,6 +187,11 @@ footer p {
     .logo {
         margin: 0 0 1em;
         font-size: 75px;
+    }
+    .blog .logo {
+        margin: 0;
+        font-size: 60px;
+        line-height: 1em;
     }
     .valeurs dt {
         display: block;
@@ -187,18 +209,4 @@ footer p {
         padding: 0;
         margin: 0 0 1em;
     }
-}
-
-/* blog */
-.blog-post aside {
-    text-align: center;
-}
-
-.blog-post blockquote {
-    font-style: italic;
-    font-family: Palatino, Georgia, serif;
-}
-
-.blog .logo {
-    font-size: 4.5em;
 }
