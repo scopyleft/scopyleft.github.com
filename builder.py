@@ -75,7 +75,7 @@ def blog():
 @app.route('/syndication/')
 def feed():
     return render_template('base.rss', build_date=datetime.now(),
-        pages=get_blog_posts(pages, limit=FEED_MAX_LINKS))
+        base_url=BASE_URL, pages=get_blog_posts(pages, limit=FEED_MAX_LINKS))
 
 
 @app.route('/<path:path>/')

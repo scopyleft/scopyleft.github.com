@@ -2,8 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>{% block title %}scopyleft{% endblock %}</title>
     <subtitle>Dernières mises à jour du blog</subtitle>
-    <link href="{{ BASE_URL }}"/>
-    <id>{{ BASE_URL }}</id>
+    <link href="{{ base_url }}/" rel="alternate" type="text/html"/>
+    <link href="{{ base_url }}{{ url_for('feed') }}" rel="self"/>
+    <id>{{ base_url }}/</id>
     <updated>{{ build_date|to_rfc2822 }}</updated>
     <author>
         <name>scopyleft</name>
@@ -14,9 +15,9 @@
     {%- for page in pages %}
     <entry xml:lang="fr">
         <title>{{ page.title }}</title>
-        <link href="{{ BASE_URL }}/{{ page.path }}/" rel="alternate" type="text/html" />
+        <link href="{{ base_url }}{{ url_for('page', path=page.path) }}" rel="alternate" type="text/html" />
         <updated>{{ page.date|to_rfc2822 }}</updated>
-        <id>{{ BASE_URL }}/{{ page.path }}/</id>
+        <id>{{ base_url }}{{ url_for('page', path=page.path) }}</id>
         <summary type="html">{{- page.html|escape -}}</summary>
     </entry>
     {%- endfor %}
