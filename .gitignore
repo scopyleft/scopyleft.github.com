@@ -1,5 +1,6 @@
 /env
 /static/.webassets-cache
+/sources/static/.webassets-cache
 
 # generic python related ignores
 *.py[cod]
