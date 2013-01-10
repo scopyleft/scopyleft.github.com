@@ -12,7 +12,7 @@ Scopyleft est empreinte de nos convictions parmi les plus insensées ; celles de
 
 Évidemment, tout n’a pas été forcément facile durant cette phase de création. Et contre toute attente, les [démarches administratives](https://github.com/scopyleft/documentation/blob/master/incubateur/creation-scop.md) n’ont pas été les obstacles les plus difficiles à surmonter, malgré leur pénibilité. Le plus stimulant — bien qu’éprouvant — a été de confronter, valider et accorder nos principes et valeurs respectifs.
 
-Ce travail de plusieurs mois, bien plus fastidieux qu’il peut n’y paraître de prime abord,  nous a permis d’engager de nombreuses discussions, de soulever tout autant d’interrogations et de prendre le temps d’y répondre, ensemble. Ces efforts ont débouché sur l’établissement d’un manifeste, dont la version la plus épurée [accueille aujourd’hui les visiteurs sur le site](http://scopyleft.fr/). Une [version plus détaillée](https://github.com/scopyleft/documentation/blob/master/administratif/statuts.md#manifeste) de ce manifeste a été également ajoutée en préambule des statuts de la société.
+Ce travail de plusieurs mois, bien plus fastidieux qu’il peut n’y paraître de prime abord,  nous a permis d’engager de nombreuses discussions, de soulever tout autant d’interrogations et de prendre le temps d’y répondre, ensemble. Ces efforts ont débouché sur l’établissement d’un manifeste, dont la version la plus épurée [accueille aujourd’hui les visiteurs sur le site](http://scopyleft.fr/#manifeste). Une [version plus détaillée](https://github.com/scopyleft/documentation/blob/master/administratif/statuts.md#manifeste) de ce manifeste a été également ajoutée en préambule des statuts de la société.
 
 ### Transparence
 
