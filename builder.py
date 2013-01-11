@@ -37,7 +37,8 @@ app = Flask(__name__, template_folder=TEMPLATES_DIR, static_folder=STATIC_DIR)
 app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
-markdown_manager = Markdown(app)
+markdown_manager = Markdown(app, output_format='html5', extensions=[
+    'tables', 'fenced_code', 'codehilite'])
 asset_manager = AssetManager(app)
 
 

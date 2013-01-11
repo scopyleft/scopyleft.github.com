@@ -5,7 +5,7 @@ est une coopérative accompagnatrice de projets Web qui propose de vous aider da
 
 ## <a id="manifeste"></a>Manifeste
 
-<dl class="valeurs">
+<dl class="valeurs tbl">
   <dt><a id="honneteté"></a>Honnêteté</dt>
   <dd>On dit ce que l’on pense, on fait ce que l’on dit et on n'essaye pas de <em><a href="/honnetete/">faire les malins</a></em>.</dd>
 
@@ -37,7 +37,7 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
 
 ## <a id="approche"></a>Par exemple
 
-<dl class="approche">
+<dl class="approche qr">
   <dt>Q: J’ai un super projet, en voici le cahier des charges de 400 pages</dt>
   <dd>R: Humph, merci beaucoup (waouh, il est lourd !) En fait on ne travaille généralement pas avec un cahier des charges, mais plutôt avec des <em>user stories</em>, un <em>backlog</em>, des <em>tests d’acceptance</em>… Hé, ne vous enfuyez pas, c’est très simple et on peut vous expliquer ça très facilement si vous nous en laissez la chance :)</dd>
 

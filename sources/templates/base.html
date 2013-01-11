@@ -16,13 +16,26 @@
 </head>
 <body class="{% block body_class %}default{% endblock body_class %}">
     <a id="top"></a>
+    <nav><p>
+    {% block navigation -%}
+        <a href="{{ url_for("blog") }}">blog</a>
+        &#8226;
+        <a href="http://planete.scopyleft.fr/">planète</a>
+        &#8226;
+        <a href="{{ url_for("page", path="formation") }}">formation</a>
+        &#8226;
+        <a href="#contact">contact</a>
+    {% endblock navigation %}</p>
+    </nav>
     <header>
-        {% block page_heading %}
+        {% block page_heading -%}
             <h1 class="logo"><a href="/">scopyleft</a></h1>
-        {% endblock page_heading %}
+        {%- endblock page_heading %}
     </header>
 
-    {% block content %}{% endblock content %}
+    <div class="main">
+        {%- block content -%}{%- endblock content -%}
+    </div>
 
     <footer>
         <h2 class="contactez-nous"><a id="contact"></a>Contact</h2>
@@ -31,18 +44,12 @@
             sur <a href="https://twitter.com/scopyleft">twitter</a>
             ou par téléphone au <a href="tel:+33611782563">06 11 78 25 63</a> (Stéphane).</p>
         <hr />
-        {% block quote %}
+        {%- block quote -%}
         <blockquote>
             <q>Travailler entre humains, sur des projets éthiques et intéressants,
             tout en privilégiant le bien-être et le plaisir de chacun.</q>
         </blockquote>
-        {% endblock quote %}
-        <hr>
-        <nav><p>•
-        {% block footer_link %}
-            <a href="{{ url_for("blog") }}">le blog</a>
-        {% endblock footer_link %}•</p>
-        </nav>
+        {%- endblock quote -%}
     </footer>
     {% block extrajs %}{% endblock extrajs %}
 </body>

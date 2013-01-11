@@ -41,10 +41,10 @@ h2 {
 
 .logo {
     font-size: 155px;
-    line-height: 0;
+    line-height: 0em;
     text-align: center;
     font-weight: 300;
-    margin: 0 0 .7em;
+    margin: -0.6em 0 .7em;
     border-top: none;
 }
     .logo a {
@@ -74,29 +74,28 @@ ul {
         margin-bottom: .7em;
     }
 
-.valeurs {
+.tbl {
 }
-    .valeurs dt {
+    .tbl dt {
         float: left;
         width: 25%;
         margin: 0;
         text-align: right;
     }
-    .valeurs dd {
+    .tbl dd {
         float: left;
         width: 70%;
-        min-height: 3.5em;
-        padding: .1em 0 0 1em;
+        padding: .1em 0 .5em 1em;
         margin: 0;
     }
 
-.approche {
+.qr {
 }
-    .approche dt {
+    .qr dt {
         font-weight: bold;
         font-size: 100%;
     }
-    .approche dt:not(:first-child) {
+    .qr dt:not(:first-child) {
         margin-top: 1em;
     }
 
@@ -158,7 +157,7 @@ footer blockquote {
         text-align: right;
     }
 
-footer p {
+footer p, nav p {
     text-align: center;
 }
 
@@ -177,6 +176,25 @@ footer p {
     font-size: 4.5em;
 }
 
+/* Formation */
+
+.formation {
+}
+
+    .formation ul {
+        margin-left: 2em;
+        list-style-type: circle;
+    }
+
+    .formation .excerpt {
+        font-family: Palatino, Georgia, serif;
+        font-weight: bold;
+    }
+        .formation .excerpt img {
+            float: left;
+            margin-right: .5em;
+        }
+
 /* media queries */
 
 @media only screen and (max-width: 620px) {
@@ -193,7 +211,7 @@ footer p {
         font-size: 60px;
         line-height: 1em;
     }
-    .valeurs dt {
+    .tbl dt {
         display: block;
         float: none;
         width: auto;
@@ -201,7 +219,7 @@ footer p {
         text-align: left;
         font-weight: bolder;
     }
-    .valeurs dd {
+    .tbl dd {
         display: block;
         float: none;
         width: auto;

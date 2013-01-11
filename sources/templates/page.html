@@ -2,6 +2,10 @@
 
 {% block page_title %}{{ page.title }}{% endblock page_title %}
 
+{% if page.body_class %}
+    {% block body_class %}{{ page.body_class }}{% endblock body_class %}
+{% endif %}
+
 {% block quote %}
 {% if not page.quote %}
     {{ super() }}

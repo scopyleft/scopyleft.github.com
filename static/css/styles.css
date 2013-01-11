@@ -74,15 +74,15 @@ ul {
         margin-bottom: .7em;
     }
 
-.valeurs {
+.tbl {
 }
-    .valeurs dt {
+    .tbl dt {
         float: left;
         width: 25%;
         margin: 0;
         text-align: right;
     }
-    .valeurs dd {
+    .tbl dd {
         float: left;
         width: 70%;
         min-height: 3.5em;
@@ -90,13 +90,13 @@ ul {
         margin: 0;
     }
 
-.approche {
+.qr {
 }
-    .approche dt {
+    .qr dt {
         font-weight: bold;
         font-size: 100%;
     }
-    .approche dt:not(:first-child) {
+    .qr dt:not(:first-child) {
         margin-top: 1em;
     }
 
@@ -193,7 +193,7 @@ footer p {
         font-size: 60px;
         line-height: 1em;
     }
-    .valeurs dt {
+    .tbl dt {
         display: block;
         float: none;
         width: auto;
@@ -201,7 +201,7 @@ footer p {
         text-align: left;
         font-weight: bolder;
     }
-    .valeurs dd {
+    .tbl dd {
         display: block;
         float: none;
         width: auto;
