@@ -52,6 +52,11 @@ def to_rfc2822(dt):
     locale.setlocale(locale.LC_TIME, current_locale)
     return formatted
 
+@app.template_filter()
+def to_rfc3339(dt):
+    if not dt:
+        return
+    return datetime.utcnow().isoformat("T") + "Z"
 
 def discover_urls():
     return [('page', dict(path=page.path)) for page in pages]
