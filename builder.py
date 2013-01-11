@@ -4,10 +4,10 @@
 
 import locale
 import os
+import sys
 
 from argh import *
 from datetime import datetime
-from fabric.api import local
 
 from flask import Flask, render_template
 from flask_frozen import Freezer
@@ -96,11 +96,11 @@ def build():
     print("Building website...")
     app.debug = False
     asset_manager.config['ASSETS_DEBUG'] = False
-    freezer.freeze()
-    local("cp ./sources/static/*.ico ./static/")
-    local("cp ./sources/static/*.txt ./static/")
-    local("cp ./sources/static/CNAME ./static/")
-    print("Done.")
+    try:
+        freezer.freeze()
+        print("Done.")
+    except Exception as err:
+        sys.stderr.write("Error: %s\n" % err)
 
 
 @command
