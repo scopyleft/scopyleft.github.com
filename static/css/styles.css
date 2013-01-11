@@ -48,8 +48,18 @@ h2 {
     border-top: none;
 }
     .logo a {
-        color: #000;
+        color: #333;
         text-decoration: none;
+    }
+
+.subtitle {
+    border: none;
+    font-style: italic;
+    text-align: right;
+    margin-top: -2.2em;
+}
+    .subtitle a {
+        color: #333;
     }
 
 dd ul {
@@ -172,10 +182,6 @@ footer p, nav p {
     font-family: Palatino, Georgia, serif;
 }
 
-.blog .logo {
-    font-size: 4.5em;
-}
-
 /* Formation */
 
 .formation {
@@ -205,11 +211,6 @@ footer p, nav p {
     .logo {
         margin: 0 0 1em;
         font-size: 75px;
-    }
-    .blog .logo {
-        margin: 0;
-        font-size: 60px;
-        line-height: 1em;
     }
     .tbl dt {
         display: block;
