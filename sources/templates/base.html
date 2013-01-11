@@ -16,17 +16,7 @@
 </head>
 <body class="{% block body_class %}default{% endblock body_class %}">
     <a id="top"></a>
-    <nav><p>
-    {% block navigation -%}
-        <a href="{{ url_for("index") }}">accueil</a>
-        &#8226;
-        <a href="{{ url_for("blog") }}">blog</a>
-        &#8226;
-        <a href="{{ url_for("page", path="formation") }}">formation</a>
-        &#8226;
-        <a href="#contact">contact</a>
-    {% endblock navigation %}</p>
-    </nav>
+    {% include "_navigation.html" %}
     <header>
         {% block page_heading -%}
             <h1 class="logo"><a href="/">scopyleft</a></h1>
@@ -50,6 +40,8 @@
             tout en privilégiant le bien-être et le plaisir de chacun.</q>
         </blockquote>
         {%- endblock quote -%}
+        <hr>
+        {% include "_navigation.html" %}
     </footer>
     {% block extrajs %}{% endblock extrajs %}
 </body>
