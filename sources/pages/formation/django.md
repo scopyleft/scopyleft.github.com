@@ -19,6 +19,12 @@ body_class: formation
     <dd>Formation sur la version 1.5 de Django</dd>
 </dl>
 
+## Objectifs
+
+- Comprendre le fonctionnement et les qualités générales de Django
+- Être capable d'écrire une application Web avec Django
+- Connaître les forces et limites de Django
+
 ## Public cible
 
 - Développeurs Web backend
