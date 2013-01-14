@@ -33,6 +33,13 @@ Voici une [présentation de CasperJS faite à Sudweb en 2012](http://vimeo.com/4
     <dd>Formation sur la version 1.0 de CasperJS</dd>
 </dl>
 
+## Objectifs
+
+- Comprendre le fonctionnement de CasperJS
+- Être capable d'écrire et d'exécuter un script CasperJS
+- Être capable d'écrire une suite de tests fonctionnels avec CasperJS
+- Connaître les forces et limites de CasperJS
+
 ## Public cible
 
 - Développeurs Web frontend
@@ -46,16 +53,15 @@ Voici une [présentation de CasperJS faite à Sudweb en 2012](http://vimeo.com/4
 
 ## Programme
 
-- Savoir installer CasperJS
+- Installation de CasperJS
 - Rappels élémentaires sur [Javascript] et le [DOM]
 - Prise en main rapide de l'API de [PhantomJS]
 - Prise en main de l’[API] de CasperJS
-- Savoir utiliser CasperJS en ligne de commande
-- Savoir écrire un scénario de navigation asynchrone
-- Savoir interragir avec le [DOM]
-- Savoir récupérer des informations depuis le [DOM]
-- Savoir écrire un test fonctionnel
-- Savoir gérer une suite de tests
+- Utilisation CasperJS en ligne de commande
+- Écriture d'un scénario de navigation asynchrone
+- Interraction avec le [DOM]
+- Récupération d'informations depuis le [DOM]
+- Écriture de tests fonctionnels, d'une suite de tests
 
 [CasperJS]: http://casperjs.org/
 [Webkit]: http://webkit.org/
