@@ -15,17 +15,18 @@ body_class: formation
     <dt>Formateur</dt>
     <dd><a href="https://nicolas.perriault.net/">Nicolas Perriault</a> et <a href="http://vinyll.scopyleft.fr">Vincent Agnano</a></dd>
     <dt>Version</dt>
-    <dd>Formation sur Javascript ES5.</dd>
+    <dd>Formation sur <a href="https://developer.mozilla.org/fr/docs/JavaScript">Javascript</a> ES5.</dd>
 </dl>
 
 ## Public cible
 
-- Développeurs Web backend et frontend
+* Développeurs Web backend et frontend
 
 ## Prérequis
 
-- Connaissance élémentaire du langage [Javascript](https://developer.mozilla.org/fr/docs/JavaScript)
-- Ordinateur portable (systèmes d'exploitation Mac OSX ou Linux fortement recommandés)
+* Connaissance du HTML
+* Connaissance élémentaire du langage [Javascript]
+* Ordinateur portable (systèmes d'exploitation Mac OSX ou Linux fortement recommandés)
 
 ## Programme
 
@@ -33,7 +34,7 @@ body_class: formation
 
 * Utilisation de Javascript dans un navigateur
 * Découverte de l'écriture du langage
-* Installation de Node et NPM
+* Installation de [NodeJS] et [NPM]
 * Utilisation de Javascript dans un shell
 * Ecriture d'un serveur simple avec rendu HTML
 * Spécificités et limites du language
@@ -41,24 +42,23 @@ body_class: formation
 ### Jour 2 - Perfectionnement
 
 * Utilisation de bibliothèques tierces
-* Cas pratique avec le framework ExpressJS
+* Cas pratique avec le framework [ExpressJS]
 * Gestion des routes et des fichiers statiques
 * Réalisation d'un site dynamique
 * Stockage persistant côté client et serveur
 
 ### Jour 3 - Confirmation
 
-* Temps réel en Websockets avec Socket.io
+* Temps réel en Websockets avec [Socket.io]
 * Ecriture de tests unitaires
-* Tests fonctionnels avec CasperJS
+* Tests fonctionnels avec [CasperJS]
 
 
-## Ressources
-
-* [Javascript](https://developer.mozilla.org/fr/docs/JavaScript)
-* [NodeJS](http://nodejs.org)
-* [NPM](https://npmjs.org)
-* [SocketIO](http://socket.io/)
-* [CasperJS](http://casperjs.org)
-* [Nicolas Perriault](https://nicolas.perriault.net)
-* [Vincent Agnano](http://vinyll.scopyleft.fr)
+[Javascript]: https://developer.mozilla.org/fr/docs/JavaScript
+[NodeJS]: http://nodejs.org
+[NPM]: https://npmjs.org
+[ExpressJS]: http://expressjs.com
+[Socket.io]: http://socket.io
+[CasperJS]: http://casperjs.org
+[Nicolas Perriault]: https://nicolas.perriault.net
+[Vincent Agnano]: http://vinyll.scopyleft.fr
