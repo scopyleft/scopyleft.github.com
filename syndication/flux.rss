@@ -1,23 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title>scopyleft</title>
-    <subtitle>Dernières mises à jour du blog</subtitle>
-    <link href="http://scopyleft.fr/" rel="alternate" type="text/html"/>
-    <link href="http://scopyleft.fr/syndication/flux.atom" rel="self"/>
-    <id>http://scopyleft.fr/</id>
-    <updated>2013-01-15T13:16:15.591778Z</updated>
-    <author>
-        <name>scopyleft</name>
-        <uri>http://scopyleft.fr/</uri>
-    </author>
-    <rights>Copyright (c) 2013, scopyleft</rights>
-
-    <entry xml:lang="fr">
-        <title>Acte de naissance</title>
-        <link href="http://scopyleft.fr/blog/2013/acte-de-naissance/" rel="alternate" type="text/html" />
-        <updated>2013-01-15T13:16:15.591979Z</updated>
-        <id>http://scopyleft.fr/blog/2013/acte-de-naissance/</id>
-        <summary type="html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Scopyleft</title>
+        <link>http://scopyleft.fr/</link>
+        <description>Dernières mises à jour du blog</description>
+        <language>fr-FR</language>
+        <pubDate>Tue, 15 Jan 2013 14:16:15 +0000</pubDate>
+        <lastBuildDate>Tue, 15 Jan 2013 14:16:15 +0000</lastBuildDate>
+        <author>Scopyleft</author>
+    
+        <item>
+            <title>Acte de naissance</title>
+            <link>http://scopyleft.fr/blog/2013/acte-de-naissance/</link>
+            <description>&lt;blockquote&gt;
 &lt;p&gt;« Ce n’est pas un signe de bonne santé que d’être bien adapté à une société profondément malade » — &lt;a href=&#34;https://fr.wikipedia.org/wiki/Jiddu_Krishnamurti&#34;&gt;Krishnamurti&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Le projet de monter une &lt;a href=&#34;http://www.les-scop.coop/sites/fr/les-scop/qu-est-ce-qu-une-scop.html&#34;&gt;coopérative&lt;/a&gt; de développement Web avait germé il y a bien longtemps dans nos cerveaux épris d’équité et de démocratie solidaire ; nous sommes heureux de donner concrètement vie à cette idée en créant un outil de travail pleinement conforme à nos valeurs. Oui, nous venons de créer &lt;a href=&#34;http://scopyleft.fr/&#34;&gt;la boîte dont nous avons toujours rêvé&lt;/a&gt;.&lt;/p&gt;
@@ -33,7 +28,10 @@
 &lt;p&gt;Nous souhaitons avant tout mettre nos compétences individuelles et collectives au service de projets Web et mobiles utiles au plus grand nombre.&lt;/p&gt;
 &lt;p&gt;Nous avons à notre disposition une très bonne connaissance du Web en général et de technologies comme &lt;a href=&#34;http://python.org/&#34;&gt;Python&lt;/a&gt;, &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; et &lt;a href=&#34;https://developer.mozilla.org/fr/docs/JavaScript&#34;&gt;Javascript&lt;/a&gt; en particulier.&lt;/p&gt;
 &lt;p&gt;Nous abordons chaque nouveau projet avec un regard neuf et débutant. Nous prenons beaucoup de plaisir à échanger, à partager notre culture et nos valeurs en accompagnant partenaires et organisations dans leur transformation &lt;a href=&#34;http://agilemanifesto.org/&#34;&gt;Agile&lt;/a&gt; ou vers le &lt;a href=&#34;https://fr.wikipedia.org/wiki/Lean_IT&#34;&gt;Lean thinking&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Nous n’attendons maintenant plus qu’une chose : concevoir et fabriquer de belles choses, avec vous.&lt;/strong&gt;&lt;/p&gt;</summary>
-    </entry>
-
-</feed>
+&lt;p&gt;&lt;strong&gt;Nous n’attendons maintenant plus qu’une chose : concevoir et fabriquer de belles choses, avec vous.&lt;/strong&gt;&lt;/p&gt;</description>
+            <pubDate>Thu, 10 Jan 2013 00:00:00 +0000</pubDate>
+            <guid>http://scopyleft.fr/blog/2013/acte-de-naissance/</guid>
+        </item>
+    
+    </channel>
+</rss>

@@ -14,7 +14,7 @@
 {% block content %}
     {%- for page in pages %}
     <entry xml:lang="fr">
-        <title>{{ page.title }}</title>
+        <title>{{ page.title|escape }}</title>
         <link href="{{ base_url }}{{ url_for('page', path=page.path) }}" rel="alternate" type="text/html" />
         <updated>{{ page.date|to_rfc3339 }}</updated>
         <id>{{ base_url }}{{ url_for('page', path=page.path) }}</id>

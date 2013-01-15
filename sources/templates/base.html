@@ -7,6 +7,7 @@
     <meta name="description" content="scopyleft accompagne vos projets Web dans une démarche de qualité">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="alternate" type="application/rss+xml" href="{{ url_for("feed_atom") }}" title="Blog Scopyleft (Atom)">
+    <link rel="alternate" type="application/rss+xml" href="{{ url_for("feed_rss") }}" title="Blog Scopyleft (RSS)">
     {%- assets filter="cssmin", output="packed.css",
         "css/styles.css"
     %}

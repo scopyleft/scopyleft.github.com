@@ -88,6 +88,13 @@ def feed_atom():
     return render_template('base.atom', build_date=datetime.now(),
         base_url=BASE_URL, pages=get_blog_posts(pages, limit=FEED_MAX_LINKS))
 
+
+@app.route('/syndication/flux.rss')
+def feed_rss():
+    return render_template('base.rss', build_date=datetime.now(),
+        base_url=BASE_URL, pages=get_blog_posts(pages, limit=FEED_MAX_LINKS))
+
+
 @app.route('/<path:path>/')
 def page(path):
     template = 'post.html' if path.startswith('blog') else 'page.html'

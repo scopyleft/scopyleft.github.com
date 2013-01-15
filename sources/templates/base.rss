@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Scopyleft</title>
+        <link>{{ base_url }}/</link>
+        <description>Dernières mises à jour du blog</description>
+        <language>fr-FR</language>
+        <pubDate>{{ build_date|to_rfc2822 }}</pubDate>
+        <lastBuildDate>{{ build_date|to_rfc2822 }}</lastBuildDate>
+        <author>Scopyleft</author>
+    {% block content %}
+        {%- for page in pages %}
+        <item>
+            <title>{{ page.title|escape }}</title>
+            <link>{{ base_url }}/{{ page.path }}/</link>
+            <description>
+                {{- page.html|escape -}}
+            </description>
+            <pubDate>{{ page.date|to_rfc2822 }}</pubDate>
+            <guid>{{ base_url }}/{{ page.path }}/</guid>
+        </item>
+        {%- endfor %}
+    {% endblock %}
+    </channel>
+</rss>
