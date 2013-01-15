@@ -52,11 +52,13 @@ def to_rfc2822(dt):
     locale.setlocale(locale.LC_TIME, current_locale)
     return formatted
 
+
 @app.template_filter()
 def to_rfc3339(dt):
     if not dt:
         return
     return datetime.utcnow().isoformat("T") + "Z"
+
 
 def discover_urls():
     return [('page', dict(path=page.path)) for page in pages]
@@ -82,6 +84,7 @@ def blog():
 def old_feed():
     return ('<redirect><newLocation>http://scopyleft.fr/syndication/flux.atom'
             '</newLocation></redirect>')
+
 
 @app.route('/syndication/flux.atom')
 def feed_atom():
