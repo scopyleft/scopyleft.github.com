@@ -27,10 +27,14 @@ Voici une [présentation de CasperJS faite à Sudweb en 2012](http://vimeo.com/4
 <dl class="tbl">
     <dt>Durée</dt>
     <dd>Une journée (sept heures)</dd>
-    <dt>Formateur</dt>
+    <dt>Formateur(s)</dt>
     <dd><a href="https://nicolas.perriault.net/">Nicolas Perriault</a> (auteur de CasperJS)</dd>
     <dt>Version</dt>
     <dd>Formation sur la version 1.0 de CasperJS</dd>
+    <dt>Niveau</dt>
+    <dd>Formation de <a href="https://fr.wikipedia.org/wiki/Nomenclature_des_niveaux_de_formation_en_France#Niveau_V_2">niveau V</a></dd>
+    <dt>Modalités</dt>
+    <dd>Formation présentielle, 8 stagiaires maximum par formateur</dd>
 </dl>
 
 ## Objectifs

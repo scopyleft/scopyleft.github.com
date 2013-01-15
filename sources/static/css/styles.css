@@ -201,6 +201,16 @@ footer p, nav p {
             margin-right: .5em;
         }
 
+.formation .formations-list {
+    list-style-type: none;
+    margin: 2em 0;
+}
+    .formation .formations-list li {
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+
 /* media queries */
 
 @media only screen and (max-width: 620px) {

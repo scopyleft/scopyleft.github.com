@@ -5,18 +5,22 @@ body_class: formation
 
 <p class="excerpt">
     <img src="/static/images/django-logo.png">
-    <a href="https://www.djangoproject.com/">Django</a> est un framework web utilisant le langage Python et encourageant le développement rapide d'applications et de sites web performants.
+    <a href="https://www.djangoproject.com/">Django</a> est un framework web utilisant le langage <a href="http://python.org/">Python</a> et encourageant le développement rapide d'applications et de sites web performants.
 </p>
 
 ## Informations pratiques
 
 <dl class="tbl">
     <dt>Durée</dt>
-    <dd>1 à 3 jours</dd>
-    <dt>Formateur</dt>
-    <dd><a href="https://larlet.fr/david/">David Larlet</a></dd>
+    <dd>1 à 3 jours (en fonction des besoins)</dd>
+    <dt>Formateur(s)</dt>
+    <dd><a href="https://larlet.fr/david/">David Larlet</a> et <a href="https://nicolas.perriault.net/">Nicolas Perriault</a></dd>
     <dt>Version</dt>
     <dd>Formation sur la version 1.5 de Django</dd>
+    <dt>Niveau</dt>
+    <dd>Formation de <a href="https://fr.wikipedia.org/wiki/Nomenclature_des_niveaux_de_formation_en_France#Niveau_V_2">niveau V</a></dd>
+    <dt>Modalités</dt>
+    <dd>Formation présentielle, 8 stagiaires maximum par session</dd>
 </dl>
 
 ## Objectifs
@@ -66,4 +70,3 @@ body_class: formation
 * Middlewares et context processors
 * Commandes Django personnalisées
 * Intégration d'applications tierces
-
