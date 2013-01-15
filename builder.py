@@ -79,10 +79,14 @@ def blog():
 
 
 @app.route('/syndication/')
-def feed():
-    return render_template('base.rss', build_date=datetime.now(),
-        base_url=BASE_URL, pages=get_blog_posts(pages, limit=FEED_MAX_LINKS))
+def old_feed():
+    return ('<redirect><newLocation>http://scopyleft.fr/syndication/flux.atom'
+            '</newLocation></redirect>')
 
+@app.route('/syndication/flux.atom')
+def feed_atom():
+    return render_template('base.atom', build_date=datetime.now(),
+        base_url=BASE_URL, pages=get_blog_posts(pages, limit=FEED_MAX_LINKS))
 
 @app.route('/<path:path>/')
 def page(path):

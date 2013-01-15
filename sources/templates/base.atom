@@ -3,7 +3,7 @@
     <title>{% block title %}scopyleft{% endblock %}</title>
     <subtitle>Dernières mises à jour du blog</subtitle>
     <link href="{{ base_url }}/" rel="alternate" type="text/html"/>
-    <link href="{{ base_url }}{{ url_for('feed') }}" rel="self"/>
+    <link href="{{ base_url }}{{ url_for('feed_atom') }}" rel="self"/>
     <id>{{ base_url }}/</id>
     <updated>{{ build_date|to_rfc3339 }}</updated>
     <author>
