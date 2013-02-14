@@ -42,7 +42,7 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
   <dd>R: Humph, merci beaucoup (waouh, il est lourd !) En fait on ne travaille généralement pas avec un cahier des charges, mais plutôt avec des <em>user stories</em>, un <em>backlog</em>, des <em>tests d’acceptance</em>… Hé, ne vous enfuyez pas, c’est très simple et on peut vous expliquer ça très facilement si vous nous en laissez la chance :)</dd>
 
   <dt>Q: J’<ins>exige</ins> que vous réalisiez mon site en <abbr title="Insérez votre langage préféré ici"><code>(.*)</code></abbr>.</dt>
-  <dd>R: On souhaite rester totalement maîtres du choix des technologies que nous mettons en œuvre pour réaliser votre projet.</dd>
+  <dd>R: On va choisir ensemble les technologies que nous mettrons en œuvre en fonction de vos besoins et de nos contraintes respectives.</dd>
 
   <dt>Q: Je voudrais améliorer les performances de mon application <small>qu'on a du mal à maintenir d'ailleurs</small></dt>
   <dd>R: Sans problème, on va d’abord regarder le code pour voir s’il n’y a pas des optimisations à faire à ce niveau, puis éventuellement on vous propose un ou plusieurs ateliers techniques en suivant pour épauler vos équipes.</dd>
