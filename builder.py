@@ -68,7 +68,7 @@ def get_blog_posts(pages, limit=None):
     posts = sorted([p for p in pages if p.path.startswith('blog')],
                    key=lambda p: p.meta.get('date'),
                    reverse=True)
-    posts = filter(lambda p: p.meta.get('published') is True, posts)
+    posts = filter(lambda p: any([app.debug, p.meta.get('published')]), posts)
     return posts[:limit] if limit is not None else posts
 
 
