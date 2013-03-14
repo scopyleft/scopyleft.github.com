@@ -1,6 +1,6 @@
 title: Acte de naissance
 date: 2013-01-10
-pusblished: false
+published: true
 
 > « Ce n’est pas un signe de bonne santé que d’être bien adapté à une société profondément malade » — [Krishnamurti](https://fr.wikipedia.org/wiki/Jiddu_Krishnamurti)
 

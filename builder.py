@@ -66,7 +66,9 @@ def discover_urls():
 
 def get_blog_posts(pages, limit=None):
     posts = sorted([p for p in pages if p.path.startswith('blog')],
-        key=lambda p: p.meta.get('date'), reverse=True)
+                   key=lambda p: p.meta.get('date'),
+                   reverse=True)
+    posts = filter(lambda p: p.meta.get('published') is True, posts)
     return posts[:limit] if limit is not None else posts
 
 
