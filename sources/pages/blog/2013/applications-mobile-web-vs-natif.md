@@ -38,9 +38,9 @@ Le catalogue de *widgets* est relativement complet, leur mise en place et leur c
 
 Il est possible de placer des sites (ou plutôt des URLs) en écran d'accueil des périphériques iOS avec une icône et un écran d'attente de chargement au lancement tout en masquant l'interface utilisateur de Safari.
 
-Si cette solution nous semblait satisfaisante dans un premier temps, elle s'est vite révélée être problématique lors des changements de contextes : l'ouverture d'un lien au sein de *l'application* renvoyant inévitablement sur Safari et la sortie vers un lecteur PDF ne permettant pas de retrouver l'application dans l'état où elle avait été quittée (ce qui est plutôt gênant pour un moteur de recherche)
+Si cette solution nous semblait satisfaisante dans un premier temps, elle s'est vite révélée être problématique lors des changements de contextes : l'ouverture d'un lien externe au sein de *l'application* renvoyant inévitablement une autre instance de Safari et la sortie vers un lecteur PDF ne permettant pas de retrouver l'application dans l'état où elle avait été quittée (ce qui est plutôt gênant pour un moteur de recherche).
 
-Sous Android la situation est à peine meilleure, puisqu'un clic sur un lien vers un document PDF entraîne son téléchargement en tâche de fond, ne reste qu'une notification une fois l'opération effectuée nécessitant une action utilisateur pour le visionner…
+Sous Android la situation est à peine meilleure sous Chrome, puisqu'un clic sur un lien vers un document PDF entraîne son téléchargement en tâche de fond, ne reste qu'une obscure notification une fois l'opération effectuée nécessitant une action utilisateur pour le visionner…
 
 Dans les deux cas, l'utilisateur lambda risque vraisemblablement d'être a minima perdu ou plus vraisembalement agacé par ces modes de fonctionnement.
 
