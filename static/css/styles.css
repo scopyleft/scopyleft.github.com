@@ -183,6 +183,11 @@ footer p, nav p {
     font-family: Palatino, Georgia, serif;
 }
 
+.blog-post ul {
+    list-style-type: square;
+    padding-left: 2em;
+}
+
 /* Formation */
 
 .formation {
