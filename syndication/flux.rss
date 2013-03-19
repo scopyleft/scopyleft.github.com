@@ -5,10 +5,46 @@
         <link>http://scopyleft.fr/</link>
         <description>Dernières mises à jour du blog</description>
         <language>fr-FR</language>
-        <pubDate>Mon, 18 Mar 2013 11:02:56 +0000</pubDate>
-        <lastBuildDate>Mon, 18 Mar 2013 11:02:56 +0000</lastBuildDate>
+        <pubDate>Tue, 19 Mar 2013 17:46:38 +0000</pubDate>
+        <lastBuildDate>Tue, 19 Mar 2013 17:46:38 +0000</lastBuildDate>
         <author>Scopyleft</author>
     
+        <item>
+            <title>Applications mobile : Web vs. Natif</title>
+            <link>http://scopyleft.fr/blog/2013/applications-mobile-web-vs-natif/</link>
+            <description>&lt;p&gt;Nous avons récemment eu à enrichir une application Web d’intranet afin d’aménager un accès pour des utilisateurs de mobiles (parc de périphériques connu et contrôlé). Trois approches étaient possibles :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;l’utilisation d’un &lt;a href=&#34;https://fr.wikipedia.org/wiki/Responsive_Web_Design&#34;&gt;&lt;em&gt;responsive design&lt;/em&gt;&lt;/a&gt; sur la version Web pour réutiliser l’existant mais cela posait des problèmes de performances (chargement inutile de l’intégralité du HTML et des ressources de la page, mise en cache complexe) ;&lt;/li&gt;
+&lt;li&gt;l’utilisation de code natif — ou d’un intermédiaire comme &lt;a href=&#34;http://www.appcelerator.com/platform/titanium-sdk/&#34;&gt;Titanium&lt;/a&gt; pour bénéficier de la réactivité et des APIs — mais cela nous liait trop fortement aux plateformes propriétaires ;&lt;/li&gt;
+&lt;li&gt;l’utilisation d’une version Web dédiée aux périphériques à petits écrans, c’est celle pour laquelle nous avons opté en misant sur la pérennité et l’évolutivité d’une telle approche.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rapidement, nous avons été confrontés à plusieurs problèmes que nous souhaitions partager avec vous :&lt;/p&gt;
+&lt;h2&gt;La réactivité&lt;/h2&gt;
+&lt;p&gt;C’était la grande inconnue et nous avons rapidement opté pour une architecture permettant de servir les données en &lt;a href=&#34;http://json.org/&#34;&gt;JSON&lt;/a&gt; via une API HTTP pour alimenter une application JavaScript en &lt;a href=&#34;http://backbonejs.org/&#34;&gt;Backbone.js&lt;/a&gt; avec la possibilité de mettre en cache les données côté client (utile lorsque la connexion est aléatoire !).&lt;/p&gt;
+&lt;p&gt;La latence perceptible au &lt;em&gt;tap&lt;/em&gt; sur un périphérique iOS pour afficher une page Web s’explique par une préconisation Apple à &lt;a href=&#34;http://cubiq.org/remove-onclick-delay-on-webkit-for-iphone&#34;&gt;à patienter 300ms&lt;/a&gt; avant de prendre en compte l’action de l’utilisateur ; cela nous semblait trop important compte-tenu de la cible. Des solutions techniques comme celle proposée par la bilbliothèque &lt;a href=&#34;https://github.com/ftlabs/fastclick&#34;&gt;FastClick&lt;/a&gt; permettent heureusement de s’affranchir d’une telle contrainte.&lt;/p&gt;
+&lt;p&gt;Côté performance et réactivité des interfaces, si nous (et notre client) sommes satisfaits des résultats obtenus vis à vis des usages cibles sur leur parc de machines (iPhone 5, iPad et machine Android récentes), il semble pour autant que cela ne soit malheureusement &lt;a href=&#34;http://blog.xero.com/2013/03/making-mobile-work/&#34;&gt;pas le cas pour tout le monde&lt;/a&gt; ; tout dépendra donc du type d’usages auxquels vous destinez votre application.&lt;/p&gt;
+&lt;h2&gt;Le choix du framework Web mobile&lt;/h2&gt;
+&lt;p&gt;Parmi l’offre pléthorique d’outils Open Source à disposition sur ce créneau en plein essor, nous avons évalué trois frameworks de développement Web mobile : &lt;strong&gt;&lt;a href=&#34;http://www.iui-js.org/&#34;&gt;iUI&lt;/a&gt;, &lt;a href=&#34;http://jqtjs.com/&#34;&gt;jQT&lt;/a&gt; et &lt;a href=&#34;http://jquerymobile.com/&#34;&gt;jquery-mobile&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;iUI&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.iui-js.org/&#34;&gt;iUI&lt;/a&gt; est le moins complet et ne semble plus vraiment maintenu, il est néanmoins léger et très efficace pour un site basique. C’est par ailleurs le plus performant sur les animations de transition.&lt;/p&gt;
+&lt;h3&gt;jQT&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://jqtjs.com/&#34;&gt;jQT&lt;/a&gt; est un projet relativement actif, mais qui manque cruellement de documentation et nous a posé de nombreux problèmes quand à la gestion des évènements spécifiques à une utilisation mobile. De plus, il est très difficile d’étendre ou de hooker l’API proposée, ce qui s’est avéré rhédibitoire eu égard aux besoins du projet.&lt;/p&gt;
+&lt;h3&gt;jquery-mobile&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://jquerymobile.com/&#34;&gt;jquery-mobile&lt;/a&gt; nous a finalement donné entière satisfaction, avec la possibilité de réaliser un thème &lt;a href=&#34;http://jquerymobile.com/themeroller/&#34;&gt;rapidement&lt;/a&gt;, disposant d’une bonne extensibilité, la possibilité de débrayer tout ou partie des fonctionnalités de navigation intégrées (contrairement à jQT) et l’intégration native des fonctionnalités de &lt;em&gt;FastClick&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Le catalogue de &lt;em&gt;widgets&lt;/em&gt; est relativement complet, leur mise en place et leur configuration est rendue très aisée par l’utilisation des &lt;a href=&#34;http://ejohn.org/blog/html-5-data-attributes/&#34;&gt;data attributes&lt;/a&gt; (même si l’on peut toutefois questionner la pertinence de les utiliser pour gérer la présentation par exemple…)&lt;/p&gt;
+&lt;h2&gt;&lt;em&gt;Appification&lt;/em&gt; et contextes&lt;/h2&gt;
+&lt;p&gt;Sur iOS, il est possible de placer un site — ou plutôt une URL — en tant que raccourci d’application sur l’écran d’accueil ; celui-ci peut alors disposer d’une icône dédiée et d’un écran d’attente de chargement au lancement, tout en masquant l’interface utilisateur de Safari.&lt;/p&gt;
+&lt;p&gt;Si cette solution nous semblait satisfaisante dans un premier temps, elle s’est vite révélée problématique lors des changements de contextes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;l’ouverture d’un lien externe au sein de l’application ouvre inévitablement un nouvel &lt;em&gt;onglet&lt;/em&gt; dans Safari ;&lt;/li&gt;
+&lt;li&gt;la sortie vers un lecteur PDF ne permettant pas de retrouver l’application dans l’état où elle avait été quittée (ce qui est plutôt gênant pour un moteur de recherche)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sous Android, la situation est à peine meilleure avec Chrome, puisqu’un clic sur un lien vers un document PDF entraîne son téléchargement en tâche de fond… Ne reste qu’une obscure notification une fois l’opération effectuée, nécessitant une action utilisateur pour le visionner.&lt;/p&gt;
+&lt;p&gt;Dans les deux cas, l’utilisateur lambda risque vraisemblablement d’être a minima perdu ou plus vraisembalement agacé par ces modes de fonctionnement.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Au final, si certaines limites nous semblent justifiées, d’autres laissent à penser que les plateformes ont tout à gagner (environ &lt;a href=&#34;http://www.washingtonpost.com/wp-dyn/content/article/2011/02/18/AR2011021807943.html&#34;&gt;30%&lt;/a&gt; en fait) à encourager le développement d’applications natives en conservant de manière stratégique ces freins au développement d’applications Web.&lt;/strong&gt;&lt;/p&gt;</description>
+            <pubDate>Thu, 14 Mar 2013 00:00:00 +0000</pubDate>
+            <guid>http://scopyleft.fr/blog/2013/applications-mobile-web-vs-natif/</guid>
+        </item>
         <item>
             <title>Acte de naissance</title>
             <link>http://scopyleft.fr/blog/2013/acte-de-naissance/</link>

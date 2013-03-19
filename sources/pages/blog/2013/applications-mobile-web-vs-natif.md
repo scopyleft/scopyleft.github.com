@@ -1,6 +1,6 @@
 title: "Applications mobile : Web vs. Natif"
 date: 2013-03-14
-published: false
+published: true
 
 Nous avons récemment eu à enrichir une application Web d’intranet afin d’aménager un accès pour des utilisateurs de mobiles (parc de périphériques connu et contrôlé). Trois approches étaient possibles :
 
