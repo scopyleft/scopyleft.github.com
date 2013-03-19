@@ -49,7 +49,7 @@ Sous Android, la situation est à peine meilleure avec Chrome, puisqu’un clic 
 
 Dans les deux cas, l’utilisateur lambda risque vraisemblablement d’être a minima perdu ou plus vraisembalement agacé par ces modes de fonctionnement.
 
-**Au final, si certaines limites nous semblent justifiées, d’autres laissent à penser que les plateformes ont tout à gagner (environ [30%](http://www.washingtonpost.com/wp-dyn/content/article/2011/02/18/AR2011021807943.html) en fait) à encourager le développement d’applications natives en conservant de manière stratégique ces freins au développement d’applications Web.**
+**Au final, si certaines limites nous semblent justifiées, d’autres laissent à penser que les plateformes ont tout à gagner (environ [30%](http://www.washingtonpost.com/wp-dyn/content/article/2011/02/18/AR2011021807943.html "Taxe retenue habituellement par les plateformes comme Apple, voir l'article du Washington Post") en fait) à encourager le développement d’applications natives en conservant de manière stratégique ces freins au développement d’applications Web.**
 
 [iUI]: http://www.iui-js.org/
 [jQT]: http://jqtjs.com/
