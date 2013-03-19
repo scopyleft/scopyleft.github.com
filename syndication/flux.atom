@@ -5,7 +5,7 @@
     <link href="http://scopyleft.fr/" rel="alternate" type="text/html"/>
     <link href="http://scopyleft.fr/syndication/flux.atom" rel="self"/>
     <id>http://scopyleft.fr/</id>
-    <updated>2013-03-19T16:46:38.611956Z</updated>
+    <updated>2013-03-19T19:43:26.711445Z</updated>
     <author>
         <name>scopyleft</name>
         <uri>http://scopyleft.fr/</uri>
@@ -15,7 +15,7 @@
     <entry xml:lang="fr">
         <title>Applications mobile : Web vs. Natif</title>
         <link href="http://scopyleft.fr/blog/2013/applications-mobile-web-vs-natif/" rel="alternate" type="text/html" />
-        <updated>2013-03-19T16:46:38.612153Z</updated>
+        <updated>2013-03-19T19:43:26.711641Z</updated>
         <id>http://scopyleft.fr/blog/2013/applications-mobile-web-vs-natif/</id>
         <summary type="html">&lt;p&gt;Nous avons récemment eu à enrichir une application Web d’intranet afin d’aménager un accès pour des utilisateurs de mobiles (parc de périphériques connu et contrôlé). Trois approches étaient possibles :&lt;/p&gt;
 &lt;ul&gt;
@@ -46,12 +46,12 @@
 &lt;/ul&gt;
 &lt;p&gt;Sous Android, la situation est à peine meilleure avec Chrome, puisqu’un clic sur un lien vers un document PDF entraîne son téléchargement en tâche de fond… Ne reste qu’une obscure notification une fois l’opération effectuée, nécessitant une action utilisateur pour le visionner.&lt;/p&gt;
 &lt;p&gt;Dans les deux cas, l’utilisateur lambda risque vraisemblablement d’être a minima perdu ou plus vraisembalement agacé par ces modes de fonctionnement.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Au final, si certaines limites nous semblent justifiées, d’autres laissent à penser que les plateformes ont tout à gagner (environ &lt;a href=&#34;http://www.washingtonpost.com/wp-dyn/content/article/2011/02/18/AR2011021807943.html&#34;&gt;30%&lt;/a&gt; en fait) à encourager le développement d’applications natives en conservant de manière stratégique ces freins au développement d’applications Web.&lt;/strong&gt;&lt;/p&gt;</summary>
+&lt;p&gt;&lt;strong&gt;Au final, si certaines limites nous semblent justifiées, d’autres laissent à penser que les plateformes ont tout à gagner (environ &lt;a href=&#34;http://www.washingtonpost.com/wp-dyn/content/article/2011/02/18/AR2011021807943.html&#34; title=&#34;Taxe retenue habituellement par les plateformes comme Apple, voir l&#39;article du Washington Post&#34;&gt;30%&lt;/a&gt; en fait) à encourager le développement d’applications natives en conservant de manière stratégique ces freins au développement d’applications Web.&lt;/strong&gt;&lt;/p&gt;</summary>
     </entry>
     <entry xml:lang="fr">
         <title>Acte de naissance</title>
         <link href="http://scopyleft.fr/blog/2013/acte-de-naissance/" rel="alternate" type="text/html" />
-        <updated>2013-03-19T16:46:38.624197Z</updated>
+        <updated>2013-03-19T19:43:26.723504Z</updated>
         <id>http://scopyleft.fr/blog/2013/acte-de-naissance/</id>
         <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;« Ce n’est pas un signe de bonne santé que d’être bien adapté à une société profondément malade » — &lt;a href=&#34;https://fr.wikipedia.org/wiki/Jiddu_Krishnamurti&#34;&gt;Krishnamurti&lt;/a&gt;&lt;/p&gt;
