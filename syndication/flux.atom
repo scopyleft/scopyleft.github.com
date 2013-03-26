@@ -5,7 +5,7 @@
     <link href="http://scopyleft.fr/" rel="alternate" type="text/html"/>
     <link href="http://scopyleft.fr/syndication/flux.atom" rel="self"/>
     <id>http://scopyleft.fr/</id>
-    <updated>2013-03-19T19:43:26.711445Z</updated>
+    <updated>2013-03-26T12:19:37.298498Z</updated>
     <author>
         <name>scopyleft</name>
         <uri>http://scopyleft.fr/</uri>
@@ -13,9 +13,23 @@
     <rights>Copyright (c) 2013, scopyleft</rights>
 
     <entry xml:lang="fr">
+        <title>Innovation sociale</title>
+        <link href="http://scopyleft.fr/blog/2013/innovation-sociale/" rel="alternate" type="text/html" />
+        <updated>2013-03-26T12:19:37.298700Z</updated>
+        <id>http://scopyleft.fr/blog/2013/innovation-sociale/</id>
+        <summary type="html">&lt;p&gt;L&#39;innovation sociale consiste à « répondre à des besoins sociaux et environnementaux mal ou peu satisfaits par des solutions entrepreneuriales ».&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Les entreprises sociales sont des entreprises à finalité sociale, sociétale ou environnementale et à lucrativité limitée. Elles cherchent à associer leurs parties prenantes à leur gouvernance.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Nous avons été retenus en début d&#39;année par &lt;a href=&#34;http://www.alterincub-lr.coop/&#34;&gt;ALteR&#39;Incub&lt;/a&gt; pour une période de pré-incubation de 6 mois relative à &lt;a href=&#34;http://entrepreneur-social.net/-Comprendre-.html&#34;&gt;l&#39;activité sociale et solidaire&lt;/a&gt; que nous souhaitons développer au sein de scopyleft. Celle-ci sera suivie dans le meilleur des cas d&#39;une période d&#39;incubation d&#39;un an au cours de laquelle le projet sera concrétisé.&lt;/p&gt;
+&lt;p&gt;Cet accompagnement nous permet de nous poser beaucoup de questions relatives au modèle économique de cette activité et aux différents partenariats et interlocuteurs que l&#39;on peut avoir sur ce type de projet. Il nous permet également de rencontrer des « co-incubés » aux projets très intéressants qui enrichissent notre propre vision du produit proposé par leurs regards néophytes et citoyens.&lt;/p&gt;
+&lt;p&gt;Ce projet est une expérience nouvelle qui nous permet de mettre en pratique des outils de concertation propres aux méthodes Agiles sur une population non technique en impliquant tous les acteurs pouvant intervenir dans la mise en place de la plateforme et son utilisation. Il nous permet de mieux définir nos activités et de les rendre compréhensibles par tout un chacun.&lt;/p&gt;
+&lt;p&gt;L&#39;objet même de la plateforme sera détaillé dans un prochain billet.&lt;/p&gt;</summary>
+    </entry>
+    <entry xml:lang="fr">
         <title>Applications mobile : Web vs. Natif</title>
         <link href="http://scopyleft.fr/blog/2013/applications-mobile-web-vs-natif/" rel="alternate" type="text/html" />
-        <updated>2013-03-19T19:43:26.711641Z</updated>
+        <updated>2013-03-26T12:19:37.302899Z</updated>
         <id>http://scopyleft.fr/blog/2013/applications-mobile-web-vs-natif/</id>
         <summary type="html">&lt;p&gt;Nous avons récemment eu à enrichir une application Web d’intranet afin d’aménager un accès pour des utilisateurs de mobiles (parc de périphériques connu et contrôlé). Trois approches étaient possibles :&lt;/p&gt;
 &lt;ul&gt;
@@ -51,7 +65,7 @@
     <entry xml:lang="fr">
         <title>Acte de naissance</title>
         <link href="http://scopyleft.fr/blog/2013/acte-de-naissance/" rel="alternate" type="text/html" />
-        <updated>2013-03-19T19:43:26.723504Z</updated>
+        <updated>2013-03-26T12:19:37.314485Z</updated>
         <id>http://scopyleft.fr/blog/2013/acte-de-naissance/</id>
         <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;« Ce n’est pas un signe de bonne santé que d’être bien adapté à une société profondément malade » — &lt;a href=&#34;https://fr.wikipedia.org/wiki/Jiddu_Krishnamurti&#34;&gt;Krishnamurti&lt;/a&gt;&lt;/p&gt;
