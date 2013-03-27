@@ -1,6 +1,6 @@
 title: "Du code acentré"
 date: 2013-03-27
-published: false
+published: true
 
 Nous nous sommes retirés pendant 3 jours dans les Pyrénées en novembre dernier pour travailler ensemble sur un projet en mode *mandala* (les sources furent détruites à la fin). Ce fut l'occasion de tenter une approche non centralisée de notre travail. L’utilisation qui est faite aujourd’hui des *[Distributed Concurrent Versions System](https://en.wikipedia.org/wiki/Distributed_Concurrent_Versions_System) (DCVS)* se focalise presque exclusivement sur une approche centralisée (bien souvent sur [GitHub](https://github.com/) ou [Bitbucket](https://bitbucket.org)).
 
