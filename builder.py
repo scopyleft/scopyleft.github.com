@@ -7,7 +7,7 @@ import os
 import sys
 
 from argh import *
-from datetime import datetime
+from datetime import datetime, time
 
 from flask import Flask, render_template
 from flask_frozen import Freezer
@@ -57,7 +57,7 @@ def to_rfc2822(dt):
 def to_rfc3339(dt):
     if not dt:
         return
-    return datetime.utcnow().isoformat("T") + "Z"
+    return datetime.combine(dt, time()).isoformat("T") + "Z"
 
 
 def discover_urls():
