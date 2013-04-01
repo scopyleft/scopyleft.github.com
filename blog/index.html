@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="alternate" type="application/rss+xml" href="/syndication/flux.atom" title="Blog Scopyleft (Atom)">
     <link rel="alternate" type="application/rss+xml" href="/syndication/flux.rss" title="Blog Scopyleft (RSS)">
-        <link rel="stylesheet" type="text/css" href="/static/packed.css?1364820859">
+        <link rel="stylesheet" type="text/css" href="/static/packed.css?1364373268">
     
 </head>
 <body class="blog">
@@ -30,6 +30,60 @@
     </header>
 
     <div class="main">
+
+    <section>
+        <article class="blog-post">
+    <h2><a href="/blog/2013/du-code-acentre/">Du code acentré</a></h2>
+    <aside>
+        <time datetime="2013-03-27">27/03/2013</time>
+    </aside>
+    <p>Nous nous sommes retirés pendant 3 jours dans les Pyrénées en novembre dernier pour travailler ensemble sur un projet en mode <em>mandala</em> (les sources furent détruites à la fin). Ce fut l'occasion de tenter une approche non centralisée de notre travail. L’utilisation qui est faite aujourd’hui des <em><a href="https://en.wikipedia.org/wiki/Distributed_Concurrent_Versions_System">Distributed Concurrent Versions System</a> (DCVS)</em> se focalise presque exclusivement sur une approche centralisée (bien souvent sur <a href="https://github.com/">GitHub</a> ou <a href="https://bitbucket.org">Bitbucket</a>).</p>
+<p>Or, il est tout à fait possible d’avoir des échanges de code locaux de pair à pair sans qu’il n’y ait de centre, chaque machine pouvant avoir une version différente du projet à différents stades de développement et incluant des fonctionnalités différentes. Cela peut poser problème dans un contexte de <em>release</em>, mais ce n’était pas notre objectif principal (et ça reste possible à partir du moment où une machine récupère l’intégralité des fonctionnalités développées sur les autres).</p>
+<p>Pour mettre en œuvre par la pratique ces concepts, nous avons choisi <a href="http://git-scm.com/">Git</a> — mais nous aurions pu tout aussi bien utiliser <a href="http://mercurial.selenic.com/">Mercurial</a>, qui offre le même type de fonctionnalités.</p>
+<p>Notre premier essai a été de tenter de passer par les dossiers partagés d’OS X mais Git ne permet malheureusement pas d’utiliser le protocole <code>afp://</code>, je me suis alors souvenu d’avoir déjà eu à servir mon dépôt Mercurial localement avec la commande <code>serve</code> et je me suis mis en quête de trouver <a href="http://stackoverflow.com/questions/377213/git-serve-i-would-like-it-that-simple">la même commande en Git</a> qui est la suivante :</p>
+<div class="codehilite"><pre>$ <span class="n">git</span> <span class="n">daemon</span> <span class="o">--</span><span class="n">reuseaddr</span> <span class="o">--</span><span class="n">base</span><span class="o">-</span><span class="n">path</span><span class="p">=.</span> <span class="o">--</span><span class="n">export</span><span class="o">-</span><span class="n">all</span>
+</pre></div>
+
+
+<p>qu’il est possible de mettre en alias dans son fichier de configuration global <code>~/.gitconfig</code> :</p>
+<div class="codehilite"><pre><span class="k">[alias]</span>
+    <span class="na">serve</span> <span class="o">=</span> <span class="s">!git daemon --reuseaddr --base-path=. --export-all ./.git</span>
+</pre></div>
+
+
+<p>Notez qu’il est possible d’ajouter l’option <code>--verbose</code> pour voir qui récupère quoi sur sa machine.</p>
+<p>Une fois le dépôt servi par une machine source, il est possible de s’y connecter directement via son adresse IP, mais nous avons préféré utiliser la résolution du nom de la machine, ce qui s’avère plus pérenne si vous êtes en <code>DHCP</code> (il faut être sur le même réseau pour la résolution <code>DNS</code>, attention aux noms d’hôtes aussi ! La commande <code>ping</code> est votre amie pour tester ça) :</p>
+<div class="codehilite"><pre>$ <span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="p">:</span><span class="o">//</span><span class="n">nom_machine_source</span><span class="o">/</span>
+</pre></div>
+
+
+<p>Ne surtout pas oublier le <code>/</code> final sinon la récupération ne pourra pas être effectuée. À partir de là, il est possible d’effectuer l’intégralité des commandes Git. Il peut être utile d’ajouter les machines concernées en <code>remote</code> pour éviter d’avoir à re-taper l’URL à chaque fois :</p>
+<div class="codehilite"><pre>$ <span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">nom_source</span> <span class="n">git</span><span class="p">:</span><span class="o">//</span><span class="n">nom_machine_source</span><span class="o">/</span>
+</pre></div>
+
+
+<p>Une fois cela mis en place, le <em>workflow</em> de travail est un peu différent puisqu’il <strong>n’y a jamais de <code>push</code></strong>, chaque développeur récupérant ce dont il a besoin chez les autres pour avancer sans rien leur imposer.</p>
+<p>L’expérience s’est avérée relativement concluante une fois les différentes commandes ci-dessus acquises, et permettra de mettre en pratique un tel <em>workflow</em> lors d’un futur <a href="http://devfort.com/"><code>/dev/fort</code></a> où la connexion est par définition limitée.</p>
+<p><em>Qu’il est bon d’enfin utiliser un</em> <strong>D</strong><em>CVS à bon escient !</em></p>
+</article>
+    </section>
+
+    <section>
+        <article class="blog-post">
+    <h2><a href="/blog/2013/innovation-sociale/">Innovation sociale</a></h2>
+    <aside>
+        <time datetime="2013-03-26">26/03/2013</time>
+    </aside>
+    <p>L'innovation sociale consiste à « répondre à des besoins sociaux et environnementaux mal ou peu satisfaits par des solutions entrepreneuriales ».</p>
+<blockquote>
+<p>Les entreprises sociales sont des entreprises à finalité sociale, sociétale ou environnementale et à lucrativité limitée. Elles cherchent à associer leurs parties prenantes à leur gouvernance.</p>
+</blockquote>
+<p>Nous avons été retenus en début d'année par <a href="http://www.alterincub-lr.coop/">ALteR'Incub</a> pour une période de pré-incubation de 6 mois relative à <a href="http://entrepreneur-social.net/-Comprendre-.html">l'activité sociale et solidaire</a> que nous souhaitons développer au sein de scopyleft. Celle-ci sera suivie dans le meilleur des cas d'une période d'incubation d'un an au cours de laquelle le projet sera concrétisé.</p>
+<p>Cet accompagnement nous permet de nous poser beaucoup de questions relatives au modèle économique de cette activité et aux différents partenariats et interlocuteurs que l'on peut avoir sur ce type de projet. Il nous permet également de rencontrer des « co-incubés » aux projets très intéressants qui enrichissent notre propre vision du produit proposé par leurs regards néophytes et citoyens.</p>
+<p>Ce projet est une expérience nouvelle qui nous permet de mettre en pratique des outils de concertation propres aux méthodes Agiles sur une population non technique en impliquant tous les acteurs pouvant intervenir dans la mise en place de la plateforme et son utilisation. Il nous permet de mieux définir nos activités et de les rendre compréhensibles par tout un chacun.</p>
+<p>L'objet même de la plateforme sera détaillé dans un prochain billet.</p>
+</article>
+    </section>
 
     <section>
         <article class="blog-post">

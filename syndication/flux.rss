@@ -5,10 +5,58 @@
         <link>http://scopyleft.fr/</link>
         <description>Dernières mises à jour du blog</description>
         <language>fr-FR</language>
-        <pubDate>Mon, 01 Apr 2013 14:54:19 +0000</pubDate>
-        <lastBuildDate>Mon, 01 Apr 2013 14:54:19 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Mar 2013 09:34:28 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Mar 2013 09:34:28 +0000</lastBuildDate>
         <author>Scopyleft</author>
     
+        <item>
+            <title>Du code acentré</title>
+            <link>http://scopyleft.fr/blog/2013/du-code-acentre/</link>
+            <description>&lt;p&gt;Nous nous sommes retirés pendant 3 jours dans les Pyrénées en novembre dernier pour travailler ensemble sur un projet en mode &lt;em&gt;mandala&lt;/em&gt; (les sources furent détruites à la fin). Ce fut l&#39;occasion de tenter une approche non centralisée de notre travail. L’utilisation qui est faite aujourd’hui des &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Distributed_Concurrent_Versions_System&#34;&gt;Distributed Concurrent Versions System&lt;/a&gt; (DCVS)&lt;/em&gt; se focalise presque exclusivement sur une approche centralisée (bien souvent sur &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; ou &lt;a href=&#34;https://bitbucket.org&#34;&gt;Bitbucket&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Or, il est tout à fait possible d’avoir des échanges de code locaux de pair à pair sans qu’il n’y ait de centre, chaque machine pouvant avoir une version différente du projet à différents stades de développement et incluant des fonctionnalités différentes. Cela peut poser problème dans un contexte de &lt;em&gt;release&lt;/em&gt;, mais ce n’était pas notre objectif principal (et ça reste possible à partir du moment où une machine récupère l’intégralité des fonctionnalités développées sur les autres).&lt;/p&gt;
+&lt;p&gt;Pour mettre en œuvre par la pratique ces concepts, nous avons choisi &lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt; — mais nous aurions pu tout aussi bien utiliser &lt;a href=&#34;http://mercurial.selenic.com/&#34;&gt;Mercurial&lt;/a&gt;, qui offre le même type de fonctionnalités.&lt;/p&gt;
+&lt;p&gt;Notre premier essai a été de tenter de passer par les dossiers partagés d’OS X mais Git ne permet malheureusement pas d’utiliser le protocole &lt;code&gt;afp://&lt;/code&gt;, je me suis alors souvenu d’avoir déjà eu à servir mon dépôt Mercurial localement avec la commande &lt;code&gt;serve&lt;/code&gt; et je me suis mis en quête de trouver &lt;a href=&#34;http://stackoverflow.com/questions/377213/git-serve-i-would-like-it-that-simple&#34;&gt;la même commande en Git&lt;/a&gt; qui est la suivante :&lt;/p&gt;
+&lt;div class=&#34;codehilite&#34;&gt;&lt;pre&gt;$ &lt;span class=&#34;n&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;daemon&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;reuseaddr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;base&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=.&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;export&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;all&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;qu’il est possible de mettre en alias dans son fichier de configuration global &lt;code&gt;~/.gitconfig&lt;/code&gt; :&lt;/p&gt;
+&lt;div class=&#34;codehilite&#34;&gt;&lt;pre&gt;&lt;span class=&#34;k&#34;&gt;[alias]&lt;/span&gt;
+    &lt;span class=&#34;na&#34;&gt;serve&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;!git daemon --reuseaddr --base-path=. --export-all ./.git&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Notez qu’il est possible d’ajouter l’option &lt;code&gt;--verbose&lt;/code&gt; pour voir qui récupère quoi sur sa machine.&lt;/p&gt;
+&lt;p&gt;Une fois le dépôt servi par une machine source, il est possible de s’y connecter directement via son adresse IP, mais nous avons préféré utiliser la résolution du nom de la machine, ce qui s’avère plus pérenne si vous êtes en &lt;code&gt;DHCP&lt;/code&gt; (il faut être sur le même réseau pour la résolution &lt;code&gt;DNS&lt;/code&gt;, attention aux noms d’hôtes aussi ! La commande &lt;code&gt;ping&lt;/code&gt; est votre amie pour tester ça) :&lt;/p&gt;
+&lt;div class=&#34;codehilite&#34;&gt;&lt;pre&gt;$ &lt;span class=&#34;n&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;clone&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;git&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nom_machine_source&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Ne surtout pas oublier le &lt;code&gt;/&lt;/code&gt; final sinon la récupération ne pourra pas être effectuée. À partir de là, il est possible d’effectuer l’intégralité des commandes Git. Il peut être utile d’ajouter les machines concernées en &lt;code&gt;remote&lt;/code&gt; pour éviter d’avoir à re-taper l’URL à chaque fois :&lt;/p&gt;
+&lt;div class=&#34;codehilite&#34;&gt;&lt;pre&gt;$ &lt;span class=&#34;n&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;remote&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nom_source&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;git&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nom_machine_source&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Une fois cela mis en place, le &lt;em&gt;workflow&lt;/em&gt; de travail est un peu différent puisqu’il &lt;strong&gt;n’y a jamais de &lt;code&gt;push&lt;/code&gt;&lt;/strong&gt;, chaque développeur récupérant ce dont il a besoin chez les autres pour avancer sans rien leur imposer.&lt;/p&gt;
+&lt;p&gt;L’expérience s’est avérée relativement concluante une fois les différentes commandes ci-dessus acquises, et permettra de mettre en pratique un tel &lt;em&gt;workflow&lt;/em&gt; lors d’un futur &lt;a href=&#34;http://devfort.com/&#34;&gt;&lt;code&gt;/dev/fort&lt;/code&gt;&lt;/a&gt; où la connexion est par définition limitée.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Qu’il est bon d’enfin utiliser un&lt;/em&gt; &lt;strong&gt;D&lt;/strong&gt;&lt;em&gt;CVS à bon escient !&lt;/em&gt;&lt;/p&gt;</description>
+            <pubDate>Wed, 27 Mar 2013 00:00:00 +0000</pubDate>
+            <guid>http://scopyleft.fr/blog/2013/du-code-acentre/</guid>
+        </item>
+        <item>
+            <title>Innovation sociale</title>
+            <link>http://scopyleft.fr/blog/2013/innovation-sociale/</link>
+            <description>&lt;p&gt;L&#39;innovation sociale consiste à « répondre à des besoins sociaux et environnementaux mal ou peu satisfaits par des solutions entrepreneuriales ».&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Les entreprises sociales sont des entreprises à finalité sociale, sociétale ou environnementale et à lucrativité limitée. Elles cherchent à associer leurs parties prenantes à leur gouvernance.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Nous avons été retenus en début d&#39;année par &lt;a href=&#34;http://www.alterincub-lr.coop/&#34;&gt;ALteR&#39;Incub&lt;/a&gt; pour une période de pré-incubation de 6 mois relative à &lt;a href=&#34;http://entrepreneur-social.net/-Comprendre-.html&#34;&gt;l&#39;activité sociale et solidaire&lt;/a&gt; que nous souhaitons développer au sein de scopyleft. Celle-ci sera suivie dans le meilleur des cas d&#39;une période d&#39;incubation d&#39;un an au cours de laquelle le projet sera concrétisé.&lt;/p&gt;
+&lt;p&gt;Cet accompagnement nous permet de nous poser beaucoup de questions relatives au modèle économique de cette activité et aux différents partenariats et interlocuteurs que l&#39;on peut avoir sur ce type de projet. Il nous permet également de rencontrer des « co-incubés » aux projets très intéressants qui enrichissent notre propre vision du produit proposé par leurs regards néophytes et citoyens.&lt;/p&gt;
+&lt;p&gt;Ce projet est une expérience nouvelle qui nous permet de mettre en pratique des outils de concertation propres aux méthodes Agiles sur une population non technique en impliquant tous les acteurs pouvant intervenir dans la mise en place de la plateforme et son utilisation. Il nous permet de mieux définir nos activités et de les rendre compréhensibles par tout un chacun.&lt;/p&gt;
+&lt;p&gt;L&#39;objet même de la plateforme sera détaillé dans un prochain billet.&lt;/p&gt;</description>
+            <pubDate>Tue, 26 Mar 2013 00:00:00 +0000</pubDate>
+            <guid>http://scopyleft.fr/blog/2013/innovation-sociale/</guid>
+        </item>
         <item>
             <title>Applications mobile : Web vs. Natif</title>
             <link>http://scopyleft.fr/blog/2013/applications-mobile-web-vs-natif/</link>
