@@ -5,7 +5,7 @@
     <link href="http://scopyleft.fr/" rel="alternate" type="text/html"/>
     <link href="http://scopyleft.fr/syndication/flux.atom" rel="self"/>
     <id>http://scopyleft.fr/</id>
-    <updated>2013-03-27T08:34:27.855501Z</updated>
+    <updated>2013-04-01T00:00:00Z</updated>
     <author>
         <name>scopyleft</name>
         <uri>http://scopyleft.fr/</uri>
@@ -15,7 +15,7 @@
     <entry xml:lang="fr">
         <title>Du code acentré</title>
         <link href="http://scopyleft.fr/blog/2013/du-code-acentre/" rel="alternate" type="text/html" />
-        <updated>2013-03-27T08:34:27.855704Z</updated>
+        <updated>2013-03-27T00:00:00Z</updated>
         <id>http://scopyleft.fr/blog/2013/du-code-acentre/</id>
         <summary type="html">&lt;p&gt;Nous nous sommes retirés pendant 3 jours dans les Pyrénées en novembre dernier pour travailler ensemble sur un projet en mode &lt;em&gt;mandala&lt;/em&gt; (les sources furent détruites à la fin). Ce fut l&#39;occasion de tenter une approche non centralisée de notre travail. L’utilisation qui est faite aujourd’hui des &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Distributed_Concurrent_Versions_System&#34;&gt;Distributed Concurrent Versions System&lt;/a&gt; (DCVS)&lt;/em&gt; se focalise presque exclusivement sur une approche centralisée (bien souvent sur &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; ou &lt;a href=&#34;https://bitbucket.org&#34;&gt;Bitbucket&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Or, il est tout à fait possible d’avoir des échanges de code locaux de pair à pair sans qu’il n’y ait de centre, chaque machine pouvant avoir une version différente du projet à différents stades de développement et incluant des fonctionnalités différentes. Cela peut poser problème dans un contexte de &lt;em&gt;release&lt;/em&gt;, mais ce n’était pas notre objectif principal (et ça reste possible à partir du moment où une machine récupère l’intégralité des fonctionnalités développées sur les autres).&lt;/p&gt;
@@ -49,7 +49,7 @@
     <entry xml:lang="fr">
         <title>Innovation sociale</title>
         <link href="http://scopyleft.fr/blog/2013/innovation-sociale/" rel="alternate" type="text/html" />
-        <updated>2013-03-27T08:34:28.135391Z</updated>
+        <updated>2013-03-26T00:00:00Z</updated>
         <id>http://scopyleft.fr/blog/2013/innovation-sociale/</id>
         <summary type="html">&lt;p&gt;L&#39;innovation sociale consiste à « répondre à des besoins sociaux et environnementaux mal ou peu satisfaits par des solutions entrepreneuriales ».&lt;/p&gt;
 &lt;blockquote&gt;
@@ -63,7 +63,7 @@
     <entry xml:lang="fr">
         <title>Applications mobile : Web vs. Natif</title>
         <link href="http://scopyleft.fr/blog/2013/applications-mobile-web-vs-natif/" rel="alternate" type="text/html" />
-        <updated>2013-03-27T08:34:28.156789Z</updated>
+        <updated>2013-03-14T00:00:00Z</updated>
         <id>http://scopyleft.fr/blog/2013/applications-mobile-web-vs-natif/</id>
         <summary type="html">&lt;p&gt;Nous avons récemment eu à enrichir une application Web d’intranet afin d’aménager un accès pour des utilisateurs de mobiles (parc de périphériques connu et contrôlé). Trois approches étaient possibles :&lt;/p&gt;
 &lt;ul&gt;
@@ -99,7 +99,7 @@
     <entry xml:lang="fr">
         <title>Acte de naissance</title>
         <link href="http://scopyleft.fr/blog/2013/acte-de-naissance/" rel="alternate" type="text/html" />
-        <updated>2013-03-27T08:34:28.170117Z</updated>
+        <updated>2013-01-10T00:00:00Z</updated>
         <id>http://scopyleft.fr/blog/2013/acte-de-naissance/</id>
         <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;« Ce n’est pas un signe de bonne santé que d’être bien adapté à une société profondément malade » — &lt;a href=&#34;https://fr.wikipedia.org/wiki/Jiddu_Krishnamurti&#34;&gt;Krishnamurti&lt;/a&gt;&lt;/p&gt;
