@@ -16,4 +16,6 @@ Ces 2 jours nous auront permis :
 * d'avoir une démonstration de l'approche produit en version anglo-saxonne chez GitHub ;
 * de découvrir le robot NAO et les possibilités offertes en terme de programmation à partir du langage Python !
 
+<img src="/static/images/blog/robot-nao-mixit.jpg" alt="Robot NAO au repos" />
+
 Beaucoup d'échanges et de rencontres pendant et entre ces sessions, le tout en restant à taille relativement humaine, tout ce que l'on aime.

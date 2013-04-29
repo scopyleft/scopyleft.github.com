@@ -188,6 +188,13 @@ footer p, nav p {
     padding-left: 2em;
 }
 
+.blog-post img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #222;
+    padding: 1px;
+}
+
 /* Formation */
 
 .formation {
