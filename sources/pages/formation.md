@@ -16,4 +16,8 @@ body_class: formation
         <a href="/formation/javascript/">
             <img src="/static/images/javascript-logo.png"><br>Javascript</a>
     </li>
+    <li>
+        <a href="/formation/specification/">
+            <img src="/static/images/specification-logo.png"><br>Spécification</a>
+    </li>
 </ul>
