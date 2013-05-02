@@ -5,13 +5,34 @@
     <link href="http://scopyleft.fr/" rel="alternate" type="text/html"/>
     <link href="http://scopyleft.fr/syndication/flux.atom" rel="self"/>
     <id>http://scopyleft.fr/</id>
-    <updated>2013-05-01T00:00:00Z</updated>
+    <updated>2013-05-02T00:00:00Z</updated>
     <author>
         <name>scopyleft</name>
         <uri>http://scopyleft.fr/</uri>
     </author>
     <rights>Copyright (c) 2013, scopyleft</rights>
 
+    <entry xml:lang="fr">
+        <title>Mix-IT 2013</title>
+        <link href="http://scopyleft.fr/blog/2013/mixit-2013/" rel="alternate" type="text/html" />
+        <updated>2013-04-29T00:00:00Z</updated>
+        <id>http://scopyleft.fr/blog/2013/mixit-2013/</id>
+        <summary type="html">&lt;p&gt;Nous étions en force à Lyon pour rencontrer des personnes combinant une approche agile et technique aux profils très variés. Cette &lt;em&gt;mixité&lt;/em&gt; se retrouve dans &lt;a href=&#34;http://www.mix-it.fr/mixit13/planning&#34;&gt;le programme sur 2 jours&lt;/a&gt; et dans les échanges que nous avons pu avoir, il était même possible de slalomer entre les interventions Java grâce aux 3 salles de conférences + 2 d&#39;ateliers en parallèle.&lt;/p&gt;
+&lt;p&gt;Ces 2 jours nous auront permis :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;d&#39;avoir des retours d&#39;expériences suite aux &lt;a href=&#34;http://blog.avoustin.com/wp-content/upload/conf/lt/enfinir/index.html#/&#34;&gt;pratiques&lt;/a&gt; agiles dans le monde réel ;&lt;/li&gt;
+&lt;li&gt;de réfléchir à l&#39;influence des objectifs que l&#39;on soumet à une équipe ;&lt;/li&gt;
+&lt;li&gt;d&#39;avoir un aperçu du web de demain avec les &lt;a href=&#34;https://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html&#34;&gt;Web Components&lt;/a&gt;, &lt;a href=&#34;http://angularjs.org/&#34;&gt;AngularJS&lt;/a&gt; ou &lt;a href=&#34;http://www.dartlang.org/&#34;&gt;Dart&lt;/a&gt; ;&lt;/li&gt;
+&lt;li&gt;de discuter d&#39;&lt;a href=&#34;https://larlet.fr/david/blog/2013/api-hommes/&#34;&gt;API HTTP et Hypermedia&lt;/a&gt; ;&lt;/li&gt;
+&lt;li&gt;d&#39;être confrontés aux problèmes de flux tendus déficients dans le domaine de la restauration ;&lt;/li&gt;
+&lt;li&gt;de se faire une virée nocturne en vélo sur les quais lyonnais ;&lt;/li&gt;
+&lt;li&gt;d&#39;&lt;a href=&#34;https://gist.github.com/davidbgk/5466170&#34;&gt;essayer ElasticSearch&lt;/a&gt; sans pouvoir aller jusqu&#39;au facettes malheureusement ;&lt;/li&gt;
+&lt;li&gt;d&#39;avoir une démonstration de l&#39;approche produit en version anglo-saxonne chez GitHub ;&lt;/li&gt;
+&lt;li&gt;de découvrir le robot NAO et les possibilités offertes en terme de programmation à partir du langage Python !&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/static/images/blog/robot-nao-mixit.jpg&#34; alt=&#34;Robot NAO au repos&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Beaucoup d&#39;échanges et de rencontres pendant et entre ces sessions, le tout en restant à taille relativement humaine, tout ce que l&#39;on aime.&lt;/p&gt;</summary>
+    </entry>
     <entry xml:lang="fr">
         <title>Du code acentré</title>
         <link href="http://scopyleft.fr/blog/2013/du-code-acentre/" rel="alternate" type="text/html" />

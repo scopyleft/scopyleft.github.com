@@ -1,6 +1,6 @@
 title: Mix-IT 2013
 date: 2013-04-29
-published: false
+published: true
 
 Nous étions en force à Lyon pour rencontrer des personnes combinant une approche agile et technique aux profils très variés. Cette *mixité* se retrouve dans [le programme sur 2 jours](http://www.mix-it.fr/mixit13/planning) et dans les échanges que nous avons pu avoir, il était même possible de slalomer entre les interventions Java grâce aux 3 salles de conférences + 2 d'ateliers en parallèle.
 
