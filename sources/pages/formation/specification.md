@@ -1,4 +1,4 @@
-title: Formation spécification efficace, 3 journées
+title: Formation spécification efficace, 1 à 3 journée(s)
 body_class: formation
 
 ## Spécifier efficacement une application Web et mobile
@@ -24,7 +24,7 @@ Construire la Vision, et exprimer simplement les besoins d'une application pour 
 Alternance de théorie et d'ateliers. Des exercices pratiques ponctuent la formation pour évaluer et favoriser l'acquisition pédagogique.
 
 ## Durée
-1 à 3 jours
+1 à 3 journée(s)
 
 ## Présentation des modules
 
@@ -37,7 +37,7 @@ Comprendre les valeurs et les principes fondateurs de l'approche Agile.
 Abandonner le mirage d'une approche prédictive en utilisant des techniques de spécification émergente.
 
 * Présentation des méthodes : *XP*, *Scrum* et *Kanban*
-* Rôles de *Product-Owner*, *Product-Manager* et *développeurs*
+* Rôles de *Product-Owner*, *Product-Manager* et *développeuses*
 
 ### Planifier et estimer le budget de son produit
 Planifier et estimer le coût des différentes versions d'un produit.
@@ -54,7 +54,7 @@ Planifier et estimer le coût des différentes versions d'un produit.
 ### Exprimer la Vision du produit
 Rédiger la Vision pour que les différentes intervenantes comprennent rapidement le rôle, les objectifs et le contexte du produit.
 
-* *Pitch elevator*
+* *Elevator pitch*
 * *Speed boat*
 * *Remember the future*
 
@@ -70,6 +70,7 @@ Constituer une liste des caractéristiques du produit.
 
 * *Features* et *User stories*
 * *Story mapping*
+* *Impact mapping*
 * Initier un *Product-Backlog*
 
 ### Détailler les fonctionalités
