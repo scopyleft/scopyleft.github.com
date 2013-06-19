@@ -1,6 +1,6 @@
 title: 6 mois
 date: 2013-06-19
-published: false
+published: true
 
 *Petit retour sur ces 6 premiers mois d'existence.*
 
