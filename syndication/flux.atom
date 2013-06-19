@@ -5,13 +5,27 @@
     <link href="http://scopyleft.fr/" rel="alternate" type="text/html"/>
     <link href="http://scopyleft.fr/syndication/flux.atom" rel="self"/>
     <id>http://scopyleft.fr/</id>
-    <updated>2013-05-03T00:00:00Z</updated>
+    <updated>2013-06-19T00:00:00Z</updated>
     <author>
         <name>scopyleft</name>
         <uri>http://scopyleft.fr/</uri>
     </author>
     <rights>Copyright (c) 2013, scopyleft</rights>
 
+    <entry xml:lang="fr">
+        <title>6 mois</title>
+        <link href="http://scopyleft.fr/blog/2013/6-mois/" rel="alternate" type="text/html" />
+        <updated>2013-06-19T00:00:00Z</updated>
+        <id>http://scopyleft.fr/blog/2013/6-mois/</id>
+        <summary type="html">&lt;p&gt;&lt;em&gt;Petit retour sur ces 6 premiers mois d&#39;existence.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Du point de vue &lt;strong&gt;financier&lt;/strong&gt;, un début très difficile avec les 2 premiers mois quasiment sans activité. Heureusement, celle-ci a ensuite décollée et cela nous permet d&#39;envisager (enfin !) des salaires au-dessus du SMIC. Un point comptable doit être fait d&#39;ici la fin du mois et notre comptabilité réelle sera alors publiée.&lt;/p&gt;
+&lt;p&gt;Du point de vue &lt;strong&gt;humain&lt;/strong&gt;, le stress financier a forcément cristallisé certaines tensions qui ont réussies à être désamorcées par les rétrospectives et les discussions. Cela nous a permis de mieux nous connaître et de nous aligner.&lt;/p&gt;
+&lt;p&gt;Du point de vue &lt;strong&gt;positionnement&lt;/strong&gt;, certains projets ont fait débat et on s&#39;est finalement accordés sur une période de transition entre nos précédentes activités et le cap de la SCOP. Il est très difficile de se prononcer sur les problématiques éthiques d&#39;un client sans avoir suffisamment d&#39;éléments à confronter.&lt;/p&gt;
+&lt;p&gt;D&#39;un point de vue &lt;strong&gt;fun&lt;/strong&gt;, on essaye de se réserver une demi-journée par semaine dédiée aux activités ludiques (slackline, grimpe, etc) et une autre à la transmission technique (web components, métaclasses, etc). C&#39;est vraiment bénéfique et ça a un impact direct sur l&#39;ambiance et la productivité.&lt;/p&gt;
+&lt;p&gt;D&#39;un point de vue &lt;strong&gt;méthodologie&lt;/strong&gt;, on a testé beaucoup de choses, actuellement on fonctionne en interne avec une planification à la semaine sur une sorte de &lt;a href=&#34;https://fr.wikipedia.org/wiki/Kanban&#34;&gt;kanban&lt;/a&gt;. Le télétravail et la dualité physique/numérique du tableau pose encore quelques problèmes de synchronisation mais l&#39;on essaye d&#39;y palier au travers de micro-réunions quotidiennes. Nous utilisons &lt;a href=&#34;https://fr.wikipedia.org/wiki/Scrum_%28m%C3%A9thode%29&#34;&gt;scrum&lt;/a&gt; avec nos clients.&lt;/p&gt;
+&lt;p&gt;D&#39;un point de vue &lt;strong&gt;innovation&lt;/strong&gt;, nous sommes actuellement en pré-incubation pour &lt;a href=&#34;/blog/2013/innovation-sociale/&#34;&gt;un projet d&#39;innovation sociale&lt;/a&gt; au service de l&#39;économie sociale et solidaire (en opposition à l&#39;économie cynique et suicidaire pour reprendre la terminologie d&#39;&lt;a href=&#34;http://outils-reseaux.org/PresentationProjet&#34;&gt;Outils-Réseaux&lt;/a&gt;). Cela va nous permettre d&#39;animer &lt;a href=&#34;https://www.smore.com/gy4t-crise-montpellier&#34;&gt;des ateliers de co-construction citoyenne&lt;/a&gt; afin de réaliser un produit utile à tous.&lt;/p&gt;
+&lt;p&gt;D&#39;un point de vue &lt;strong&gt;partage&lt;/strong&gt;, même si l&#39;on a participé à pas mal de conférences, c&#39;est encore insuffisant mais on manque de recul pour savoir ce qui est le plus pertinent pour vous donc n&#39;hésitez pas à nous contacter si vous avez des interrogations !&lt;/p&gt;</summary>
+    </entry>
     <entry xml:lang="fr">
         <title>Mix-IT 2013</title>
         <link href="http://scopyleft.fr/blog/2013/mixit-2013/" rel="alternate" type="text/html" />
