@@ -10,5 +10,5 @@ Pygments==1.5
 Werkzeug==0.8.3
 argh==0.17.2
 cssmin==0.1.4
-distribute==0.6.19
+#distribute==0.6.19
 jsmin==2.0.2
