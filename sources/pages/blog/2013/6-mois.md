@@ -4,11 +4,11 @@ published: true
 
 *Petit retour sur ces 6 premiers mois d'existence.*
 
-Du point de vue **financier**, un début très difficile avec les 2 premiers mois quasiment sans activité. Heureusement, celle-ci a ensuite décollée et cela nous permet d'envisager (enfin !) des salaires au-dessus du SMIC. Un point comptable doit être fait d'ici la fin du mois et notre comptabilité réelle sera alors publiée.
+Du point de vue **financier**, un début très difficile avec les 2 premiers mois quasiment sans activité. Heureusement, celle-ci a ensuite décollé et cela nous permet d'envisager (enfin !) des salaires au-dessus du SMIC. Un point comptable doit être fait d'ici la fin du mois et notre comptabilité réelle sera alors publiée.
 
 Du point de vue **humain**, le stress financier a forcément cristallisé certaines tensions qui ont réussies à être désamorcées par les rétrospectives et les discussions. Cela nous a permis de mieux nous connaître et de nous aligner.
 
-Du point de vue **positionnement**, certains projets ont fait débat et on s'est finalement accordés sur une période de transition entre nos précédentes activités et le cap de la SCOP. Il est très difficile de se prononcer sur les problématiques éthiques d'un client sans avoir suffisamment d'éléments à confronter.
+Du point de vue **positionnement**, certains projets ont fait débat et on s'est finalement accordé sur une période de transition entre nos précédentes activités et le cap de la SCOP. Il est très difficile de se prononcer sur les problématiques éthiques d'un client sans avoir suffisamment d'éléments à confronter.
 
 D'un point de vue **fun**, on essaye de se réserver une demi-journée par semaine dédiée aux activités ludiques (slackline, grimpe, etc) et une autre à la transmission technique (web components, métaclasses, etc). C'est vraiment bénéfique et ça a un impact direct sur l'ambiance et la productivité.
 
