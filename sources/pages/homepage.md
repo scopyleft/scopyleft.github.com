@@ -1,7 +1,7 @@
 title: Accueil
 author: Nicolas
 
-est une coopérative accompagnatrice de projets Web qui propose de vous aider dans la conception de votre prochaine application. On sait faire des choses, et on aime les faire bien, *avec vous*.
+est une coopérative qui vous accompagne dans la conception et la réalisation de produits Web. On sait faire des choses complexes et de qualité, et on aime les faire simplement, *avec vous*.
 
 ## <a id="manifeste"></a>Manifeste
 
@@ -53,17 +53,19 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
   <dt>Q: J’ai l’idée du siècle, mais j’ai pas beaucoup de sous</dt>
   <dd>R: Qu’à cela ne tienne, et si on commençait d’abord par concevoir un prototype rapide pour valider l’idée et les usages derrière ? On peut aussi partir sur un <a href="http://en.wikipedia.org/wiki/Minimum_viable_product">Produit Minimum Viable</a>, c’est un peu plus cher mais ça constituera une base plus solide qu'on pourra faire évoluer par la suite !</dd>
 
-  <dt>Q: Nan, mais j’ai <u>vraiment</u> pas de sous</dt>
-  <dd>R: Alors en ce cas, et si l’utilité sociale et/ou technique de l’opération est avérée, on peut convenir de libérer le code que nous allons produire, afin de bénéficier des apports de la communauté tout en apportant notre pierre à l’édifice du bien commun. Deal ?</dd>
+  <dt>Q: Pourquoi êtes-vous aussi chers ?</dt>
+  <dd>R: Nos tarifs sont de 600 € <abbr title="Hors Taxes">HT</abbr> en développement et 1000 € HT en formation/accompagnement car nous misons sur la pérennité de la structure et souhaitons entretenir notre expertise. Nous dédions du temps à l'Open-Source et aux conférences pour redistribuer à la communauté. Nos salaires sont décents.</dd>
 
-  <dt>Q: Han, hors de question ! <small>t'façon j'ai tout breveté, na</small></dt>
-  <dd>R: Alors tant pis.</dd>
+  <dt>Q: Pouvez-vous réaliser mon site d'innovation sociale et citoyenne ?</dt>
+  <dd>
+    R: Avec plaisir ! On pourrait même y intégrer des données issues de l'OpenData et inviter des citoyens et élus à participer à sa conception.
+  </dd>
 
   <dt>Q: Pouvez-vous réaliser mon site de bourse en ligne à l’armement nucléaire fiscalement optimisé ?</dt>
   <dd>
     R: Navrés, nous ne travaillons pas sur les projets en contradiction avec <a href="#manifeste">nos valeurs et notre éthique</a> ; nous ne réaliserons donc pas :
     <ul>
-      <li>De site à caractère raciste, xénophobe, diffamatoire, guerrier, religieux, pornographique ;</li>
+      <li>De site à caractère xénophobe, diffamatoire, guerrier, pornographique ;</li>
       <li>De site outillant la malhonnêteté intellectuelle, la manipulation frauduleuse, l'escroquerie et globalement qui peut nous apparaître comme potentiellement dangereux pour ses utilisateurs cibles ;</li>
       <li>Toute entreprise à caractère illégal.</li>
     </ul>
