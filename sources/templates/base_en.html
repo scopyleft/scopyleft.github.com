@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block meta_language %}en{% endblock meta_language %}
+{% block meta_title %}scopyleft helps you build web projects in a search of quality{% endblock meta_title %}
+
+{% block footer %}
+<h2 class="contactez-nous"><a id="contact"></a>Contact us</h2>
+<p class="center">
+    by <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
+    on <a href="https://twitter.com/scopyleft">twitter</a>
+    or call us <a href="tel:+33611782563">+33 6 44 09 80 95</a> (Vincent).</p>
+<hr />
+{%- block quote -%}
+<blockquote>
+    <q>Work between humans, on ethical and interesting projects while preserving each one's well being and pleasure.</q>
+</blockquote>
+{%- endblock quote -%}
+<hr>
+{% include "_navigation.html" %}
+{% endblock footer %}
+</body>
+</html>

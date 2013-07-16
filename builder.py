@@ -102,7 +102,12 @@ def feed_rss():
 
 @app.route('/<path:path>/')
 def page(path):
-    template = 'post.html' if path.startswith('blog') else 'page.html'
+    if path.startswith('blog'):
+        template = 'post.html'
+    elif path.startswith('en'):
+        template = 'page_en.html'
+    else:
+        template = 'page.html'
     return render_template(template, page=pages.get_or_404(path))
 
 

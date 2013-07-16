@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{% block meta_language %}fr{% endblock meta_language %}">
 <head>
     <meta charset="utf-8">
     <title>{% block page_title %}Accueil{% endblock page_title %} | scopyleft</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="scopyleft accompagne vos projets Web dans une démarche de qualité">
+    <meta name="description" content="{% block meta_description %}scopyleft accompagne vos projets Web dans une démarche de qualité{% endblock %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="alternate" type="application/rss+xml" href="{{ url_for("feed_atom") }}" title="Blog Scopyleft (Atom)">
     <link rel="alternate" type="application/rss+xml" href="{{ url_for("feed_rss") }}" title="Blog Scopyleft (RSS)">
@@ -29,6 +29,7 @@
     </div>
 
     <footer>
+        {% block footer %}
         <h2 class="contactez-nous"><a id="contact"></a>Contact</h2>
         <p class="center">
             Par <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
@@ -43,6 +44,7 @@
         {%- endblock quote -%}
         <hr>
         {% include "_navigation.html" %}
+        {% endblock footer %}
     </footer>
     {% block extrajs %}{% endblock extrajs %}
 </body>
