@@ -22,7 +22,7 @@ est une coopérative qui vous accompagne dans la conception et la réalisation d
   <dd>On croit que la générosité et l’Open Source sont facteurs de progrès social et économique. Si si.</dd>
 
   <dt><a id="transparence"></a>Transparence</dt>
-  <dd>On ne vous cache <a href="https://github.com/scopyleft" title="Compte github Scopyleft">rien</a>, pas même <a href="https://docs.google.com/spreadsheet/ccc?key=0Al7gTbdJfUcPdFVkZ1BXdVRuMTlocFJWYjdUeU9MTmc#gid=14">la compta</a>. On vous dit <a href="/transparence/">pourquoi</a>.</dd>
+  <dd>On ne vous cache <a href="https://github.com/scopyleft" title="Compte github Scopyleft">rien</a>, pas même <a href="https://docs.google.com/a/scopyleft.fr/spreadsheet/ccc?key=0AmS-h9mmH7UCdGsybWV4VGpZVG1SNGpjVFlTd3lCT1E#gid=3">la compta</a>. On vous dit <a href="/transparence/">pourquoi</a>.</dd>
 </dl>
 
 ---
