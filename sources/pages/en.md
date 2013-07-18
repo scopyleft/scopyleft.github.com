@@ -1,4 +1,4 @@
-## <a id="manifeste"></a>Manifesto
+## <a id="manifesto"></a>Manifesto
 
 <dl class="valeurs tbl">
   <dt><a id="honesty"></a>honesty</dt>
@@ -19,7 +19,7 @@
 
 ---
 
-## <a id="what-we-really-do"></a>What we really do
+## <a id="what-we-actually-do"></a>What we actually do
 
 * We are developers and Agile protagonists. We use and give open source. We spread the world about what we discover here and there. We are pragmatic and obsessed with best practices. We are proud of what we do and with whom we do it.
 * We know how to build web and mobile application that work well. We like beauty in code and feel userful on project that also are.
@@ -29,7 +29,7 @@
 In a general way we aim to preserve collaborative, equal and peaceful exchanges with each other and sustainable in long terms.
 
 
-## <a id="notre-equipe"></a>Our team
+## <a id="our-team"></a>Our team
 
 <ul class="equipe">
   <li><img src="/static/images/nicolas-perriault.jpg" alt="Avatar Nicolas">
