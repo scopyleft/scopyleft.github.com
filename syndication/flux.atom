@@ -5,13 +5,35 @@
     <link href="http://scopyleft.fr/" rel="alternate" type="text/html"/>
     <link href="http://scopyleft.fr/syndication/flux.atom" rel="self"/>
     <id>http://scopyleft.fr/</id>
-    <updated>2013-07-18T00:00:00Z</updated>
+    <updated>2013-07-24T00:00:00Z</updated>
     <author>
         <name>scopyleft</name>
         <uri>http://scopyleft.fr/</uri>
     </author>
     <rights>Copyright (c) 2013, scopyleft</rights>
 
+    <entry xml:lang="fr">
+        <title>Scrum ou pas ?</title>
+        <link href="http://scopyleft.fr/blog/2013/scrum-ou-pas/" rel="alternate" type="text/html" />
+        <updated>2013-07-24T00:00:00Z</updated>
+        <id>http://scopyleft.fr/blog/2013/scrum-ou-pas/</id>
+        <summary type="html">&lt;p&gt;Aujourd&#39;hui, j&#39;avance dans le doute, ça mélange les anciennes certitudes dans un joli précipité.&lt;/p&gt;
+&lt;p&gt;En essayant de se rapprocher de &lt;em&gt;Scrum&lt;/em&gt;, nous avons fait des choix et adopté des contraintes qui endommagent notre quête ; mais qui semblent inhérents à l&#39;orientation prise par le développement Web.&lt;/p&gt;
+&lt;h2&gt;Équipe multidisciplinaire ?&lt;/h2&gt;
+&lt;p&gt;L&#39;équipe est rarement multi-disciplinaire. Nous travaillons volontiers avec des intégristes de l&#39;intégration, et respectons les préférences en laissant par exemple David déguster &lt;em&gt;JS&lt;/em&gt; à son rythme. C&#39;est handicapant pour attaquer les &lt;em&gt;Users Stories&lt;/em&gt; conjointement, mais ça nous semble coller à la nouvelle façon de construire le Web.&lt;/p&gt;
+&lt;h2&gt;100% dans le sprint ?&lt;/h2&gt;
+&lt;p&gt;Dans nos balades, les développeurs sont rarement à plus de 80% et très souvent en dessous. Ils souhaitent souvent garder du temps pour d&#39;autres activités. Ça donne une drôle de tête aux &lt;em&gt;burndowns&lt;/em&gt;, mais on adore le confort que ça apporte.&lt;/p&gt;
+&lt;h2&gt;Communication en face à face ?&lt;/h2&gt;
+&lt;p&gt;On reconnait que ça endommage vraiment l&#39;émergence de pépites collaboratives, mais on admet que ce n&#39;est pas très facile de se retrouver dans la même salle. Et, finalement, on pense que ça ne va pas s&#39;arranger.&lt;/p&gt;
+&lt;h2&gt;Servant leader ?&lt;/h2&gt;
+&lt;p&gt;Aujourd&#39;hui, Stéphane le facilitateur considère que son rôle n&#39;est pas de supprimer les obstacles à l&#39;instar d&#39;un brosseur au curling. Il (Alain Delon) préfère exposer clairement les problèmes en aidant l&#39;équipe à faire émerger les solutions.&lt;/p&gt;
+&lt;h2&gt;Une PO expérimentée ?&lt;/h2&gt;
+&lt;p&gt;Le &lt;em&gt;Product-Owner&lt;/em&gt; est souvent débutant. Pas facile dans ces conditions d&#39;espérer construire un &lt;em&gt;backlog&lt;/em&gt; efficace. En six mois d&#39;activité, toutes les &lt;em&gt;PO&lt;/em&gt; ont été formées par nos soins et accompagnées par un simplificateur.&lt;/p&gt;
+&lt;h2&gt;Équipe auto-organisée ?&lt;/h2&gt;
+&lt;p&gt;On commence souvent avec une équipe toute neuve sur un projet tout neuf qui ne va durer que quelques mois. L&#39;amélioration continue est difficile à envisager. À chaque démarrage, nous sommes obligés d&#39;apprendre à coopérer.&lt;/p&gt;
+&lt;p&gt;Dans ces conditions, pourquoi l&#39;équipe continue-t-elle à    s&#39;entêter pour conserver le cap sur &lt;em&gt;Scrum&lt;/em&gt; ? Pourquoi ne pas se rendre à l&#39;évidence et débrayer simplement sur &lt;em&gt;Scrumban&lt;/em&gt; ou &lt;em&gt;Kanban&lt;/em&gt; ?&lt;/p&gt;
+&lt;p&gt;Les préconisations de &lt;em&gt;Scrum&lt;/em&gt; fournissent un cadre de travail facile à comprendre et difficile à appliquer. Une petite liste de propositions recommandables et très apprenantes, un pédiluve qui nous encourage à faire des bombes sans trop salir la grande piscine de l&#39;Agilité.&lt;/p&gt;</summary>
+    </entry>
     <entry xml:lang="fr">
         <title>6 mois</title>
         <link href="http://scopyleft.fr/blog/2013/6-mois/" rel="alternate" type="text/html" />
