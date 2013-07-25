@@ -21,7 +21,7 @@
 
 ## <a id="what-we-actually-do"></a>What we actually do
 
-* We are developers and Agile protagonists. We use and give open source. We spread the world about what we discover here and there. We are pragmatic and obsessed with best practices. We are proud of what we do and with whom we do it.
+* We are developers and Agile protagonists gathered in a [workers' cooperative](https://en.wikipedia.org/wiki/Workers%27_co-operative). We use and give open source. We spread the world about what we discover here and there. We are pragmatic and obsessed with best practices. We are proud of what we do and with whom we do it.
 * We know how to build web and mobile application that work well. We like beauty in code and feel userful on project that also are.
 * We organize technical and methodology workshopsto share our knowledge about cool and useful stuff such as [scrum](http://en.wikipedia.org/wiki/Scrum_%28software_development%29), [Kanban](http://en.wikipedia.org/wiki/Kanban_%28development%29), [Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29), [Django](http://en.wikipedia.org/wiki/Django_%28web_framework%29), [Flask](http://flask.pocoo.org/), [HTML5](http://www.html5rocks.com/) or [CasperJS](http://casperjs.org/).
 * We may also help you out putting complex things in place. But we'll see together if there's some workaround to keep it simple and focused on its essential value.
