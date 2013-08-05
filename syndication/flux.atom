@@ -5,7 +5,7 @@
     <link href="http://scopyleft.fr/" rel="alternate" type="text/html"/>
     <link href="http://scopyleft.fr/syndication/flux.atom" rel="self"/>
     <id>http://scopyleft.fr/</id>
-    <updated>2013-07-25T00:00:00Z</updated>
+    <updated>2013-08-05T00:00:00Z</updated>
     <author>
         <name>scopyleft</name>
         <uri>http://scopyleft.fr/</uri>
@@ -13,23 +13,126 @@
     <rights>Copyright (c) 2013, scopyleft</rights>
 
     <entry xml:lang="fr">
+        <title>Advanced Django user model inheritance</title>
+        <link href="http://scopyleft.fr/blog/2013/django-model-advanced-user-inheritance/" rel="alternate" type="text/html" />
+        <updated>2013-08-05T00:00:00Z</updated>
+        <id>http://scopyleft.fr/blog/2013/django-model-advanced-user-inheritance/</id>
+        <summary type="html">&lt;p&gt;Recently I had to manage a few user types each having its own specificities with
+Django 1.5.
+Not a big deal in theory.&lt;/p&gt;
+&lt;p&gt;It actually turned quite different and clues were scattered around the web.&lt;/p&gt;
+&lt;p&gt;Here is what I expected to get at the end:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;users can authenticate by email. No username at all.&lt;/li&gt;
+&lt;li&gt;we should have individuals and professionals. We should also preserve system
+users such as admin accounts.&lt;/li&gt;
+&lt;li&gt;the &lt;em&gt;email&lt;/em&gt; must be unique. Though an individual can also have a professional
+account with the same &lt;em&gt;email&lt;/em&gt; address.&lt;/li&gt;
+&lt;li&gt;We should be able to retrieve an account with its specificities without
+knowing what kind of account it refers to. That means calling it by pk
+for instance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Email authentication&lt;/h3&gt;
+&lt;p&gt;A lot of ressources available on the web.&lt;/p&gt;
+&lt;div class=&#34;codehilite&#34;&gt;&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;django&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;db&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;django&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;contrib&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;auth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;models&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AbstractBaseUser&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BaseUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;AbstractBaseUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;email&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;EmailField&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;unique&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+    &lt;span class=&#34;n&#34;&gt;USERNAME_FIELD&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#39;email&amp;#39;&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;REQUIRED_FIELD&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;USERNAME_FIELD&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Extending BaseUser&lt;/h3&gt;
+&lt;p&gt;Let&#39;s make BaseUser abstract and write specific Users that extend it.&lt;/p&gt;
+&lt;div class=&#34;codehilite&#34;&gt;&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GenericUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BaseUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;pass&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Professional&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BaseUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;company&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CharField&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;max_length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;50&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;reference&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CharField&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;max_length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;10&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Individual&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BaseUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;models&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CharField&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;max_length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;100&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;A &lt;em&gt;GenericUser&lt;/em&gt; is a system user such as an administrator.
+settings.AUTH_USER_MODEL would refer to it.&lt;/p&gt;
+&lt;h3&gt;create_user and create_superuser&lt;/h3&gt;
+&lt;p&gt;As we&#39;re not using the default Django model, we lost these functionalities.
+We can reproduce them easily.&lt;/p&gt;
+&lt;div class=&#34;codehilite&#34;&gt;&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;django&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;contrib&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;auth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;models&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;AbstractBaseUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BaseUserManager&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;DjBaseUserManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BaseUserManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DjBaseUserManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;create_user&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;None&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;password&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;None&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;extra_fields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;now&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;timezone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;now&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;email&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BaseUserManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;normalize_email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;u&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GenericUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;is_superuser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;last_login&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;now&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;extra_fields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;set_password&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;password&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;save&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;using&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;_db&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;u&lt;/span&gt;
+
+    &lt;span class=&#34;n&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;create_superuser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;password&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;extra_fields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;u&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;create_user&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;email&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;password&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;extra_fields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;is_superuser&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;True&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;save&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;using&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;_db&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;u&lt;/span&gt;
+
+&lt;span class=&#34;n&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BaseUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;AbstractBaseUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;is_superuser&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;False&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;objects&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BaseUserManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+    …
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We also make BaseUser.is_superuser as a hardcoded field which is False
+by default.&lt;/p&gt;
+&lt;h3&gt;Call a User and get its matching subtype&lt;/h3&gt;
+&lt;p&gt;So far we can&#39;t call &lt;code&gt;SomeUser.objects.get(pk=1)&lt;/code&gt; and get the matching user with
+its properties.
+&lt;a href=&#34;https://github.com/carljm/django-model-utils#inheritancemanager&#34;&gt;Django model utils with InheritanceManager&lt;/a&gt;
+comes to the rescue.&lt;/p&gt;
+&lt;p&gt;As our BaseUser is abstract we cannot call &lt;code&gt;BaseUser.objects.get(pk=1)&lt;/code&gt;.
+We need to write an intermediate concrete table that we can call &lt;code&gt;objects&lt;/code&gt; on.&lt;/p&gt;
+&lt;p&gt;We also make BaseUserManager inherit from InheritanceManager.&lt;/p&gt;
+&lt;div class=&#34;codehilite&#34;&gt;&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BaseUserManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DjBaseUserManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;InheritanceManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    …
+
+&lt;span class=&#34;n&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;CallableUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;AbstractBaseUser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;objects&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BaseUserManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Ressources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The final models file with revisions (and their associated tests) is here:
+https://gist.github.com/vinyll/6103202&lt;/li&gt;
+&lt;li&gt;Django doc about model inheritance:
+https://docs.djangoproject.com/en/dev/topics/db/models/#multi-table-inheritance&lt;/li&gt;
+&lt;li&gt;django-model-utils: https://github.com/carljm/django-model-utils&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    </entry>
+    <entry xml:lang="fr">
         <title>Scrum ou pas ?</title>
         <link href="http://scopyleft.fr/blog/2013/scrum-ou-pas/" rel="alternate" type="text/html" />
         <updated>2013-07-24T00:00:00Z</updated>
         <id>http://scopyleft.fr/blog/2013/scrum-ou-pas/</id>
         <summary type="html">&lt;p&gt;Aujourd&#39;hui, j&#39;avance dans le doute, ça mélange les anciennes certitudes dans un joli précipité.&lt;/p&gt;
 &lt;p&gt;En essayant de se rapprocher de &lt;em&gt;Scrum&lt;/em&gt;, nous avons fait des choix et adopté des contraintes qui endommagent notre quête ; mais qui semblent inhérents à l&#39;orientation prise par le développement Web.&lt;/p&gt;
-&lt;h2&gt;Équipe multidisciplinaire ?&lt;/h2&gt;
+&lt;h3&gt;Équipe multidisciplinaire ?&lt;/h3&gt;
 &lt;p&gt;L&#39;équipe est rarement multi-disciplinaire. Nous travaillons volontiers avec des intégristes de l&#39;intégration, et respectons les préférences en laissant par exemple David déguster &lt;em&gt;JS&lt;/em&gt; à son rythme. C&#39;est handicapant pour attaquer les &lt;em&gt;Users Stories&lt;/em&gt; conjointement, mais ça nous semble coller à la nouvelle façon de construire le Web.&lt;/p&gt;
-&lt;h2&gt;100% dans le sprint ?&lt;/h2&gt;
+&lt;h3&gt;100% dans le sprint ?&lt;/h3&gt;
 &lt;p&gt;Dans nos balades, les développeurs sont rarement à plus de 80% et très souvent en dessous. Ils souhaitent souvent garder du temps pour d&#39;autres activités. Ça donne une drôle de tête aux &lt;em&gt;burndowns&lt;/em&gt;, mais on adore le confort que ça apporte.&lt;/p&gt;
-&lt;h2&gt;Communication en face à face ?&lt;/h2&gt;
+&lt;h3&gt;Communication en face à face ?&lt;/h3&gt;
 &lt;p&gt;On reconnait que ça endommage vraiment l&#39;émergence de pépites collaboratives, mais on admet que ce n&#39;est pas très facile de se retrouver dans la même salle. Et, finalement, on pense que ça ne va pas s&#39;arranger.&lt;/p&gt;
-&lt;h2&gt;Servant leader ?&lt;/h2&gt;
+&lt;h3&gt;Servant leader ?&lt;/h3&gt;
 &lt;p&gt;Aujourd&#39;hui, Stéphane le facilitateur considère que son rôle n&#39;est pas de supprimer les obstacles à l&#39;instar d&#39;un brosseur au curling. Il (Alain Delon) préfère exposer clairement les problèmes en aidant l&#39;équipe à faire émerger les solutions.&lt;/p&gt;
-&lt;h2&gt;Une PO expérimentée ?&lt;/h2&gt;
+&lt;h3&gt;Une PO expérimentée ?&lt;/h3&gt;
 &lt;p&gt;Le &lt;em&gt;Product-Owner&lt;/em&gt; est souvent débutant. Pas facile dans ces conditions d&#39;espérer construire un &lt;em&gt;backlog&lt;/em&gt; efficace. En six mois d&#39;activité, toutes les &lt;em&gt;PO&lt;/em&gt; ont été formées par nos soins et accompagnées par un simplificateur.&lt;/p&gt;
-&lt;h2&gt;Équipe auto-organisée ?&lt;/h2&gt;
+&lt;h3&gt;Équipe auto-organisée ?&lt;/h3&gt;
 &lt;p&gt;On commence souvent avec une équipe toute neuve sur un projet tout neuf qui ne va durer que quelques mois. L&#39;amélioration continue est difficile à envisager. À chaque démarrage, nous sommes obligés d&#39;apprendre à coopérer.&lt;/p&gt;
 &lt;p&gt;Dans ces conditions, pourquoi l&#39;équipe continue-t-elle à    s&#39;entêter pour conserver le cap sur &lt;em&gt;Scrum&lt;/em&gt; ? Pourquoi ne pas se rendre à l&#39;évidence et débrayer simplement sur &lt;em&gt;Scrumban&lt;/em&gt; ou &lt;em&gt;Kanban&lt;/em&gt; ?&lt;/p&gt;
 &lt;p&gt;Les préconisations de &lt;em&gt;Scrum&lt;/em&gt; fournissent un cadre de travail facile à comprendre et difficile à appliquer. Une petite liste de propositions recommandables et très apprenantes, un pédiluve qui nous encourage à faire des bombes sans trop salir la grande piscine de l&#39;Agilité.&lt;/p&gt;</summary>

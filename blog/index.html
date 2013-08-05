@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="alternate" type="application/rss+xml" href="/syndication/flux.atom" title="Blog Scopyleft (Atom)">
     <link rel="alternate" type="application/rss+xml" href="/syndication/flux.rss" title="Blog Scopyleft (RSS)">
-        <link rel="stylesheet" type="text/css" href="/static/packed.css?1374758448">
+        <link rel="stylesheet" type="text/css" href="/static/packed.css?1375693898">
     
 </head>
 <body class="blog">
@@ -35,23 +35,129 @@
 
     <section>
         <article class="blog-post">
+    <h2><a href="/blog/2013/django-model-advanced-user-inheritance/">Advanced Django user model inheritance</a></h2>
+    <aside>
+        <time datetime="2013-08-05">05/08/2013</time>
+    </aside>
+    <p>Recently I had to manage a few user types each having its own specificities with
+Django 1.5.
+Not a big deal in theory.</p>
+<p>It actually turned quite different and clues were scattered around the web.</p>
+<p>Here is what I expected to get at the end:</p>
+<ul>
+<li>users can authenticate by email. No username at all.</li>
+<li>we should have individuals and professionals. We should also preserve system
+users such as admin accounts.</li>
+<li>the <em>email</em> must be unique. Though an individual can also have a professional
+account with the same <em>email</em> address.</li>
+<li>We should be able to retrieve an account with its specificities without
+knowing what kind of account it refers to. That means calling it by pk
+for instance.</li>
+</ul>
+<h3>Email authentication</h3>
+<p>A lot of ressources available on the web.</p>
+<div class="codehilite"><pre><span class="n">from</span> <span class="n">django</span><span class="p">.</span><span class="n">db</span> <span class="n">import</span> <span class="n">models</span>
+<span class="n">from</span> <span class="n">django</span><span class="p">.</span><span class="n">contrib</span><span class="p">.</span><span class="n">auth</span><span class="p">.</span><span class="n">models</span> <span class="n">import</span> <span class="n">AbstractBaseUser</span>
+
+<span class="n">class</span> <span class="n">BaseUser</span><span class="p">(</span><span class="n">AbstractBaseUser</span><span class="p">):</span>
+    <span class="n">email</span> <span class="p">=</span> <span class="n">models</span><span class="p">.</span><span class="n">EmailField</span><span class="p">(</span><span class="n">unique</span><span class="p">=</span><span class="n">True</span><span class="p">)</span>
+
+    <span class="n">USERNAME_FIELD</span> <span class="p">=</span> <span class="s">&#39;email&#39;</span>
+    <span class="n">REQUIRED_FIELD</span> <span class="p">=</span> <span class="n">USERNAME_FIELD</span>
+</pre></div>
+
+
+<h3>Extending BaseUser</h3>
+<p>Let's make BaseUser abstract and write specific Users that extend it.</p>
+<div class="codehilite"><pre><span class="n">class</span> <span class="n">GenericUser</span><span class="p">(</span><span class="n">BaseUser</span><span class="p">):</span>
+    <span class="n">pass</span>
+
+<span class="n">class</span> <span class="n">Professional</span><span class="p">(</span><span class="n">BaseUser</span><span class="p">):</span>
+    <span class="n">company</span> <span class="p">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="p">=</span>50<span class="p">)</span>
+    <span class="n">reference</span> <span class="p">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="p">=</span>10<span class="p">)</span>
+
+<span class="n">class</span> <span class="n">Individual</span><span class="p">(</span><span class="n">BaseUser</span><span class="p">):</span>
+    <span class="n">name</span> <span class="p">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="p">=</span>100<span class="p">)</span>
+</pre></div>
+
+
+<p>A <em>GenericUser</em> is a system user such as an administrator.
+settings.AUTH_USER_MODEL would refer to it.</p>
+<h3>create_user and create_superuser</h3>
+<p>As we're not using the default Django model, we lost these functionalities.
+We can reproduce them easily.</p>
+<div class="codehilite"><pre><span class="n">from</span> <span class="n">django</span><span class="p">.</span><span class="n">contrib</span><span class="p">.</span><span class="n">auth</span><span class="p">.</span><span class="n">models</span> <span class="n">import</span> <span class="p">(</span><span class="n">AbstractBaseUser</span><span class="p">,</span> <span class="n">BaseUserManager</span> <span class="n">as</span> <span class="n">DjBaseUserManager</span><span class="p">)</span>
+
+<span class="n">class</span> <span class="n">BaseUserManager</span><span class="p">(</span><span class="n">DjBaseUserManager</span><span class="p">):</span>
+    <span class="n">def</span> <span class="n">create_user</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">email</span><span class="p">=</span><span class="n">None</span><span class="p">,</span> <span class="n">password</span><span class="p">=</span><span class="n">None</span><span class="p">,</span> <span class="o">**</span><span class="n">extra_fields</span><span class="p">):</span>
+        <span class="n">now</span> <span class="p">=</span> <span class="n">timezone</span><span class="p">.</span><span class="n">now</span><span class="p">()</span>
+        <span class="n">email</span> <span class="p">=</span> <span class="n">BaseUserManager</span><span class="p">.</span><span class="n">normalize_email</span><span class="p">(</span><span class="n">email</span><span class="p">)</span>
+        <span class="n">u</span> <span class="p">=</span> <span class="n">GenericUser</span><span class="p">(</span><span class="n">email</span><span class="p">=</span><span class="n">email</span><span class="p">,</span> <span class="n">is_superuser</span><span class="p">=</span><span class="n">False</span><span class="p">,</span> <span class="n">last_login</span><span class="p">=</span><span class="n">now</span><span class="p">,</span> <span class="o">**</span><span class="n">extra_fields</span><span class="p">)</span>
+        <span class="n">u</span><span class="p">.</span><span class="n">set_password</span><span class="p">(</span><span class="n">password</span><span class="p">)</span>
+        <span class="n">u</span><span class="p">.</span><span class="n">save</span><span class="p">(</span><span class="n">using</span><span class="p">=</span><span class="n">self</span><span class="p">.</span><span class="n">_db</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">u</span>
+
+    <span class="n">def</span> <span class="n">create_superuser</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">email</span><span class="p">,</span> <span class="n">password</span><span class="p">,</span> <span class="o">**</span><span class="n">extra_fields</span><span class="p">):</span>
+        <span class="n">u</span> <span class="p">=</span> <span class="n">self</span><span class="p">.</span><span class="n">create_user</span><span class="p">(</span><span class="n">email</span><span class="p">,</span> <span class="n">password</span><span class="p">,</span> <span class="o">**</span><span class="n">extra_fields</span><span class="p">)</span>
+        <span class="n">u</span><span class="p">.</span><span class="n">is_superuser</span> <span class="p">=</span> <span class="n">True</span>
+        <span class="n">u</span><span class="p">.</span><span class="n">save</span><span class="p">(</span><span class="n">using</span><span class="p">=</span><span class="n">self</span><span class="p">.</span><span class="n">_db</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">u</span>
+
+<span class="n">class</span> <span class="n">BaseUser</span><span class="p">(</span><span class="n">AbstractBaseUser</span><span class="p">):</span>
+    <span class="n">is_superuser</span> <span class="p">=</span> <span class="n">False</span>
+    <span class="n">objects</span> <span class="p">=</span> <span class="n">BaseUserManager</span><span class="p">()</span>
+    …
+</pre></div>
+
+
+<p>We also make BaseUser.is_superuser as a hardcoded field which is False
+by default.</p>
+<h3>Call a User and get its matching subtype</h3>
+<p>So far we can't call <code>SomeUser.objects.get(pk=1)</code> and get the matching user with
+its properties.
+<a href="https://github.com/carljm/django-model-utils#inheritancemanager">Django model utils with InheritanceManager</a>
+comes to the rescue.</p>
+<p>As our BaseUser is abstract we cannot call <code>BaseUser.objects.get(pk=1)</code>.
+We need to write an intermediate concrete table that we can call <code>objects</code> on.</p>
+<p>We also make BaseUserManager inherit from InheritanceManager.</p>
+<div class="codehilite"><pre><span class="n">class</span> <span class="n">BaseUserManager</span><span class="p">(</span><span class="n">DjBaseUserManager</span><span class="p">,</span> <span class="n">InheritanceManager</span><span class="p">):</span>
+    …
+
+<span class="n">class</span> <span class="n">CallableUser</span><span class="p">(</span><span class="n">AbstractBaseUser</span><span class="p">):</span>
+    <span class="n">objects</span> <span class="p">=</span> <span class="n">BaseUserManager</span><span class="p">()</span>
+</pre></div>
+
+
+<h3>Ressources</h3>
+<ul>
+<li>The final models file with revisions (and their associated tests) is here:
+https://gist.github.com/vinyll/6103202</li>
+<li>Django doc about model inheritance:
+https://docs.djangoproject.com/en/dev/topics/db/models/#multi-table-inheritance</li>
+<li>django-model-utils: https://github.com/carljm/django-model-utils</li>
+</ul>
+</article>
+    </section>
+
+    <section>
+        <article class="blog-post">
     <h2><a href="/blog/2013/scrum-ou-pas/">Scrum ou pas ?</a></h2>
     <aside>
         <time datetime="2013-07-24">24/07/2013</time>
     </aside>
     <p>Aujourd'hui, j'avance dans le doute, ça mélange les anciennes certitudes dans un joli précipité.</p>
 <p>En essayant de se rapprocher de <em>Scrum</em>, nous avons fait des choix et adopté des contraintes qui endommagent notre quête ; mais qui semblent inhérents à l'orientation prise par le développement Web.</p>
-<h2>Équipe multidisciplinaire ?</h2>
+<h3>Équipe multidisciplinaire ?</h3>
 <p>L'équipe est rarement multi-disciplinaire. Nous travaillons volontiers avec des intégristes de l'intégration, et respectons les préférences en laissant par exemple David déguster <em>JS</em> à son rythme. C'est handicapant pour attaquer les <em>Users Stories</em> conjointement, mais ça nous semble coller à la nouvelle façon de construire le Web.</p>
-<h2>100% dans le sprint ?</h2>
+<h3>100% dans le sprint ?</h3>
 <p>Dans nos balades, les développeurs sont rarement à plus de 80% et très souvent en dessous. Ils souhaitent souvent garder du temps pour d'autres activités. Ça donne une drôle de tête aux <em>burndowns</em>, mais on adore le confort que ça apporte.</p>
-<h2>Communication en face à face ?</h2>
+<h3>Communication en face à face ?</h3>
 <p>On reconnait que ça endommage vraiment l'émergence de pépites collaboratives, mais on admet que ce n'est pas très facile de se retrouver dans la même salle. Et, finalement, on pense que ça ne va pas s'arranger.</p>
-<h2>Servant leader ?</h2>
+<h3>Servant leader ?</h3>
 <p>Aujourd'hui, Stéphane le facilitateur considère que son rôle n'est pas de supprimer les obstacles à l'instar d'un brosseur au curling. Il (Alain Delon) préfère exposer clairement les problèmes en aidant l'équipe à faire émerger les solutions.</p>
-<h2>Une PO expérimentée ?</h2>
+<h3>Une PO expérimentée ?</h3>
 <p>Le <em>Product-Owner</em> est souvent débutant. Pas facile dans ces conditions d'espérer construire un <em>backlog</em> efficace. En six mois d'activité, toutes les <em>PO</em> ont été formées par nos soins et accompagnées par un simplificateur.</p>
-<h2>Équipe auto-organisée ?</h2>
+<h3>Équipe auto-organisée ?</h3>
 <p>On commence souvent avec une équipe toute neuve sur un projet tout neuf qui ne va durer que quelques mois. L'amélioration continue est difficile à envisager. À chaque démarrage, nous sommes obligés d'apprendre à coopérer.</p>
 <p>Dans ces conditions, pourquoi l'équipe continue-t-elle à    s'entêter pour conserver le cap sur <em>Scrum</em> ? Pourquoi ne pas se rendre à l'évidence et débrayer simplement sur <em>Scrumban</em> ou <em>Kanban</em> ?</p>
 <p>Les préconisations de <em>Scrum</em> fournissent un cadre de travail facile à comprendre et difficile à appliquer. Une petite liste de propositions recommandables et très apprenantes, un pédiluve qui nous encourage à faire des bombes sans trop salir la grande piscine de l'Agilité.</p>

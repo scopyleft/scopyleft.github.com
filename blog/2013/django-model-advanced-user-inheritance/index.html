@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Advanced Django user model inheritance | Blog | scopyleft</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="scopyleft accompagne vos projets Web dans une démarche de qualité">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="alternate" type="application/rss+xml" href="/syndication/flux.atom" title="Blog Scopyleft (Atom)">
+    <link rel="alternate" type="application/rss+xml" href="/syndication/flux.rss" title="Blog Scopyleft (RSS)">
+        <link rel="stylesheet" type="text/css" href="/static/packed.css?1375693898">
+    
+</head>
+<body class="blog">
+    <a id="top"></a>
+    <nav><p>
+    <a href="/">accueil</a>
+    &#8226;
+    <a href="/blog/">blog</a>
+    &#8226;
+    <a href="/formation/">formations</a>
+    &#8226;
+    <a href="#contact">contact</a>
+    &#8226;
+    <a href="/en/">English</a>
+</p></nav>
+    <header>
+        
+    <h1 class="logo">scopyleft</h1>
+    <h2 class="subtitle"><a href="/blog/">le blog</a></h2>
+
+    </header>
+
+    <div class="main">
+    <article class="blog-post">
+    <h2><a href="/blog/2013/django-model-advanced-user-inheritance/">Advanced Django user model inheritance</a></h2>
+    <aside>
+        <time datetime="2013-08-05">05/08/2013</time>
+    </aside>
+    <p>Recently I had to manage a few user types each having its own specificities with
+Django 1.5.
+Not a big deal in theory.</p>
+<p>It actually turned quite different and clues were scattered around the web.</p>
+<p>Here is what I expected to get at the end:</p>
+<ul>
+<li>users can authenticate by email. No username at all.</li>
+<li>we should have individuals and professionals. We should also preserve system
+users such as admin accounts.</li>
+<li>the <em>email</em> must be unique. Though an individual can also have a professional
+account with the same <em>email</em> address.</li>
+<li>We should be able to retrieve an account with its specificities without
+knowing what kind of account it refers to. That means calling it by pk
+for instance.</li>
+</ul>
+<h3>Email authentication</h3>
+<p>A lot of ressources available on the web.</p>
+<div class="codehilite"><pre><span class="n">from</span> <span class="n">django</span><span class="p">.</span><span class="n">db</span> <span class="n">import</span> <span class="n">models</span>
+<span class="n">from</span> <span class="n">django</span><span class="p">.</span><span class="n">contrib</span><span class="p">.</span><span class="n">auth</span><span class="p">.</span><span class="n">models</span> <span class="n">import</span> <span class="n">AbstractBaseUser</span>
+
+<span class="n">class</span> <span class="n">BaseUser</span><span class="p">(</span><span class="n">AbstractBaseUser</span><span class="p">):</span>
+    <span class="n">email</span> <span class="p">=</span> <span class="n">models</span><span class="p">.</span><span class="n">EmailField</span><span class="p">(</span><span class="n">unique</span><span class="p">=</span><span class="n">True</span><span class="p">)</span>
+
+    <span class="n">USERNAME_FIELD</span> <span class="p">=</span> <span class="s">&#39;email&#39;</span>
+    <span class="n">REQUIRED_FIELD</span> <span class="p">=</span> <span class="n">USERNAME_FIELD</span>
+</pre></div>
+
+
+<h3>Extending BaseUser</h3>
+<p>Let's make BaseUser abstract and write specific Users that extend it.</p>
+<div class="codehilite"><pre><span class="n">class</span> <span class="n">GenericUser</span><span class="p">(</span><span class="n">BaseUser</span><span class="p">):</span>
+    <span class="n">pass</span>
+
+<span class="n">class</span> <span class="n">Professional</span><span class="p">(</span><span class="n">BaseUser</span><span class="p">):</span>
+    <span class="n">company</span> <span class="p">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="p">=</span>50<span class="p">)</span>
+    <span class="n">reference</span> <span class="p">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="p">=</span>10<span class="p">)</span>
+
+<span class="n">class</span> <span class="n">Individual</span><span class="p">(</span><span class="n">BaseUser</span><span class="p">):</span>
+    <span class="n">name</span> <span class="p">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="p">=</span>100<span class="p">)</span>
+</pre></div>
+
+
+<p>A <em>GenericUser</em> is a system user such as an administrator.
+settings.AUTH_USER_MODEL would refer to it.</p>
+<h3>create_user and create_superuser</h3>
+<p>As we're not using the default Django model, we lost these functionalities.
+We can reproduce them easily.</p>
+<div class="codehilite"><pre><span class="n">from</span> <span class="n">django</span><span class="p">.</span><span class="n">contrib</span><span class="p">.</span><span class="n">auth</span><span class="p">.</span><span class="n">models</span> <span class="n">import</span> <span class="p">(</span><span class="n">AbstractBaseUser</span><span class="p">,</span> <span class="n">BaseUserManager</span> <span class="n">as</span> <span class="n">DjBaseUserManager</span><span class="p">)</span>
+
+<span class="n">class</span> <span class="n">BaseUserManager</span><span class="p">(</span><span class="n">DjBaseUserManager</span><span class="p">):</span>
+    <span class="n">def</span> <span class="n">create_user</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">email</span><span class="p">=</span><span class="n">None</span><span class="p">,</span> <span class="n">password</span><span class="p">=</span><span class="n">None</span><span class="p">,</span> <span class="o">**</span><span class="n">extra_fields</span><span class="p">):</span>
+        <span class="n">now</span> <span class="p">=</span> <span class="n">timezone</span><span class="p">.</span><span class="n">now</span><span class="p">()</span>
+        <span class="n">email</span> <span class="p">=</span> <span class="n">BaseUserManager</span><span class="p">.</span><span class="n">normalize_email</span><span class="p">(</span><span class="n">email</span><span class="p">)</span>
+        <span class="n">u</span> <span class="p">=</span> <span class="n">GenericUser</span><span class="p">(</span><span class="n">email</span><span class="p">=</span><span class="n">email</span><span class="p">,</span> <span class="n">is_superuser</span><span class="p">=</span><span class="n">False</span><span class="p">,</span> <span class="n">last_login</span><span class="p">=</span><span class="n">now</span><span class="p">,</span> <span class="o">**</span><span class="n">extra_fields</span><span class="p">)</span>
+        <span class="n">u</span><span class="p">.</span><span class="n">set_password</span><span class="p">(</span><span class="n">password</span><span class="p">)</span>
+        <span class="n">u</span><span class="p">.</span><span class="n">save</span><span class="p">(</span><span class="n">using</span><span class="p">=</span><span class="n">self</span><span class="p">.</span><span class="n">_db</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">u</span>
+
+    <span class="n">def</span> <span class="n">create_superuser</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">email</span><span class="p">,</span> <span class="n">password</span><span class="p">,</span> <span class="o">**</span><span class="n">extra_fields</span><span class="p">):</span>
+        <span class="n">u</span> <span class="p">=</span> <span class="n">self</span><span class="p">.</span><span class="n">create_user</span><span class="p">(</span><span class="n">email</span><span class="p">,</span> <span class="n">password</span><span class="p">,</span> <span class="o">**</span><span class="n">extra_fields</span><span class="p">)</span>
+        <span class="n">u</span><span class="p">.</span><span class="n">is_superuser</span> <span class="p">=</span> <span class="n">True</span>
+        <span class="n">u</span><span class="p">.</span><span class="n">save</span><span class="p">(</span><span class="n">using</span><span class="p">=</span><span class="n">self</span><span class="p">.</span><span class="n">_db</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">u</span>
+
+<span class="n">class</span> <span class="n">BaseUser</span><span class="p">(</span><span class="n">AbstractBaseUser</span><span class="p">):</span>
+    <span class="n">is_superuser</span> <span class="p">=</span> <span class="n">False</span>
+    <span class="n">objects</span> <span class="p">=</span> <span class="n">BaseUserManager</span><span class="p">()</span>
+    …
+</pre></div>
+
+
+<p>We also make BaseUser.is_superuser as a hardcoded field which is False
+by default.</p>
+<h3>Call a User and get its matching subtype</h3>
+<p>So far we can't call <code>SomeUser.objects.get(pk=1)</code> and get the matching user with
+its properties.
+<a href="https://github.com/carljm/django-model-utils#inheritancemanager">Django model utils with InheritanceManager</a>
+comes to the rescue.</p>
+<p>As our BaseUser is abstract we cannot call <code>BaseUser.objects.get(pk=1)</code>.
+We need to write an intermediate concrete table that we can call <code>objects</code> on.</p>
+<p>We also make BaseUserManager inherit from InheritanceManager.</p>
+<div class="codehilite"><pre><span class="n">class</span> <span class="n">BaseUserManager</span><span class="p">(</span><span class="n">DjBaseUserManager</span><span class="p">,</span> <span class="n">InheritanceManager</span><span class="p">):</span>
+    …
+
+<span class="n">class</span> <span class="n">CallableUser</span><span class="p">(</span><span class="n">AbstractBaseUser</span><span class="p">):</span>
+    <span class="n">objects</span> <span class="p">=</span> <span class="n">BaseUserManager</span><span class="p">()</span>
+</pre></div>
+
+
+<h3>Ressources</h3>
+<ul>
+<li>The final models file with revisions (and their associated tests) is here:
+https://gist.github.com/vinyll/6103202</li>
+<li>Django doc about model inheritance:
+https://docs.djangoproject.com/en/dev/topics/db/models/#multi-table-inheritance</li>
+<li>django-model-utils: https://github.com/carljm/django-model-utils</li>
+</ul>
+</article>
+</div>
+
+    <footer>
+        
+        <h2 class="contactez-nous"><a id="contact"></a>Contact</h2>
+        <p class="center">
+            Par <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
+            sur <a href="https://twitter.com/scopyleft">twitter</a>
+            ou par téléphone au <a href="tel:+33611782563">06 11 78 25 63</a> (Stéphane).</p>
+        <hr /><blockquote>
+            <q>Travailler entre humains, sur des projets éthiques et intéressants,
+            tout en privilégiant le bien-être et le plaisir de chacun.</q>
+        </blockquote><hr>
+        <nav><p>
+    <a href="/">accueil</a>
+    &#8226;
+    <a href="/blog/">blog</a>
+    &#8226;
+    <a href="/formation/">formations</a>
+    &#8226;
+    <a href="#contact">contact</a>
+    &#8226;
+    <a href="/en/">English</a>
+</p></nav>
+        
+    </footer>
+    
+</body>
+</html>
