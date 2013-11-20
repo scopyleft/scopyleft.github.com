@@ -93,4 +93,7 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
   <li><img src="/static/images/david-larlet.jpg" alt="Avatar David">
     <a href="https://larlet.fr/david/">David <q>biologeek</q> Larlet</a>
   </li>
+  <li><img src="/static/images/elodie-deschamps.jpg" alt="Avatar Élodie">
+    <a href="m&#x61;ilto:elodie.deschamps%40scopyleft&#46;fr">Élodie Deschamps</a>
+  </li>
 </ul>
