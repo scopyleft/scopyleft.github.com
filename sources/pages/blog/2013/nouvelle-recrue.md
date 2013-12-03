@@ -6,7 +6,7 @@ Entre le 1er avril et début septembre, trois des développeurs de scopyleft ont
 
 Au démarrage nous tenions beaucoup à partager les tâches, même les moins passionnantes. Nous avions été labellisés *intégristes de la collaboration* en refusant l'invitation du délégué SCOP à devenir plus raisonnables sur la co-gérance que nous envisagions à 4. Pour Denis, il y avait certainement **un seul** gérant naturel au sein de scopyleft, nous devions identifier la bête, la nommer et lui refiler la gamelle de *gérance*.
 
-Si la disponibilité de chacun passait à 75 ou 80%, nous pourrions envisagez de s'octroyer des moments de partage. Mais comment construire une culture et gouvernance collaborative avec une équipe focalisée à 99% ? Adieu _scopylabs_ et autres _scopyfuns_, comment maintenir une dynamique d'équipe ?
+Si la disponibilité de chacun passait à 75 ou 80%, nous pourrions envisager de s'octroyer des moments de partage. Mais comment construire une culture et gouvernance collaborative avec une équipe focalisée à 99% ? Adieu _scopylabs_ et autres _scopyfuns_, comment maintenir une dynamique d'équipe ?
 
 Stéphane le facilitateur de scopyleft impulse l'idée de recruter un nouveau membre afin de lui filer la patte sur la gérance, le stratif, et le commercial et aussi sur d'autres missions si la nouvelle recrue souhaite se former à l'agilité. L'idée est d'embaucher quelqu'un pour jardiner — à deux dans un premier temps — et ouvrir un nouveau potager.
 
