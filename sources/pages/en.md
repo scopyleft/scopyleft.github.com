@@ -1,3 +1,5 @@
+title: Home
+
 ## <a id="manifesto"></a>Manifesto
 
 <dl class="valeurs tbl">
@@ -43,5 +45,8 @@ In a general way we aim to preserve collaborative, equal and peaceful exchanges 
   </li>
   <li><img src="/static/images/david-larlet.jpg" alt="Avatar David">
     <a href="https://larlet.fr/david/">David Larlet as <q>biologeek</q></a>
+  </li>
+  <li><img src="/static/images/elodie-deschamps.jpg" alt="Avatar Élodie">
+    <a href="m&#x61;ilto:elodie.deschamps%40scopyleft&#46;fr">Élodie Deschamps</a>
   </li>
 </ul>
