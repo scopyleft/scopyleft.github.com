@@ -168,8 +168,21 @@ footer blockquote {
         text-align: right;
     }
 
-footer p, nav p {
+footer {
     text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+nav li {
+    display: inline;
+}
+nav li:not(:first-child):before {
+    content: "•";
+}
+nav a {
+    margin-left: 5px;
 }
 
 /* blog */

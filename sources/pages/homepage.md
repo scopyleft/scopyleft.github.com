@@ -6,22 +6,22 @@ est une coopérative qui vous accompagne dans la conception et la réalisation d
 ## <a id="manifeste"></a>Manifeste
 
 <dl class="valeurs tbl">
-  <dt><a id="honneteté"></a>Honnêteté</dt>
+  <dt id="honneteté">Honnêteté</dt>
   <dd>On dit ce que l’on pense, on fait ce que l’on dit et on n'essaye pas de <em><a href="/honnetete/">faire les malins</a></em>.</dd>
 
-  <dt><a id="respect"></a>Respect</dt>
+  <dt id="respect">Respect</dt>
   <dd>On fait confiance à nos interlocuteurs par défaut, et on demande la réciproque.</dd>
 
-  <dt><a id="courage"></a>Courage</dt>
+  <dt id="courage">Courage</dt>
   <dd>On assume notre éthique, nos succès, nos doutes et nos échecs. Mieux, on les partage avec vous.</dd>
 
-  <dt><a id="bien-être"></a>Bien-être</dt>
+  <dt id="bien-être">Bien-être</dt>
   <dd>On abhorre le stress. On croit que le plaisir est un <a href="/bien-etre/">facteur essentiel d’équilibre et de réussite</a>.</dd>
 
-  <dt><a id="partage"></a>Partage</dt>
+  <dt id="partage">Partage</dt>
   <dd>On croit que la générosité et l’Open Source sont facteurs de progrès social et économique. Si si.</dd>
 
-  <dt><a id="transparence"></a>Transparence</dt>
+  <dt id="transparence">Transparence</dt>
   <dd>On ne vous cache <a href="https://github.com/scopyleft" title="Compte github Scopyleft">rien</a>, pas même <a href="https://docs.google.com/a/scopyleft.fr/spreadsheet/ccc?key=0AmS-h9mmH7UCdGsybWV4VGpZVG1SNGpjVFlTd3lCT1E#gid=3">la compta</a>. On vous dit <a href="/transparence/">pourquoi</a>.</dd>
 </dl>
 
@@ -78,20 +78,20 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
   <dd>R: Non.</dd>
 </dl>
 
-## <a id="notre-equipe"></a>Le ScopyCrew
+<h2 id="notre-equipe">Le ScopyCrew</h2>
 
 <ul class="equipe">
   <li><img src="/static/images/nicolas-perriault.jpg" alt="Avatar Nicolas">
-    <a href="https://nicolas.perriault.net/">Nicolas <q>n1k0</q> Perriault</a>
+    <a href="https://nicolas.perriault.net/">Nicolas Perriault as <q>n1k0</q></a>
   </li>
   <li><img src="/static/images/vincent-agnano.jpg" alt="Avatar Vincent">
-    <a href="http://vinyll.github.com/">Vincent <q>vinyll</q> Agnano</a>
+    <a href="http://vinyll.github.com/">Vincent Agnano as <q>vinyll</q></a>
   </li>
   <li><img src="/static/images/stephane-langlois.png" alt="Avatar Stéphane">
-    <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane <q>pointbar</q> Langlois</a>
+    <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane Langlois as <q>pointbar</q></a>
   </li>
   <li><img src="/static/images/david-larlet.jpg" alt="Avatar David">
-    <a href="https://larlet.fr/david/">David <q>biologeek</q> Larlet</a>
+    <a href="https://larlet.fr/david/">David Larlet as <q>biologeek</q></a>
   </li>
   <li><img src="/static/images/elodie-deschamps.jpg" alt="Avatar Élodie">
     <a href="m&#x61;ilto:elodie.deschamps%40scopyleft&#46;fr">Élodie Deschamps</a>
