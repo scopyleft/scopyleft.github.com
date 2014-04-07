@@ -132,6 +132,10 @@ ul {
         padding: 13px 0 0 56px;
     }
 
+.equipe + * {
+    clear: both;
+}
+
 .contactez-nous {
     clear: both;
 }

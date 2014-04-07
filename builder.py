@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-"""XXX: expliquer pourquoi c'est publiquement accessible en HTTP sur github"""
-
 import locale
 import os
 import sys
@@ -104,8 +102,8 @@ def feed_rss():
 def page(path):
     if path.startswith('blog'):
         template = 'post.html'
-    elif path.startswith('en'):
-        template = 'page_en.html'
+    elif path in ('en', 'it'):
+        template = 'page_language.html'
     else:
         template = 'page.html'
     return render_template(template, page=pages.get_or_404(path))
