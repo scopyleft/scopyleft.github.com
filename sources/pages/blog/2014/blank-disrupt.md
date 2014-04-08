@@ -7,7 +7,7 @@ Take a minute to think of "What is a chair?".
 Most people have concepts like "a place to sit", "a furniture around a table", "an artwork", …
 What if you think of it as "an item to lift your bottom off the floor"? Don't you feel like you could open up to a whole new way to think and design? That's actually what does happen.
 
-End of March the [Blank Disrupt](blankfactory.org/blankdisrupt/) conference took place in Catania (Sicilia).
+End of March the [Blank Disrupt](http://blankfactory.org/blankdisrupt/) conference took place in Catania (Sicilia).
 Each topic was somehow about disruptive innovation. The idea was to bring new ways to think of how to deal with your daily life and work in a totally different way. An innovative disrupted way.
 
 
