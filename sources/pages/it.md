@@ -1,5 +1,5 @@
 title: Home
-quote: Lavorare tra Umani, in progetti etici e interessanti, pur mantenendo il benessere
+quote: Lavorare tra Umani, su progetti etici e interessanti, ne mantenendo il benessere
 
 
 ## <a id="manifesto"></a>Manifesto
@@ -9,7 +9,7 @@ quote: Lavorare tra Umani, in progetti etici e interessanti, pur mantenendo il b
   <dd>Diciamo quel che pensiamo, facciamo quel che diciamo. Non barare.</dd>
 
   <dt id="rispetto">Rispetto</dt>
-  <dd>Ci fidiamo dei nostri interlocutore e chiediamo la pariglia.</dd>
+  <dd>Ci fidiamo dei nostri interlocutori e chiediamo la pariglia.</dd>
 
   <dt id="coraggio">Coraggio</dt>
   <dd>Assumiamo la nostra etica, i nostri successi, i nostri dubbi e fallimenti. Meglio, li condividiamo con voi.</dd>
@@ -18,7 +18,7 @@ quote: Lavorare tra Umani, in progetti etici e interessanti, pur mantenendo il b
   <dd>Crediamo che il benessere sia un fattore maggiore di successo.</dd>
 
   <dt id="divisione">Divisione</dt>
-  <dd>Crediamo che la condivisione e l'open source siano fattori di crescità sociale.</dd>
+  <dd>Crediamo che lo spartizione e l'open source siano fattori di crescità sociale.</dd>
 </dl>
 
 ---
@@ -28,16 +28,16 @@ quote: Lavorare tra Umani, in progetti etici e interessanti, pur mantenendo il b
 Siamo developers e protagonisti Aglie riuniti in una cooperativa.
 Usiamo e partecipiamo in open source.
 
-Sappiamo come costruire applicazioni web e mobile che funzionano bene.
-Amiamo il bel codice e sentirse utili con progetti che lo sono anche loro.
+Sappiamo come costruire applicazioni web e mobili che funzionano bene.
+Ci piacciono il bel codice e sentirse utili con progetti che sono anche utili.
 
-Organizziamo seminari tecnici e sulle metodi per condividere le nostre conoscenze su cose interessanti e utili come Scrum, Kanban, Python, Django, HTML5 o web pratiche.
+Organizziamo seminari tecnici e metodi per condividere le nostre conoscenze sulle cose interessanti e giovevoli come Scrum, Kanban, Python, Django, HTML5 o web pratiche.
 
 Possiamo anche aiutarvi a mettere le cose complesse a posto.
-Ma vedremo insieme se c'è qualche soluzione per mantenere le cose semplici e concentrate sul loro valore essenziale.
+Ma vedremo insieme se esiste una soluzione per mantenere le cose semplici e centrate sul valore essenziale.
 * We may also help you out putting complex things in place. But we'll see together if there's some workaround to keep it simple and focused on its essential value.
 
-In termini generali, il nostro scopo è di preservare rapporti collaborativi, equi e pacifici e mantenerli a lungo.
+In generale, lo nostro scopo è di preservare rapporti collaborativi, equi e pacifici e mantenerli a lungo.
 
 ## <span id="our-team">La nostra squadra</span>
 
