@@ -5,13 +5,35 @@
     <link href="http://scopyleft.fr/" rel="alternate" type="text/html"/>
     <link href="http://scopyleft.fr/syndication/flux.atom" rel="self"/>
     <id>http://scopyleft.fr/</id>
-    <updated>2014-04-07T00:00:00Z</updated>
+    <updated>2014-04-08T00:00:00Z</updated>
     <author>
         <name>scopyleft</name>
         <uri>http://scopyleft.fr/</uri>
     </author>
     <rights>Copyright (c) 2013, scopyleft</rights>
 
+    <entry xml:lang="fr">
+        <title>Blank Disrupt or how to make things different</title>
+        <link href="http://scopyleft.fr/blog/2014/blank-disrupt/" rel="alternate" type="text/html" />
+        <updated>2014-04-08T00:00:00Z</updated>
+        <id>http://scopyleft.fr/blog/2014/blank-disrupt/</id>
+        <summary type="html">&lt;p&gt;Take a minute to think of &#34;What is a chair?&#34;.
+Most people have concepts like &#34;a place to sit&#34;, &#34;a furniture around a table&#34;, &#34;an artwork&#34;, …
+What if you think of it as &#34;an item to lift your bottom off the floor&#34;? Don&#39;t you feel like you could open up to a whole new way to think and design? That&#39;s actually what does happen.&lt;/p&gt;
+&lt;p&gt;End of March the &lt;a href=&#34;blankfactory.org/blankdisrupt/&#34;&gt;Blank Disrupt&lt;/a&gt; conference took place in Catania (Sicilia).
+Each topic was somehow about disruptive innovation. The idea was to bring new ways to think of how to deal with your daily life and work in a totally different way. An innovative disrupted way.&lt;/p&gt;
+&lt;h3&gt;All about people&lt;/h3&gt;
+&lt;p&gt;It was all about ideas, projects and on top of all, people.&lt;/p&gt;
+&lt;p&gt;Jacopo Romei was talking about flat collaborative enterprises and &#34;Liquid organisations&#34;.
+He&#39;s a member of the &lt;em&gt;value driven innovation&lt;/em&gt; &lt;a href=&#34;http://cocoonprojects.com&#34;&gt;Cocoon Project&lt;/a&gt;.
+He also  make us discover his acapella band http://www.anonimarmonisti.com.
+We will see him again at his &lt;a href=&#34;http://rome.codemotionworld.com/2014/workshop/from-tdd-to-kanban-board-one-day-through-agile-development/&#34;&gt;&#34;From TDD to kanban&#34; session&lt;/a&gt; next thursday.&lt;/p&gt;
+&lt;p&gt;Ralph Weickel mentioned all those best tips to open up actively to disruptive changes like drawing while you talk, read biography of people you&#39;d never read, run &#34;what if…&#34; sessions.&lt;/p&gt;
+&lt;p&gt;Salvatore Di Dio - from &lt;a href=&#34;http://www.wepush.org/&#34;&gt;Push&lt;/a&gt; - presented &lt;a href=&#34;http://www.traffico2.com/en&#34;&gt;Traffic O2&lt;/a&gt; to improve &lt;a href=&#34;http://en.wikipedia.org/wiki/Sustainable_city&#34;&gt;urban sustainability&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Claudia and Vincenzo Di Maria were introducing &#34;Design for the real world&#34;. They told us about the &lt;a href=&#34;http://www.impacthub.net/&#34;&gt;Impact Hub&lt;/a&gt; network, ideas like &lt;a href=&#34;http://siracusa.impacthub.net/en/experience-sicily/&#34;&gt;welcoming Digital Nomads&lt;/a&gt; and the inspired the intro above.&lt;/p&gt;
+&lt;p&gt;We were invited to read more about &lt;a href=&#34;http://en.wikipedia.org/wiki/Victor_Papanek&#34;&gt;Victor Papanek&lt;/a&gt;, listen to &lt;a href=&#34;http://www.kingsofconvenience.org&#34;&gt;Kings of Convenience&lt;/a&gt;, discover the &lt;a href=&#34;http://www.changemakersforward.com/&#34;&gt;Change Makers Project&lt;/a&gt;. We left with a bunch of ideas and human exchanges.&lt;/p&gt;
+&lt;p&gt;We were so excited to meet that community that we set a &lt;a href=&#34;http://scopyleft.fr/it/&#34;&gt;homepage in Italian&lt;/a&gt;.&lt;/p&gt;</summary>
+    </entry>
     <entry xml:lang="fr">
         <title>Nouvelle recrue</title>
         <link href="http://scopyleft.fr/blog/2013/nouvelle-recrue/" rel="alternate" type="text/html" />
