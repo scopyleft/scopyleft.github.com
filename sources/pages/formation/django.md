@@ -1,4 +1,4 @@
-title: Formation Django, 1 à 3 journée(s)
+title: Formation Django, 1 à 4 journée(s)
 body_class: formation
 
 ## Formation Django
@@ -12,11 +12,11 @@ body_class: formation
 
 <dl class="tbl">
     <dt>Durée</dt>
-    <dd>1 à 4 jours (en fonction des besoins)</dd>
+    <dd>3 jours (en fonction des besoins)</dd>
     <dt>Formateur(s)</dt>
-    <dd><a href="https://larlet.fr/david/">David Larlet</a> et <a href="https://nicolas.perriault.net/">Nicolas Perriault</a></dd>
+    <dd><a href="https://larlet.fr/david/">David Larlet</a> et <a href="https://vinyll.scopyet.fr">Vincent Agnano</a></dd>
     <dt>Version</dt>
-    <dd>Formation sur la version 1.5 de Django</dd>
+    <dd>Formation sur la version 1.6 de Django</dd>
     <dt>Niveau</dt>
     <dd>Formation de <a href="https://fr.wikipedia.org/wiki/Nomenclature_des_niveaux_de_formation_en_France#Niveau_V_2">niveau V</a></dd>
     <dt>Modalités</dt>
@@ -39,29 +39,27 @@ body_class: formation
 - Jour 1 : connaissance élémentaire du langage [Python](http://www.python.org/)
 - Jour 2 : connaissance élémentaire de Django
 - Jour 3 : avoir mis en production un premier projet Django
-- Jour 4 : avoir mis en production plusieurs projets Django
 
 ## Programme
 
 ### Jour 1 - Découverte
 
 * Installation de Django et environnements Python
+* Structure d'un projet Django
 * Réalisation d'une première application
-* Spécificités et limites du framework
 * Gestion des fichiers statiques
-* Déploiement sur un serveur de recette
 
 ### Jour 2 - Confirmation
 
-* Structure d'un projet Django
+* Spécificités et limites du framework
 * Architecture et modélisation
 * Héritage des templates
 * Vues basées sur les classes
 * Formulaires et validation
 * Requêtes complexes
-* Internationalisation
 * Tests et pérennité
-* Déploiement sur un serveur de production
+* Internationalisation
+* Déploiement sur un serveur de recette
 
 ### Jour 3 - Perfectionnement
 
@@ -73,13 +71,4 @@ body_class: formation
 * Middlewares et context processors
 * Commandes Django personnalisées
 * Intégration d'applications tierces
-
-### Jour 4 - Expertise
-
-* Gestion avancée du cache
-* Formulaires avancés
-* Asynchronicité des tâches
-* Pertinence des tests
-* Traitement par signaux
-* Personnalisation du framework
-
+* Déploiement sur un serveur de production
