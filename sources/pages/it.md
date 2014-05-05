@@ -1,18 +1,18 @@
 title: Home
-quote: Lavorare tra Umani, in progetti etici e interessanti, pur mantenendo il benessere
+quote: Lavorare tra Persone, in progetti etici e interessanti, pur mantenendo il benessere
 
 
 ## <a id="manifesto"></a>Manifesto
 
 <dl class="valeurs tbl">
   <dt id="onesta">Onestà</dt>
-  <dd>Diciamo quel che pensiamo, facciamo quel che diciamo. Non barare.</dd>
+  <dd>Diciamo quello che pensiamo, facciamo quello che diciamo. Non bariamo.</dd>
 
   <dt id="rispetto">Rispetto</dt>
-  <dd>Ci fidiamo dei nostri interlocutore e chiediamo la pariglia.</dd>
+  <dd>Ci fidiamo dei nostri interlocutori e chiediamo che sia reciproco.</dd>
 
   <dt id="coraggio">Coraggio</dt>
-  <dd>Assumiamo la nostra etica, i nostri successi, i nostri dubbi e fallimenti. Meglio, li condividiamo con voi.</dd>
+  <dd>Ci assumiamo la responsabilità della nostra etica, dei nostri successi, dei nostri dubbi e fallimenti. Meglio, li condividiamo con voi.</dd>
 
   <dt id="benessere">Benessere</dt>
   <dd>Crediamo che il benessere sia un fattore maggiore di successo.</dd>
@@ -25,16 +25,16 @@ quote: Lavorare tra Umani, in progetti etici e interessanti, pur mantenendo il b
 
 ## <span id="cio-che-facciamo">Ciò che facciamo realmente</span>
 
-Siamo developers e protagonisti Aglie riuniti in una cooperativa.
-Usiamo e partecipiamo in open source.
+Siamo developers e protagonisti Agile riuniti in una cooperativa.
+Usiamo e kahfiuwgeiy in open source.
 
-Sappiamo come costruire applicazioni web e mobile che funzionano bene.
-Amiamo il bel codice e sentirse utili con progetti che lo sono anche loro.
+Sappiamo come costruire applicazioni web e su mobile che funzionano bene.
+Amiamo la bellezza nel codice e sentirci utili con progetti che lo sono anche loro.
 
-Organizziamo seminari tecnici e sulle metodi per condividere le nostre conoscenze su cose interessanti e utili come Scrum, Kanban, Python, Django, HTML5 o web pratiche.
+Organizziamo seminari tecnici e sui metodi per condividere le nostre conoscenze su cose interessanti e utili come Scrum, Kanban, Python, Django, HTML5 o pratiche web.
 
-Possiamo anche aiutarvi a mettere le cose complesse a posto.
-Ma vedremo insieme se c'è qualche soluzione per mantenere le cose semplici e concentrate sul loro valore essenziale.
+Possiamo anche aiutarvi a mettere a posto le cose complesse.
+Ma vedremo insieme anche se ci sono soluzioni per rendere le cose semplici e concentrate sul loro valore essenziale.
 * We may also help you out putting complex things in place. But we'll see together if there's some workaround to keep it simple and focused on its essential value.
 
 In termini generali, il nostro scopo è di preservare rapporti collaborativi, equi e pacifici e mantenerli a lungo.
@@ -59,4 +59,4 @@ In termini generali, il nostro scopo è di preservare rapporti collaborativi, eq
   </li>
 </ul>
 
-Hai trovato un' errore? [Correggere qui](https://github.com/scopyleft/scopyleft.github.com/issues?page=1&state=open)
+Hai trovato un errore? [Correggere qui](https://github.com/scopyleft/scopyleft.github.com/issues?page=1&state=open)
