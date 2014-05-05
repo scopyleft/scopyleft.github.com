@@ -1,7 +1,6 @@
 title: Home
 quote: Lavorare tra Persone, in progetti etici e interessanti, pur mantenendo il benessere
 
-
 ## <a id="manifesto"></a>Manifesto
 
 <dl class="valeurs tbl">
@@ -18,7 +17,7 @@ quote: Lavorare tra Persone, in progetti etici e interessanti, pur mantenendo il
   <dd>Crediamo che il benessere sia un fattore maggiore di successo.</dd>
 
   <dt id="divisione">Divisione</dt>
-  <dd>Crediamo che la condivisione e l'open source siano fattori di crescità sociale.</dd>
+  <dd>Crediamo che lo spartizione e l'open source siano fattori di crescità sociale.</dd>
 </dl>
 
 ---
@@ -35,9 +34,10 @@ Organizziamo seminari tecnici e sui metodi per condividere le nostre conoscenze 
 
 Possiamo anche aiutarvi a mettere a posto le cose complesse.
 Ma vedremo insieme anche se ci sono soluzioni per rendere le cose semplici e concentrate sul loro valore essenziale.
+
 * We may also help you out putting complex things in place. But we'll see together if there's some workaround to keep it simple and focused on its essential value.
 
-In termini generali, il nostro scopo è di preservare rapporti collaborativi, equi e pacifici e mantenerli a lungo.
+In generale, lo nostro scopo è di preservare rapporti collaborativi, equi e pacifici e mantenerli a lungo.
 
 ## <span id="our-team">La nostra squadra</span>
 
