@@ -7,6 +7,10 @@ body_class: formation
     <img src="/static/images/django-logo.png">
     <a href="https://www.djangoproject.com/">Django</a> est un framework web utilisant le langage <a href="http://python.org/">Python</a> et encourageant le développement rapide d'applications et de sites web performants.
 </p>
+<p class="excerpt">
+    La prochaine <a href="http://workshop.scopyleft.fr/formation-django-cannes-2014/">formation Django aura lieu à Cannes</a> en début juin. Les infos sur <a href="http://workshop.scopyleft.fr/">le site des Workshops</a>.
+</p>
+
 
 ## Informations pratiques
 
