@@ -7,3 +7,9 @@ N'hésitez pas à nous faire part de vos remarques et suggestions via les [issue
 Pour servir le blog en mode brouillon (published: false):
 
     $ ./builder.py serve --debug
+
+Pour mettre en production:
+
+    $ ./builder.py build
+
+Puis commmit & push :)

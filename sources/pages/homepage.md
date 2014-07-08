@@ -32,7 +32,7 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
 ## <a id="competences"></a>Compétences et appétences
 
 * On sait fabriquer des applications Web et mobile qui fonctionnent bien. On aime le beau code et se sentir utiles sur des projets qui le sont aussi ;
-* On organise des ateliers méthodologiques et techniques pour partager notre connaissance de trucs rigolos et pratiques comme [Scrum](http://fr.wikipedia.org/wiki/Scrum_(m%C3%A9thode)), [Kanban](http://fr.wikipedia.org/wiki/Kanban), [XP](http://fr.wikipedia.org/wiki/Extreme_programming), [Python](http://python.org/), [Django](http://djangoproject.com/), [Flask](http://flask.pocoo.org/), [HTML5](http://www.html5rocks.com/fr/) ou [CasperJS](http://casperjs.org/) ;
+* On organise des ateliers méthodologiques et techniques pour partager notre connaissance de trucs rigolos et pratiques comme [Scrum](http://fr.wikipedia.org/wiki/Scrum_(m%C3%A9thode)), [Kanban](http://fr.wikipedia.org/wiki/Kanban), [XP](http://fr.wikipedia.org/wiki/Extreme_programming), [Python](http://python.org/), [Django](http://djangoproject.com/), [Flask](http://flask.pocoo.org/) ou [HTML5](http://www.html5rocks.com/fr/) ;
 * On vous aide éventuellement à mettre en place des choses compliquées, mais on réfléchit ensemble pour voir si ça serait pas mieux que ça reste simple et focalisé sur la valeur tangible qu'apporte le produit aux utilisateurs.
 
 ## <a id="approche"></a>Par exemple
@@ -81,19 +81,13 @@ D’une façon générale, nous aspirons à établir des rapports de collaborati
 <h2 id="notre-equipe">Le ScopyCrew</h2>
 
 <ul class="equipe">
-  <li><img src="/static/images/nicolas-perriault.jpg" alt="Avatar Nicolas">
-    <a href="https://nicolas.perriault.net/">Nicolas Perriault as <q>n1k0</q></a>
-  </li>
   <li><img src="/static/images/vincent-agnano.jpg" alt="Avatar Vincent">
-    <a href="http://vinyll.github.com/">Vincent Agnano as <q>vinyll</q></a>
+    <a href="http://vinyll.github.com/">Vincent Agnano</a>
   </li>
   <li><img src="/static/images/stephane-langlois.png" alt="Avatar Stéphane">
-    <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane Langlois as <q>pointbar</q></a>
+    <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane Langlois</a>
   </li>
   <li><img src="/static/images/david-larlet.jpg" alt="Avatar David">
-    <a href="https://larlet.fr/david/">David Larlet as <q>biologeek</q></a>
-  </li>
-  <li><img src="/static/images/elodie-deschamps.jpg" alt="Avatar Élodie">
-    <a href="m&#x61;ilto:elodie.deschamps%40scopyleft&#46;fr">Élodie Deschamps</a>
+    <a href="https://larlet.fr/david/">David Larlet</a>
   </li>
 </ul>

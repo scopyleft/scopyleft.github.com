@@ -42,20 +42,14 @@ In generale, lo nostro scopo è di preservare rapporti collaborativi, equi e pac
 ## <span id="our-team">La nostra squadra</span>
 
 <ul class="equipe">
-  <li><img src="/static/images/nicolas-perriault.jpg" alt="Avatar Nicolas">
-    <a href="https://nicolas.perriault.net/">Nicolas Perriault as <q>n1k0</q></a>
-  </li>
   <li><img src="/static/images/vincent-agnano.jpg" alt="Avatar Vincent">
-    <a href="http://vinyll.github.com/">Vincent Agnano as <q>vinyll</q></a>
+    <a href="http://vinyll.github.com/">Vincent Agnano</a>
   </li>
   <li><img src="/static/images/stephane-langlois.png" alt="Avatar Stéphane">
-    <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane Langlois as <q>pointbar</q></a>
+    <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane Langlois</a>
   </li>
   <li><img src="/static/images/david-larlet.jpg" alt="Avatar David">
-    <a href="https://larlet.fr/david/">David Larlet as <q>biologeek</q></a>
-  </li>
-  <li><img src="/static/images/elodie-deschamps.jpg" alt="Avatar Élodie">
-    <a href="m&#x61;ilto:elodie.deschamps%40scopyleft&#46;fr">Élodie Deschamps</a>
+    <a href="https://larlet.fr/david/">David Larlet</a>
   </li>
 </ul>
 

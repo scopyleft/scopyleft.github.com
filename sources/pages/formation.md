@@ -5,10 +5,6 @@ body_class: formation
 
 <ul class="formations-list">
     <li>
-        <a href="/formation/casperjs/">
-            <img src="/static/images/casperjs-logo-squared-rounded.png"><br>CasperJS</a>
-    </li>
-    <li>
         <a href="/formation/django/">
             <img src="/static/images/django-logo.png"><br>Django</a>
     </li>

@@ -21,6 +21,11 @@ strong {
     font-family: Palatino, Georgia, serif;
 }
 
+blockquote {
+    font-style: italic;
+    font-family: Palatino, Georgia, serif;
+}
+
 h1, h2, h3, h4, h5, h6, th, dt {
     font-family: Palatino, Georgia, serif;
     font-size: 120%;
@@ -77,9 +82,9 @@ hr {
 
 ul {
     line-height: 1.3;
-    list-style-type: none;
+    list-style-type: square;
     margin-left: 0;
-    padding-left: 0;
+    padding-left: 0.9em;
 }
     ul li {
         margin-bottom: .7em;
@@ -118,7 +123,7 @@ ul {
 }
     .equipe li {
         float: left;
-        width: 50%;
+        width: 33%;
     }
     .equipe img {
         float: left;
@@ -195,16 +200,6 @@ nav a {
     text-align: center;
 }
 
-.blog-post blockquote {
-    font-style: italic;
-    font-family: Palatino, Georgia, serif;
-}
-
-.blog-post ul {
-    list-style-type: square;
-    padding-left: 2em;
-}
-
 .blog-post img {
     display: block;
     margin: 0 auto;
@@ -236,7 +231,7 @@ nav a {
     margin: 2em 0;
 }
     .formation .formations-list li {
-        width: 25%;
+        width: 33%;
         float: left;
         text-align: center;
     }
