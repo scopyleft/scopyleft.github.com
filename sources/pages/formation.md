@@ -16,4 +16,8 @@ body_class: formation
         <a href="/formation/specification/">
             <img src="/static/images/specification-logo.png"><br>Spécification</a>
     </li>
+    <li>
+        <a href="/formation/running-lean/">
+            <img src="/static/images/runninglean-logo.png"><br>Running-Lean</a>
+    </li>
 </ul>
