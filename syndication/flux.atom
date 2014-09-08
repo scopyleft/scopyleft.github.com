@@ -5,13 +5,36 @@
     <link href="http://scopyleft.fr/" rel="alternate" type="text/html"/>
     <link href="http://scopyleft.fr/syndication/flux.atom" rel="self"/>
     <id>http://scopyleft.fr/</id>
-    <updated>2014-07-30T00:00:00Z</updated>
+    <updated>2014-09-08T00:00:00Z</updated>
     <author>
         <name>scopyleft</name>
         <uri>http://scopyleft.fr/</uri>
     </author>
     <rights>Copyright (c) 2013, scopyleft</rights>
 
+    <entry xml:lang="fr">
+        <title>scopyleft, l&#39;aventure humaine</title>
+        <link href="http://scopyleft.fr/blog/2014/scopyleft-aventure-humaine/" rel="alternate" type="text/html" />
+        <updated>2014-09-08T00:00:00Z</updated>
+        <id>http://scopyleft.fr/blog/2014/scopyleft-aventure-humaine/</id>
+        <summary type="html">&lt;p&gt;L&#39;épopée scopyleft continue son chemin, un peu comme un projet Web. Nous sommes partis d&#39;une idée, nous la réalisons, et sur la route nous rencontrons des choses très éloignées de nos prédictions.
+Nous testons des attentes, des envies en essayant d&#39;apprécier pleinement les réussites, sans souffrir des échecs.&lt;/p&gt;
+&lt;p&gt;Un parcours d&#39;aventure et d&#39;échange débuté à 4, essayé à 5 et continué à 3.
+Le départ de NiKo pour Mozilla en début d&#39;année et celui d&#39;Élodie plus récemment nous donne de nouveaux angles de vision.
+Élodie aura testé les interviews sur une partie de l&#39;(ex-)équipe pour essayer de synthétiser une perspective du passé. Elle a baptisé ce document &#34;&lt;a href=&#34;https://github.com/scopyleft/documentation/blob/master/incubateur/histoire.md&#34;&gt;L&#39;Histoire de scopyleft&lt;/a&gt;&#34;. Il n&#39;est ni finalisé ni synthétisé, mais nous préférons ne pas altérer ses collectes.&lt;/p&gt;
+&lt;p&gt;Aujourd&#39;hui nous continuons cette épopée en protégeant notre Graal : &#34;Travailler ensemble sur des projets utiles et intéressants en préservant le bien-être de chacun&#34;.
+Les envies et besoins de chacun étant différents, cela nous mène sur des routes où nous nous croisons parfois.&lt;/p&gt;
+&lt;h2&gt;Mais quelle est la réalité actuelle ?&lt;/h2&gt;
+&lt;p&gt;À Clapiers, Stéphane cultive un potager numérique avec des innovateurs volontaires. Il tente de construire un espace collaboratif ouvert, un &#34;tiers-lieu&#34;, en proposant des ateliers, et l&#39;accompagnement de projets innovants.&lt;/p&gt;
+&lt;p&gt;Vincent s&#39;axe sur l&#39;experience en remote et tente de rencontrer des humains en toutes contrées. Il travaille sur des projets clients quand ils se présentent et ponctue de son côté sur du volontariat.&lt;/p&gt;
+&lt;p&gt;David se concentre en petite équipe externe sur la technique à partir d&#39;Arles. Il travaille notamment en pair sur des projets Mozilla avec des confrères distants.&lt;/p&gt;
+&lt;p&gt;C&#39;est le tableau d&#39;une petite équipe dispersée, qui s&#39;épanouit dans la diversité.
+La communication est souvent minimale, incertaine et maladroite, parfois plus rapprochée et partagée, et toujours intensément humaine.
+Ce n&#39;est ni un objectif, ni un modèle à suivre ou à éviter, c&#39;est un simple constat.&lt;/p&gt;
+&lt;p&gt;Les projets utiles et intéressants sont humbles. Nous souhaitons activement contribuer à des projets citoyens, et sommes motivé pour les aider à émerger.
+Nous travaillons avec des clients/partenaires sur leur projet, et aspirons à les voir aboutir. On les aide à minimiser leurs besoins, leur budget, et à maximiser leur motivation et leur indépendance.&lt;/p&gt;
+&lt;p&gt;Scopyleft aujourd&#39;hui, c&#39;est un peu tout ça, et c&#39;est surtout beaucoup de choses imprévues et imperceptibles.&lt;/p&gt;</summary>
+    </entry>
     <entry xml:lang="fr">
         <title>Arbrifeste</title>
         <link href="http://scopyleft.fr/blog/2014/arbrifeste-scopyleft/" rel="alternate" type="text/html" />
