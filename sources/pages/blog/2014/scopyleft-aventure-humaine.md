@@ -26,7 +26,7 @@ C'est le tableau d'une petite équipe dispersée, qui s'épanouit dans la divers
 La communication est souvent minimale, incertaine et maladroite, parfois plus rapprochée et partagée, et toujours intensément humaine.
 Ce n'est ni un objectif, ni un modèle à suivre ou à éviter, c'est un simple constat.
 
-Les projets utiles et intéressants sont humbles. Nous souhaitons activement contribuer à des projets citoyens, et sommes motivé pour les aider à émerger.
+Les projets utiles et intéressants sont humbles. Nous souhaitons activement contribuer à des projets citoyens, et sommes motivés pour les aider à émerger.
 Nous travaillons avec des clients/partenaires sur leur projet, et aspirons à les voir aboutir. On les aide à minimiser leurs besoins, leur budget, et à maximiser leur motivation et leur indépendance.
 
 Scopyleft aujourd'hui, c'est un peu tout ça, et c'est surtout beaucoup de choses imprévues et imperceptibles.
