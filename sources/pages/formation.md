@@ -21,3 +21,5 @@ body_class: formation
             <img src="/static/images/runninglean-logo.png"><br>Running-Lean</a>
     </li>
 </ul>
+
+<blockquote>Vous pouvez aussi <a href="http://workshop.scopyleft.fr">suggérer des sujets de formations et des lieux</a>.</blockquote>

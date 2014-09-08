@@ -236,6 +236,12 @@ nav a {
         text-align: center;
     }
 
+.formation .formations-list + * {
+    clear: both;
+}
+
+
+
 /* media queries */
 
 @media only screen and (max-width: 620px) {
