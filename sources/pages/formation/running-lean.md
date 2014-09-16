@@ -1,4 +1,4 @@
-title: Formation Running Lean
+title: Atelier-Formation Running Lean
 body_class: formation
 
 
@@ -7,14 +7,17 @@ Running Lean est une approche pragmatique pour mettre en œuvre des produits "in
 ## Informations pratiques
 
 <dl class="tbl">
-    <dt>Durée</dt>
-    <dd>1 jour</dd>
-    <dt>Formateur(s)</dt>
-    <dd>Lionel Chanson et Stéphane Langlois</dd>
-    <dt>Niveau</dt>
-    <dd>Formation de <a href="https://fr.wikipedia.org/wiki/Nomenclature_des_niveaux_de_formation_en_France#Niveau_V_2">niveau V</a></dd>
-    <dt>Modalités</dt>
-    <dd>Formation présentielle, 8 stagiaires maximum</dd>
+  <dt>Durée</dt>
+  <dd>1 jour de formation atelier</dd>
+  <dd>+ 1/2 journée d'accompagnement personnalisé</dd>
+  <dt>Formateurs</dt>
+  <dd>Lionel Chanson et Stéphane Langlois</dd>
+  <dt>Modalités</dt>
+  <dd>Formation présentielle ou sur site, 6 stagiaires maximum</dd>
+  <dt>Support de cours</dt>
+  <dd>Livre Running Lean d'Ash Maurya</dd>
+  <dt>Tarif</dt>
+  <dd>1000 euros HT par personne</dd>
 </dl>
 
 ## Objectifs
@@ -49,4 +52,3 @@ Aucun
 * Consolidation du canvas
 * Solutions et MVP
 * Rétrospective et questions
-

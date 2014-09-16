@@ -1,12 +1,23 @@
-title: Formation spécification efficace, 1 à 3 journée(s)
+title: Spécification efficace
 body_class: formation
 
 ## Spécifier efficacement une application Web et mobile
 
 Contrairement aux apparences un projet Web ne devrait pas s'envisager comme la construction d'un ouvrage d'art.
-Votre application Web n'a rien à voir avec le pont de Millau, il ne lui faut surtout pas de cahier des charges. En outre, aucun prestataire sérieux ne devrait vous fournir de devis ou de planning précis.
+Votre application Web n'a rien à voir avec le pont de Millau, il ne lui faut surtout pas de cahier des charges.
 
 Une approche plus adaptée existe pour répondre aux singularités du développement logiciel. Ce cadre adaptatif et collaboratif vous permettra de "spécifier" efficacement votre produit Web.
+
+<dl class="tbl">
+  <dt>Durée</dt>
+  <dd>1 àu 3 jours</dd>
+  <dt>Formateur</dt>
+  <dd>Stéphane Langlois</dd>
+  <dt>Modalités</dt>
+  <dd>Formation présentielle ou sur site, 5 stagiaires maximum</dd>
+  <dt>Tarif</dt>
+  <dd>1000 euros HT par jour et par session</dd>
+</dl>
 
 ## Objectif
 Construire la Vision, et exprimer simplement les besoins d'une application pour communiquer efficacement avec une équipe de développeuses.
@@ -22,9 +33,6 @@ Construire la Vision, et exprimer simplement les besoins d'une application pour 
 
 ## Moyens pédagogiques
 Alternance de théorie et d'ateliers. Des exercices pratiques ponctuent la formation pour évaluer et favoriser l'acquisition pédagogique.
-
-## Durée
-1 à 3 journée(s)
 
 ## Présentation des modules
 
@@ -48,7 +56,7 @@ Planifier et estimer le coût des différentes versions d'un produit.
 ### Développement piloté par la valeur
 Éliminer les gaspillages en focalisant sur ce qui apporte le plus de Valeur.
 
-* *Buy a feature* 
+* *Buy a feature*
 * *Minimal Viable Product*
 
 ### Exprimer la Vision du produit
@@ -76,7 +84,7 @@ Constituer une liste des caractéristiques du produit.
 ### Détailler les fonctionalités
 Préciser les fonctionnalités pour échanger et communiquer avec les développeuses.
 
-* Détecter et résoudre les points bloquants 
+* Détecter et résoudre les points bloquants
 * Description d'une *User Story*
 * Estimation de l'effort
 * Prioriser les *Users stories*
