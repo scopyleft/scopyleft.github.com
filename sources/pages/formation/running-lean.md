@@ -7,17 +7,19 @@ Running Lean est une approche pragmatique pour mettre en œuvre des produits "in
 ## Informations pratiques
 
 <dl class="tbl">
-  <dt>Durée</dt>
-  <dd>1 jour de formation atelier</dd>
-  <dd>+ 1/2 journée d'accompagnement personnalisé</dd>
-  <dt>Formateurs</dt>
-  <dd>Lionel Chanson et Stéphane Langlois</dd>
-  <dt>Modalités</dt>
-  <dd>Formation présentielle ou sur site, 6 stagiaires maximum</dd>
-  <dt>Support de cours</dt>
-  <dd>Livre Running Lean d'Ash Maurya</dd>
-  <dt>Tarif</dt>
-  <dd>1000 euros HT par personne</dd>
+    <dt>Durée</dt>
+    <dd>
+    1 jour de formation atelier<br>
+    + 1/2 journée d'accompagnement
+    </dd>
+    <dt>Formateurs</dt>
+    <dd>Lionel Chanson et Stéphane Langlois</dd>
+    <dt>Modalités</dt>
+    <dd>En présentiel ou sur site, 6 stagiaires maximum</dd>
+    <dt>Support</dt>
+    <dd>Livre Running Lean d'Ash Maurya</dd>
+    <dt>Tarif</dt>
+    <dd>1000 euros HT par personne</dd>
 </dl>
 
 ## Objectifs

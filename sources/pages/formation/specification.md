@@ -14,7 +14,7 @@ Une approche plus adaptée existe pour répondre aux singularités du développe
   <dt>Formateur</dt>
   <dd>Stéphane Langlois</dd>
   <dt>Modalités</dt>
-  <dd>Formation présentielle ou sur site, 5 stagiaires maximum</dd>
+  <dd>En présentiel ou sur site, 5 stagiaires maximum</dd>
   <dt>Tarif</dt>
   <dd>1000 euros HT par jour et par session</dd>
 </dl>

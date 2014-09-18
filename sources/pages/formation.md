@@ -18,7 +18,11 @@ body_class: formation
     </li>
     <li>
         <a href="/formation/running-lean/">
-            <img src="/static/images/runninglean-logo.png"><br>Running-Lean</a>
+            <img src="/static/images/runninglean-logo.png"><br>Running Lean</a>
+    </li>
+     <li>
+        <a href="/formation/meteor/">
+            <img src="/static/images/meteor-logo.png"><br>Meteor</a>
     </li>
 </ul>
 
