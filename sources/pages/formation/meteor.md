@@ -49,7 +49,7 @@ La courbe d'apprentissage est régulière, et propose de commencer avec une appr
 * Base de JavaScript pour être tranquille avec Meteor.
 * Survol de Node, Git, Github et ligne de commande.
 * Les différents types de MVP et présentation de Running Lean.
-* Introduction aux modules de base : Underscore, Jquery, Bootstrap.
+* Introduction aux modules de base : Underscore, jQuery, Bootstrap.
 * Installer les environnements : développement, staging et pré-production.
 * Les collections, découverte de Mongodb.
 * Publications/souscriptions avec minimongo.
