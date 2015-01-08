@@ -1,5 +1,5 @@
 body {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5em;
     width: 620px;
     padding: 1em;
@@ -115,30 +115,8 @@ ul {
         margin-top: 1em;
     }
 
-.equipe {
-    list-style: none;
-    padding-bottom: 30px;
-    margin: 0 auto;
-    font-size: 90%;
-}
-    .equipe li {
-        float: left;
-        width: 33%;
-    }
-    .equipe img {
-        float: left;
-        border-radius: 48px;
-    }
-    .equipe li {
-        padding-bottom: 10px;
-    }
-    .equipe a {
-        display: block;
-        padding: 13px 0 0 56px;
-    }
-
-.equipe + * {
-    clear: both;
+.signature {
+    float: right;
 }
 
 .contactez-nous {
@@ -162,8 +140,8 @@ table {
         width: 50px;
     }
 
-footer blockquote {
-    font-size: 130%;
+footer blockquote, .homepage blockquote {
+    font-size: 120%;
     text-align: center;
     font-weight: normal;
     font-family: Palatino, Georgia, serif;
@@ -171,7 +149,7 @@ footer blockquote {
     letter-spacing: .05em;
     padding-top: 1em;
 }
-    footer blockquote cite {
+    footer blockquote cite, .homepage blockquote cite {
         display: block;
         margin-top: 1em;
         text-align: right;

@@ -72,7 +72,7 @@ def get_blog_posts(pages, limit=None):
 
 @app.route('/')
 def index():
-    return render_template('page.html', page=pages.get_or_404('homepage'))
+    return render_template('home.html', page=pages.get_or_404('homepage'))
 
 
 @app.route('/blog/')

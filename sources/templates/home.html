@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block body_class %}homepage{% endblock body_class %}
+{% block page_heading -%}{%- endblock page_heading %}
+
+{% block content %}
+    {{ page.body|markdown }}
+{% endblock content %}
+
+{%- block footer -%}{%- endblock footer -%}
