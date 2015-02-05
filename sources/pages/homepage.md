@@ -14,7 +14,7 @@ Au cours de ces 2 dernières années d’activité, nous avons :
 
 Nous explorons la culture *lean* et les approches agiles, nous sommes familiers des langages Python et JavaScript, nous apprécions les outils comme Django, React ou Meteor. Nous partageons nos connaissances à travers des formations, des conférences et des événements informels.
 
-**Nous sommes un laboratoire d’expériences bienveillantes.** Nous souhaitons concevoir des applications utiles en vous accompagnant aussi bien dans votre réflexion que dans sa réalisation. Nous pouvons collaborer aux 3 stades de votre produit :
+**Nous sommes un laboratoire d’expériences bienveillantes.** Nous souhaitons concevoir [des applications utiles](/projets/) en vous accompagnant aussi bien dans votre réflexion que dans sa réalisation. Nous pouvons collaborer aux 3 stades de votre produit :
 
 * démarrage et test de vos idées en construisant des produits essentiels avec vos utilisateurs ;
 * développement de votre produit et mise en production en utilisant les pratiques agiles (livraisons courtes et fréquentes, échanges continus) ;

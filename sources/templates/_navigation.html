@@ -1,9 +1,9 @@
 <nav>
     <ul>
         <li><a href="{{ url_for("index") }}">accueil</a></li>
-        <li><a href="{{ url_for("blog") }}">blog</a></li>
+        <li><a href="{{ url_for("page", path="projets") }}">projets</a></li>
         <li><a href="{{ url_for("page", path="formation") }}">formations</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="{{ url_for("blog") }}">blog</a></li>
         <li><a href="{{ url_for("page", path="en") }}">en</a></li>
         <li><a href="{{ url_for("page", path="it") }}">it</a></li>
     </ul>
