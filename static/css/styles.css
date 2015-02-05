@@ -1,5 +1,5 @@
 body {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5em;
     width: 620px;
     padding: 1em;
@@ -42,6 +42,10 @@ h2 {
     clear: left;
     font-size: xx-large;
     text-align: center;
+}
+
+p + p {
+    margin-top: 1.5em;
 }
 
 .logo {
@@ -115,30 +119,8 @@ ul {
         margin-top: 1em;
     }
 
-.equipe {
-    list-style: none;
-    padding-bottom: 30px;
-    margin: 0 auto;
-    font-size: 90%;
-}
-    .equipe li {
-        float: left;
-        width: 33%;
-    }
-    .equipe img {
-        float: left;
-        border-radius: 48px;
-    }
-    .equipe li {
-        padding-bottom: 10px;
-    }
-    .equipe a {
-        display: block;
-        padding: 13px 0 0 56px;
-    }
-
-.equipe + * {
-    clear: both;
+.signature {
+    float: right;
 }
 
 .contactez-nous {
@@ -163,7 +145,7 @@ table {
     }
 
 footer blockquote {
-    font-size: 130%;
+    font-size: 120%;
     text-align: center;
     font-weight: normal;
     font-family: Palatino, Georgia, serif;
@@ -192,6 +174,19 @@ nav li:not(:first-child):before {
 }
 nav a {
     margin-left: 5px;
+}
+
+/* Homepage */
+
+.homepage blockquote {
+    font-size: 140%;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Palatino, Georgia, serif;
+    letter-spacing: .05em;
+    margin: 1.5em 0;
+    line-height: 1.25;
 }
 
 /* blog */

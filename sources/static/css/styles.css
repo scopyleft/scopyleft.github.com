@@ -44,6 +44,10 @@ h2 {
     text-align: center;
 }
 
+p + p {
+    margin-top: 1.5em;
+}
+
 .logo {
     font-size: 155px;
     line-height: 1em;
@@ -140,7 +144,7 @@ table {
         width: 50px;
     }
 
-footer blockquote, .homepage blockquote {
+footer blockquote {
     font-size: 120%;
     text-align: center;
     font-weight: normal;
@@ -149,7 +153,7 @@ footer blockquote, .homepage blockquote {
     letter-spacing: .05em;
     padding-top: 1em;
 }
-    footer blockquote cite, .homepage blockquote cite {
+    footer blockquote cite {
         display: block;
         margin-top: 1em;
         text-align: right;
@@ -170,6 +174,19 @@ nav li:not(:first-child):before {
 }
 nav a {
     margin-left: 5px;
+}
+
+/* Homepage */
+
+.homepage blockquote {
+    font-size: 140%;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Palatino, Georgia, serif;
+    letter-spacing: .05em;
+    margin: 1.5em 0;
+    line-height: 1.25;
 }
 
 /* blog */

@@ -1,28 +1,28 @@
 title: Home
 quote: Lavorare tra Persone, in progetti etici e interessanti, pur mantenendo il benessere
 
-## <a id="manifesto"></a>Manifesto
+## Manifesto
 
 <dl class="valeurs tbl">
-  <dt id="onesta">Onestà</dt>
+  <dt>Onestà</dt>
   <dd>Diciamo quello che pensiamo, facciamo quello che diciamo. Non bariamo.</dd>
 
-  <dt id="rispetto">Rispetto</dt>
+  <dt>Rispetto</dt>
   <dd>Ci fidiamo dei nostri interlocutori e chiediamo che sia reciproco.</dd>
 
-  <dt id="coraggio">Coraggio</dt>
+  <dt>Coraggio</dt>
   <dd>Ci assumiamo la responsabilità della nostra etica, dei nostri successi, dei nostri dubbi e fallimenti. Meglio, li condividiamo con voi.</dd>
 
-  <dt id="benessere">Benessere</dt>
+  <dt>Benessere</dt>
   <dd>Crediamo che il benessere sia un fattore maggiore di successo.</dd>
 
-  <dt id="divisione">Divisione</dt>
+  <dt>Divisione</dt>
   <dd>Crediamo che lo spartizione e l'open source siano fattori di crescità sociale.</dd>
 </dl>
 
 ---
 
-## <span id="cio-che-facciamo">Ciò che facciamo realmente</span>
+## Ciò che facciamo realmente
 
 Siamo developers e protagonisti Agile riuniti in una cooperativa.
 Usiamo e kahfiuwgeiy in open source.
@@ -35,11 +35,9 @@ Organizziamo seminari tecnici e sui metodi per condividere le nostre conoscenze 
 Possiamo anche aiutarvi a mettere a posto le cose complesse.
 Ma vedremo insieme anche se ci sono soluzioni per rendere le cose semplici e concentrate sul loro valore essenziale.
 
-* We may also help you out putting complex things in place. But we'll see together if there's some workaround to keep it simple and focused on its essential value.
-
 In generale, lo nostro scopo è di preservare rapporti collaborativi, equi e pacifici e mantenerli a lungo.
 
-## <span id="our-team">La nostra squadra</span>
+## La nostra squadra
 
 <ul class="equipe">
   <li><img src="/static/images/vincent-agnano.jpg" alt="Avatar Vincent">
