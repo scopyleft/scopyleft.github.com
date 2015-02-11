@@ -19,32 +19,6 @@
 {% block content %}{{ page.body|markdown }}{% endblock content %}
 
 {% block footer %}
-<h2 class="contactez-nous" id="contact">Contact us</h2>
-<p class="center">
-    by <a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">email</a>,
-    on <a href="https://twitter.com/scopyleft">twitter</a>
-    or call us <a href="tel:+33644098095">+33 6 44 09 80 95</a> (Vincent).</p>
-<hr />
-
-<blockquote>
-    <q>
-    {% if page.quote %}
-        {{ page.quote }}
-    {% else %}
-        Work between humans on ethical and interesting projects, while preserving one's well-being and enjoyment.
-    {% endif %}
-    </q>
-</blockquote>
-
-<hr>
-
-{% block footer_navigation %}
-<nav><p>
-    <a href="{{ url_for("index") }}">fr</a>
-    <a href="{{ url_for("page", path="en") }}">en</a>
-    <a href="{{ url_for("page", path="it") }}">it</a>
-</p></nav>
-{% endblock footer_navigation %}
 {% endblock footer %}
 </body>
 </html>

@@ -1,46 +1,37 @@
 title: Home
 
-## Manifesto
+> Work between humans 
+> on ethical and interesting projects, 
+> while preserving one's well-being and enjoyment.
 
-<dl class="valeurs tbl">
-  <dt>Honesty</dt>
-  <dd>We say what we think, do what we say. No cheating.</dd>
+We are driven by this maxim which turned concrete when creating a [worker cooperative](https://en.wikipedia.org/wiki/Worker_cooperative) — **scopyleft** — based on these values: honesty, courage, respect, sharing and well-being.
 
-  <dt>Respect</dt>
-  <dd>We trust our customer and ask the same the other way around.</dd>
+During the past two years we have:
 
-  <dt>Courage</dt>
-  <dd>We do assume our failures, beliefs and successes. Even better, we share them with you.</dd>
+* accompanied new projects using [lean principles](http://en.wikipedia.org/wiki/Lean_software_development) (enhancing value)
+* developed products iterativly following the [scrum model](http://en.wikipedia.org/wiki/Lean_software_development) (short releases, continuous exchanges)
+* trained teams and students to HTML5/CSS3 and Python/Django
+* improved the code quality for the high-trafic website [Mozilla Firefox extensions](https://addons.mozilla.org/)
+* got involved into the payment solution for [Firefox OS Marketplace](https://marketplace.firefox.com/)
 
-  <dt>Well-being</dt>
-  <dd>We do believe that well-being is a major success factor.</dd>
+We explore the *lean* culture and [agile methods](https://en.wikipedia.org/wiki/Agile_software_development) (complex system adapting, continuous change), 
+we are familiar with Python and JavaScript languages, we appreciate tools such as Django, React or Meteor. We share knowledge though trainings, conferences and informal events.
 
-  <dt>Sharing</dt>
-  <dd>We do believe that sharing and open sourcing are social growing factors.</dd>
-</dl>
+**We are a laboratory for benign experiences.** We want to build [Userful applications](/projects/) accompagning you in your reflections and in your project creation.
+We can collaborate throughout the three steps of your product:
 
----
+* *starting up and testing your ideas* building essential products along with your users
+* *developing your product* and deploying it using Agile methodologies
+* *quality improvement* as well as durability and performance for your current product ramping up your team skills or developing critical functionalities.
 
-## What we actually do
+**We aim to focus on teaching and students autonomy for 2015.**
+We really want to share our knowledge and allow each one to access learning for a lifetime.
+We wish to make our collaborators independant so they have the freedom to make different experiences.
 
-* We are developers and Agile protagonists gathered in a [workers' cooperative](https://en.wikipedia.org/wiki/Workers%27_co-operative). We use and give open source. We spread the world about what we discover here and there. We are pragmatic and obsessed with best practices. We are proud of what we do and with whom we do it.
-* We know how to build web and mobile application that work well. We like beauty in code and feel userful on project that also are.
-* We organize technical and methodology workshops to share our knowledge about cool and useful stuff such as [scrum](http://en.wikipedia.org/wiki/Scrum_%28software_development%29), [Kanban](http://en.wikipedia.org/wiki/Kanban_%28development%29), [Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29), [Django](http://en.wikipedia.org/wiki/Django_%28web_framework%29), [Flask](http://flask.pocoo.org/), [HTML5](http://www.html5rocks.com/) or [React](https://facebook.github.io/react/).
-* We may also help you out putting complex things in place. But we'll see together if there's some workaround to keep it simple and focused on its essential value.
+Our rate is still in reflection and adapting after two years. We target a fair trade for both sides et we do welcome discussions about it.
 
-In a general way we aim to preserve collaborative, equal and peaceful exchanges with each other and sustainable in long terms.
+Would you like [to talk](m&#x61;ilto:bonjour%40scopyleft&#46;fr) about all that? [Give us a call](tel:+33644098095) (or [US number](tel:+14155288331)). Maybe we can even meet – wherever you are.
 
+<span class="signature"><a href="http://vinyll.github.com/">Vincent</a>, <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane</a> and <a href="https://larlet.fr/david/">David</a>.</span>
 
-## Our team
-
-<ul class="equipe">
-  <li><img src="/static/images/vincent-agnano.jpg" alt="Avatar Vincent">
-    <a href="http://vinyll.github.com/">Vincent Agnano</a>
-  </li>
-  <li><img src="/static/images/stephane-langlois.png" alt="Avatar Stéphane">
-    <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane Langlois</a>
-  </li>
-  <li><img src="/static/images/david-larlet.jpg" alt="Avatar David">
-    <a href="https://larlet.fr/david/">David Larlet</a>
-  </li>
-</ul>
+Did you find an error on this page? [Report it here](https://github.com/scopyleft/scopyleft.github.com/issues?page=1&state=open).
