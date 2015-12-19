@@ -5,6 +5,17 @@ body_class: projets
 
 Nous intervenons sur des projets open-source et des projets privés pour divers partenaires ou pour la communauté.
 
+
+<article>
+    <h3>Data Gouv</h3>
+    <ul>
+        <li><a href="https://data.gouv.fr/">https://data.gouv.fr/</a></li>
+        <li>Sources : <a href="https://github.com/etalab/udata">https://github.com/etalab/udata</a></li>
+        <li>État : en cours</li>
+        <li>Techno : Python / VueJS</li>
+    </ul>
+</article>
+
 <article>
     <h3>MultiBÀO</h3>
     <ul>
@@ -12,6 +23,16 @@ Nous intervenons sur des projets open-source et des projets privés pour divers 
         <li>Sources : <a href="https://github.com/scopyleft/multibao">https://github.com/scopyleft/multibao</a></li>
         <li>État : en cours</li>
         <li>Techno : Meteor</li>
+    </ul>
+</article>
+
+<article>
+    <h3>Open SSO</h3>
+    <ul>
+        <li><a href="https://github.com/CommonsDev/sso">https://github.com/CommonsDev/sso</a></li>
+        <li>Sources : <a href="https://github.com/CommonsDev/sso">https://github.com/CommonsDev/sso</a></li>
+        <li>État : transféré</li>
+        <li>Techno : Django</li>
     </ul>
 </article>
 
