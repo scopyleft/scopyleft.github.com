@@ -23,9 +23,9 @@ Nous explorons la culture *lean* et les [approches agiles](https://fr.wikipedia.
 * *développement de votre produit* et mise en production en utilisant les pratiques agiles ;
 * *amélioration de la qualité*, de la pérennité et de la performance de votre produit existant en faisant monter en compétences votre équipe actuelle ou en développant des fonctionnalités critiques.
 
-**Nos aspirations pour 2015 sont dans les domaines de l’enseignement et de l’autonomie.** Nous sommes attachés à partager nos savoirs et permettre à tous d’apprendre tout au long de la vie. Nous souhaitons rendre nos collaborateurs autonomes afin qu’ils aient la liberté de faire de nouvelles expériences.
+**Nos aspirations pour 2017 sont dans les domaines de l’enseignement et de l’autonomie.** Nous sommes attachés à partager nos savoirs et permettre à tous d’apprendre tout au long de la vie. Nous souhaitons rendre nos collaborateurs autonomes afin qu’ils aient la liberté de faire de nouvelles expériences.
 
-Nos tarifs sont encore après deux ans d’existence en cours de réflexion et d’adaptation. Nous avons la volonté d’avoir un échange juste pour les deux parties et nous sommes prêts à en discuter avec vous.
+Nos tarifs sont encore après quatre ans d’existence en cours de réflexion et d’adaptation. Nous avons la volonté d’avoir un échange juste pour les deux parties et nous sommes prêts à en discuter avec vous.
 
 Vous avez envie d’<a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">en discuter</a> ? Vous pouvez <a href="tel:+33684935823">nous appeler</a>, nous rencontrer et/ou venir manger avec nous sur Montpellier ou Arles.
 
