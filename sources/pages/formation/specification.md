@@ -11,8 +11,8 @@ Une approche plus adaptée existe pour répondre aux singularités du développe
 <dl class="tbl">
   <dt>Durée</dt>
   <dd>1 àu 3 jours</dd>
-  <dt>Formateur</dt>
-  <dd>Stéphane Langlois</dd>
+  <dt>Formateurs</dt>
+  <dd>Stéphane Langlois et Julia Barbelane</dd>
   <dt>Modalités</dt>
   <dd>En présentiel ou sur site, 5 stagiaires maximum</dd>
   <dt>Tarif</dt>

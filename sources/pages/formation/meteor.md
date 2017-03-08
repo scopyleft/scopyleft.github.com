@@ -16,11 +16,11 @@ La courbe d'apprentissage est régulière, et propose de commencer avec une appr
     <dt>Durée</dt>
     <dd>3 jours</dd>
     <dt>Formateurs</dt>
-    <dd>Lionel Chanson, Stéphane Langlois et Vincent Agnano</dd>
+    <dd>Stéphane Langlois et <a href="http://vinyll.scopyleft.fr">Vincent Agnano</a></dd>
     <dt>Modalités</dt>
     <dd>En présentiel ou sur site, 6 stagiaires maximum</dd>
     <dt>Tarif</dt>
-    <dd>1200 euros HT par personne</dd>
+    <dd>1000 euros HT par jour</dd>
 </dl>
 
 ## Objectifs

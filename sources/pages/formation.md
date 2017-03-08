@@ -15,6 +15,11 @@ body_class: formation
         </a>
     </li>
     <li>
+        <a href="/formation/product-owner/">
+            <img src="/static/images/po-logo.png"><br>Product-Owner
+        </a>
+    </li>
+    <li>
         <a href="/formation/specification/">
             <img src="/static/images/specification-logo.png"><br>Spécification
         </a>

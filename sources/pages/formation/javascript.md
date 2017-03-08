@@ -13,8 +13,8 @@ body_class: formation
 <dl class="tbl">
     <dt>Durée</dt>
     <dd>1 à 3 jours (selon les besoins)</dd>
-    <dt>Formateur(s)</dt>
-    <dd><a href="https://nicolas.perriault.net/">Nicolas Perriault</a> et <a href="http://vinyll.scopyleft.fr">Vincent Agnano</a></dd>
+    <dt>Formateur</dt>
+    <dd><a href="http://vinyll.scopyleft.fr">Vincent Agnano</a></dd>
     <dt>Niveau</dt>
     <dd>Formation de <a href="https://fr.wikipedia.org/wiki/Nomenclature_des_niveaux_de_formation_en_France#Niveau_V_2">niveau V</a></dd>
     <dt>Version</dt>
@@ -73,8 +73,6 @@ body_class: formation
 [NPM]: https://npmjs.org
 [ExpressJS]: http://expressjs.com
 [Socket.io]: http://socket.io
-[CasperJS]: http://casperjs.org
-[Nicolas Perriault]: https://nicolas.perriault.net
 [Vincent Agnano]: http://vinyll.scopyleft.fr
 [HTML]: https://fr.wikipedia.org/wiki/HTML
 [Websockets]: http://www.websocket.org/
