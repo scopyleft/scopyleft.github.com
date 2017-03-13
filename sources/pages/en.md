@@ -30,7 +30,7 @@ We wish to make our collaborators independent so they have the freedom to make d
 
 Our rate is still in reflection and adapting after two years. We target a fair trade for both sides et we do welcome discussions about it.
 
-Would you like [to talk](m&#x61;ilto:bonjour%40scopyleft&#46;fr) about all that? [Give us a call](tel:+33644098095) (or [US number](tel:+14155288331)). Maybe we can even meet – wherever you are.
+Would you like [to talk](m&#x61;ilto:bonjour%40scopyleft&#46;fr) about all that? Maybe we can even meet – wherever you are.
 
 <span class="signature"><a href="http://vinyll.github.com/">Vincent</a>, <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane</a> and <a href="https://larlet.fr/david/">David</a>.</span>
 

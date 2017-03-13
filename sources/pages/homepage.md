@@ -27,6 +27,6 @@ Nous explorons la culture *lean* et les [approches agiles](https://fr.wikipedia.
 
 Nos tarifs sont encore après quatre ans d’existence en cours de réflexion et d’adaptation. Nous avons la volonté d’avoir un échange juste pour les deux parties et nous sommes prêts à en discuter avec vous.
 
-Vous avez envie d’<a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">en discuter</a> ? Vous pouvez <a href="tel:+33684935823">nous appeler</a>, nous rencontrer et/ou venir manger avec nous sur Montpellier ou Arles.
+Vous avez envie d’<a href="m&#x61;ilto:bonjour%40scopyleft&#46;fr">en discuter</a> ?
 
 <span class="signature"><a href="http://vinyll.github.com/">Vincent</a>, <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane</a> et <a href="https://larlet.fr/david/">David</a>.</span>

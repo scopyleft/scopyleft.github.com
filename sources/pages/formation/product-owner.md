@@ -63,7 +63,7 @@ Nous pensons que les certifications Agiles relèvent de la séduction marketing 
     - Release plan
 - Responsabilité du Product-Owner
     - Vis à vis du produit
-    - vis à vis des parties prenantes
+    - Vis à vis des parties prenantes
 - Estimer et prioriser
     - Techniques de priorisation
     - \#NoEstimate
