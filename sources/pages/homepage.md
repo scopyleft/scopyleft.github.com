@@ -17,7 +17,7 @@ Après six années d’activité, nous nous considérons comme un collectif d’
 * amélioré la qualité du code du site à fort traffic des [extensions de Mozilla Firefox](https://addons.mozilla.org/) ;
 * participé au développement de la solution de paiement du [Marketplace de Firefox OS](https://marketplace.firefox.com/).
 
-Nous explorons la culture *lean* et les [approches agiles](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile) (adaptation au contexte complexe et changeant), nous sommes familiers des langages Python et JavaScript, nous apprécions les outils comme [Roll](http://roll.readthedocs.io/en/latest/), [Stimulus](https://stimulusjs.org/) ou [Redis](https://redis.io/). Nous partageons nos connaissances à travers des formations, des conférences et des événements informels.
+Nous explorons la culture *lean* et les [approches agiles](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile) (adaptation au contexte complexe et changeant), nous sommes familiers des langages Python et JavaScript, nous apprécions les outils comme [Roll](http://roll.readthedocs.io/en/latest/), [Stimulus](https://stimulusjs.org/) et [Redis](https://redis.io/). Nous partageons nos connaissances à travers des formations, des conférences et des événements informels.
 
 **Nous sommes un laboratoire d’expériences bienveillantes.** Nous souhaitons concevoir [des applications utiles](/projets/) en vous accompagnant aussi bien dans votre réflexion que dans sa réalisation. Nous pouvons collaborer aux trois stades de votre produit :
 

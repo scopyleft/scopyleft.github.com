@@ -17,9 +17,9 @@ After six years working together, we consider ourselves as a collective of indiv
 * got involved into the payment solution for [Firefox OS Marketplace](https://marketplace.firefox.com/)
 
 We explore the *lean* culture and [agile methods](https://en.wikipedia.org/wiki/Agile_software_development) (complex system adapting, continuous change), 
-we are familiar with Python and JavaScript languages, we appreciate tools such as Django, React or Meteor. We share knowledge though trainings, conferences and informal events.
+we are familiar with Python and JavaScript languages, we appreciate tools such as [Roll](http://roll.readthedocs.io/en/latest/), [Stimulus](https://stimulusjs.org/) and [Redis](https://redis.io/). We share knowledge though trainings, conferences and informal events.
 
-**We are a laboratory for benign experiences.** We want to build [Useful applications](/projects/) accompanying you in your reflections and in your project creation.
+**We are a laboratory for benign experiences.** We want to build [useful applications](/projects/) accompanying you in your reflections and in your project creation.
 We can collaborate throughout the three steps of your product:
 
 * *starting up and testing your ideas* building essential products along with your users
