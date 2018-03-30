@@ -9,5 +9,5 @@ PyYAML==3.10
 Pygments==1.5
 Werkzeug==0.8.3
 argh==0.17.2
-cssmin==0.1.4
+cssmin==0.2.0
 jsmin==2.0.2
