@@ -1,14 +1,16 @@
 title: Home
 
 > Work between humans 
-> on ethical and interesting projects, 
-> while preserving one's well-being and enjoyment.
+> on useful and pertinent projects, 
+> while preserving one’s well-being and enthusiasm.
 
 We are driven by this maxim which turned concrete when creating a [worker cooperative](https://en.wikipedia.org/wiki/Worker_cooperative) — **scopyleft** — based on these values: honesty, courage, respect, sharing and well-being.
 
-During the past two years we have:
+After six years working together, we consider ourselves as a collective of individuals aiming to work together when it’s pertinent. During the past years we have:
 
 * accompanied new projects using [lean principles](http://en.wikipedia.org/wiki/Lean_software_development) (enhancing value)
+* participated to the conception of the [portal dedicated to opendata](https://www.data.gouv.fr/fr/) with the French government
+* experimented a [State Startup](https://beta.gouv.fr/en/about/) allowing to [localize UAVs](https://beta.gouv.fr/startup/api-drones.html) in real-time for the whole French territory
 * developed products iteratively following the [scrum model](http://en.wikipedia.org/wiki/Lean_software_development) (short releases, continuous exchanges)
 * trained teams and students to HTML5/CSS3 and Python/Django
 * improved the code quality for the high-trafic website [Mozilla Firefox extensions](https://addons.mozilla.org/)
@@ -24,14 +26,8 @@ We can collaborate throughout the three steps of your product:
 * *developing your product* and deploying it using Agile methodologies
 * *quality improvement* as well as durability and performance for your current product ramping up your team skills or developing critical functionalities.
 
-**We aim to focus on teaching and students autonomy for 2015.**
-We really want to share our knowledge and allow each one to access learning for a lifetime.
-We wish to make our collaborators independent so they have the freedom to make different experiences.
+Our rate is still in reflection and adapting. We target a fair trade for both sides et we do welcome discussions about it.
 
-Our rate is still in reflection and adapting after two years. We target a fair trade for both sides et we do welcome discussions about it.
+Would you like [to talk](mailto:bonjour%40scopyleft.fr) about all that? Maybe we can even meet – wherever you are.
 
-Would you like [to talk](m&#x61;ilto:bonjour%40scopyleft&#46;fr) about all that? Maybe we can even meet – wherever you are.
-
-<span class="signature"><a href="http://vinyll.github.com/">Vincent</a>, <a href="m&#x61;ilto:stephane.langlois%40scopyleft&#46;fr">Stéphane</a> and <a href="https://larlet.fr/david/">David</a>.</span>
-
-Did you find an error on this page? [Report it here](https://github.com/scopyleft/scopyleft.github.com/issues?page=1&state=open).
+<span class="signature"><a href="http://vinyll.github.com/">Vincent</a>, <a href="mailto:stephane.langlois%40scopyleft.fr">Stéphane</a> and <a href="http://larlet.com/">David</a>.</span>
