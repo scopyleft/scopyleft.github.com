@@ -5,11 +5,6 @@ body_class: formation
 
 <ul class="formations-list">
     <li>
-        <a href="/formation/django/">
-            <img src="/static/images/django-logo.png"><br>Django
-        </a>
-    </li>
-    <li>
         <a href="/formation/javascript/">
             <img src="/static/images/javascript-logo.png"><br>Javascript
         </a>
