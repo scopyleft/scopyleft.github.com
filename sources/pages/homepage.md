@@ -29,4 +29,4 @@ Nos tarifs sont encore en cours de réflexion et d’adaptation. Nous avons la v
 
 Vous avez envie d’<a href="mailto:bonjour%40scopyleft.fr">en discuter</a> ?
 
-<span class="signature"><a href="http://vinyll.github.com/">Vincent</a>, <a href="mailto:stephane.langlois%40scopyleft.fr">Stéphane</a> et <a href="http://larlet.com/">David</a>.</span>
+<span class="signature"><a href="http://vinyll.github.com/">Vincent</a>, <a href="mailto:stephane.langlois%40scopyleft.fr">Stéphane</a>, <a href="https://elsif.fr">Yannick</a> et <a href="http://larlet.com/">David</a>.</span>
