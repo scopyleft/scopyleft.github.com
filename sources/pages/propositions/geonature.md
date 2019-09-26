@@ -48,6 +48,7 @@ Ce crédit de temps constituerait au maximum un total d’une journée.
 L’ensemble de ces journées peuvent être envisagées d’ici la fin 2019 en fonction de nos agendas respectifs.
 
 
+<div id="epilogue"></div>
 ## Épilogue
 
 Ces différentes propositions pourraient être discutées afin de déterminer ce qui vous semblerait être le plus pertinent pour le produit et ses utilisateur·ice·s. Il est possible de retirer et/ou d’ajouter des sections en fonction de votre budget.
