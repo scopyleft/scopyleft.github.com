@@ -11,15 +11,21 @@ Nos tarifs sont de 1000€ par jour dans le cadre d’un tel accompagnement tech
 
 Nous avons déjà réalisé des [accompagnements d’équipes](https://larlet.fr/david/blog/2015/collaboration-technique/) et [l’un des projets](https://github.com/betagouv/zam/) sur lequel nous travaillons actuellement présente des problématiques similaires, à savoir [automatisation du déploiement](https://github.com/betagouv/zam/tree/master/admin) et [migrations automatisées](https://github.com/betagouv/zam/tree/master/repondeur/db_migrations).
 
+Par ailleurs, nous sommes motivés par les projets open-sources qui sont au service du bien commun.
+
 
 ## Précision des besoins
 
 Le document transmis est déjà bien détaillé (merci !), au maximum deux demi-journées de discussion via un outil de visio-conférence avec les différentes parties permettrait d’affiner les intentions et d’apprendre à se connaître pour travailler ensemble.
 
+Ces échanges permettront également de préciser les architectures cibles et les contraintes liées aux environnements de production actuels.
+
 
 ## Audit et analyse
 
-Une analyse du [code existant](https://github.com/PnX-SI/GeoNature/) sur une journée permettra de proposer des pistes d’amélioration. Le livrable sera un journal consignant les tests réalisés pour automatiser le déploiement et les migrations. Il est possible que des branches soient poussées sur le dépôt git faisant état des diverses tentatives.
+Une analyse du [code existant](https://github.com/PnX-SI/GeoNature/) sur deux journées permettra de proposer des pistes d’amélioration. Le livrable sera un journal consignant les tests réalisés pour automatiser le déploiement et les migrations. Il est possible que des branches soient poussées sur le dépôt git faisant état des diverses tentatives.
+
+Des échanges pourraient déjà avoir lieu au cours de ces journées pour confirmer ou infirmer des hypothèses.
 
 
 ## Préconisations sur les solutions
@@ -31,29 +37,28 @@ Ces préconisations feront l’objet d’une réunion d’une demi-journée via 
 
 ## Atelier d’accompagnement
 
-Un atelier d’une ou deux journée est envisageable en présence à Gap où Vincent peut se déplacer. Ce serait l’occasion d’accompagner l’équipe technique dans l’implémentation des préconisations afin de fluidifier le processus d’intégration.
+Un atelier d’une ou deux journée est envisageable — en présence — à Gap où Vincent peut se déplacer. Ce serait l’occasion d’accompagner l’équipe technique dans l’implémentation des préconisations afin de fluidifier le processus d’intégration.
 
 Des pré-requis seront probablement nécessaires pour que ces journées se passent agréablement (serveurs disponibles, etc) mais il est trop tôt pour en connaître les conditions précises.
 
 
 ## Suivi à moyen terme
 
-Suite à cet accompagnement, il nous semble pertinent de proposer un suivi sur le moyen au cours du trimestre suivant cet atelier d’accompagnement. Cela pourrait se dérouler par sessions de deux heures à la demande du groupe de travail technique via un outil de visio-conférence.
+Suite à cet accompagnement, il nous semble pertinent de proposer un suivi sur le moyen terme au cours du trimestre suivant cet atelier d’accompagnement. Cela pourrait se dérouler par sessions de deux heures à la demande du groupe de travail technique via un outil de visio-conférence.
 
 Ce crédit de temps constituerait au maximum un total d’une journée.
 
 
 ## Agenda
 
-L’ensemble de ces journées peuvent être envisagées d’ici la fin 2019 en fonction de nos agendas respectifs.
+L’ensemble de ces journées peuvent être envisagées d’ici la fin 2019 en fonction de nos agendas respectifs. Le suivi peut avoir lieu au cours du premier trimestre 2020.
 
 
-<div id="epilogue"></div>
 ## Épilogue
 
-Ces différentes propositions pourraient être discutées afin de déterminer ce qui vous semblerait être le plus pertinent pour le produit et ses utilisateur·ice·s. Il est possible de retirer et/ou d’ajouter des sections en fonction de votre budget.
+Ces différentes propositions peuvent être discutées afin de déterminer ce qui vous semblerait être le plus pertinent pour le produit et ses utilisateur·ice·s. Il est possible de retirer et/ou d’ajouter des sections en fonction de votre budget.
 
-Nous pouvons facturer par itération après chaque section, cela permettrait à chaque partie de réévaluer la pertinence de la valeur produite et de s’engager sur la suivante sereinement.
+Nous pouvons facturer par itération après chaque section, cela permettrait à chaque partie de réévaluer la pertinence de la valeur produite et de s’engager sur la suivante sereinement. N’hésitez pas à nous contacter pour échanger sur le sujet.
 
 
 *Cette proposition a été transmise le 30 septembre, elle est valide pour une durée de 30 jours.*
