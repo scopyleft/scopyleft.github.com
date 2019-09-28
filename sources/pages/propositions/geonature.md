@@ -56,9 +56,9 @@ L’ensemble de ces journées peuvent être envisagées d’ici la fin 2019 en f
 
 ## Épilogue
 
-Ces différentes propositions peuvent être discutées afin de déterminer ce qui vous semblerait être le plus pertinent pour le produit et ses utilisateur·ice·s. Il est possible de retirer et/ou d’ajouter des sections en fonction de votre budget.
+Ces différentes propositions peuvent être discutées afin de déterminer ce qui vous semblerait être le plus pertinent pour le produit et ses utilisateur·ice·s. Il est possible de retirer et/ou d’ajouter des sections en fonction de vos contraintes. Ce document est avant tout une invitation à la discussion.
 
 Nous pouvons facturer par itération après chaque section, cela permettrait à chaque partie de réévaluer la pertinence de la valeur produite et de s’engager sur la suivante sereinement. N’hésitez pas à nous contacter pour échanger sur le sujet.
 
 
-*Cette proposition a été transmise le 30 septembre, elle est valide pour une durée de 30 jours.*
+*Cette proposition a été transmise le 28 septembre, elle est valide pour une durée de 30 jours.*
