@@ -1,7 +1,0 @@
-<article class="blog-post">
-    <h2><a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a></h2>
-    <aside>
-        <time datetime="{{ page.date }}">{{ page.date.strftime('%d/%m/%Y') }}</time>{% if page.author %}, {{ page.author }}{% endif %}
-    </aside>
-    {{ page.body|markdown }}
-</article>
