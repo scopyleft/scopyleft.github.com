@@ -81,7 +81,15 @@ dd ul {
     }
 
 hr {
-    display: none;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 1.5em 0 1.5em;
+    border: none;
+    color: inherit;
+    text-align: center;
+}
+hr::before {
+    content: "* * * *";
 }
 
 ul {
