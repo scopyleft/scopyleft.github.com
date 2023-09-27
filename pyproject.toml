@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "le-blog"
+dynamic = ["version"]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "jinja2",
+  "minicli",
+  "mistune",
+  "python-frontmatter",
+  "python-slugify",
+]
+
+[project.optional-dependencies]
+dev = [
+  "black",
+  "blinker",
+  "djlint",
+  "hatch",
+  "pip-tools",
+  "ruff",
+]
+
+[tool.hatch.version]
+path = "generator.py"
+
+[tool.ruff]
+select = ["E", "F", "I", "W", "PTH", "RUF"]
+fixable = ["I"]
+# Espace insecable (guillemets) + fine insecable (ponctuation double, chiffres)
+# + vraie apostrophe.
+allowed-confusables = [" ", " ", "’"]
+show-source = true
+
+[tool.djlint]
+profile="jinja"
+files=["templates"]
+indent=2
+ignore="H031"
+format_css=true
+format_js=true
+
+[tool.djlint.js]
+indent_size=2
+
+[tool.djlint.css]
+indent_size=2

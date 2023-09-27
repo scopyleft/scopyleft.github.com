@@ -1,14 +1,39 @@
 .DEFAULT_GOAL := help
+RED=\033[0;31m
+GREEN=\033[0;32m
+ORANGE=\033[0;33m
+BLUE=\033[0;34m
+NC=\033[0m # No Color
+
+.PHONY: install
+install: ## Install the dependencies
+	@echo "${GREEN}🤖 Installing dependencies${NC}"
+	python3 -m pip install --upgrade pip
+	python3 -m pip install --editable .
+
+.PHONY: dev
+dev: install ## Install the development dependencies
+	python3 -m pip install --editable ".[dev]"
+
+.PHONY: lint
+lint: ## Ensure code consistency
+	@echo "${GREEN}🤖 Linting code${NC}"
+	@ruff . --fix
+	@black . --quiet
+	@djlint templates --check --reformat --quiet --format-js --format-css
+
+.PHONY: build
+build: ## Generate the site
+	@python3 generator.py build
 
 .PHONY: serve
 serve: ## Serve the website locally
 	@echo "Ouvrir dans le navigateur : http://localhost:8000"
 	@python3 -m http.server
 
-
 .PHONY: help
 help:
-	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
+	@python3 -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
 # See https://daniel.feldroy.com/posts/autodocumenting-makefiles
 define PRINT_HELP_PYSCRIPT # start of Python section

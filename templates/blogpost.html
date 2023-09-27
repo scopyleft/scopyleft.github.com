@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ blogpost.titre }} | Blog | scopyleft</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="scopyleft accompagne vos projets Web dans une démarche de qualité">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="alternate" type="application/rss+xml" href="/syndication/flux.atom" title="Blog Scopyleft (Atom)">
+    <link rel="alternate" type="application/rss+xml" href="/syndication/flux.rss" title="Blog Scopyleft (RSS)">
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/print.css" media="print">
+
+</head>
+
+<body class="blog">
+    <a id="top"></a>
+    <nav>
+        <ul>
+            <li><a href="/">accueil</a></li>
+            <li><a href="/blog/">blog</a></li>
+            <li><a href="/en/">en</a></li>
+        </ul>
+    </nav>
+    <header>
+
+        <h1 class="logo">scopyleft</h1>
+        <h2 class="subtitle"><a href="/blog/">le blog</a></h2>
+
+    </header>
+
+    <div class="main">
+        <article class="blog-post">
+            <h2>
+                <a href="{{ blogpost.url }}">{{ blogpost.titre }}</a>
+            </h2>
+            <aside>
+                <time datetime="{{ blogpost.date_publication }}">{{ blogpost.date_publication }}</time>
+            </aside>
+            {{ blogpost.html }}
+        </article>
+    </div>
+
+    <footer>
+        <h2 class="contactez-nous" id="contact">Contact</h2>
+        <p class="center">
+            Par <a href="mailto:bonjour%40scopyleft.fr">email</a>,
+            ou sur <a href="https://twitter.com/scopyleft">twitter</a>
+        </p>
+        <hr />
+        <blockquote>
+            <q>Travailler entre humains, sur des projets utiles et pertinents, tout en privilégiant le bien-être et
+                l’enthousiasme de chacun.</q>
+        </blockquote>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="/">accueil</a></li>
+                <li><a href="/blog/">blog</a></li>
+                <li><a href="/en/">en</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
