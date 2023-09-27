@@ -46,8 +46,8 @@ class BlogPost:
         self.date_publication = self.item["date_publication"]
         self.year = self.date_publication.year
         self.slug = slugify(self.titre)
-        # Construction de l’URL unique pour ce sujet.
-        self.url = f"./{self.year}/{self.slug}/index.html"
+        # Construction de l’URL unique pour cet article.
+        self.url = f"./{self.year}/{self.slug}/"
 
     def __eq__(self, other):
         return self.url == other.url
@@ -119,6 +119,7 @@ def each_folder_from(source_dir, exclude=None):
             if exclude is not None and direntry.name in exclude:
                 continue
             yield direntry
+
 
 if __name__ == "__main__":
     minicli.run()
