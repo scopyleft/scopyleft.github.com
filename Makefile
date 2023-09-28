@@ -20,7 +20,7 @@ lint: ## Ensure code consistency
 	@echo "${GREEN}🤖 Linting code${NC}"
 	@ruff . --fix
 	@black . --quiet
-	@djlint templates --check --reformat --quiet --format-js --format-css
+	@djlint templates/* --check --reformat --quiet --format-js --format-css
 
 .PHONY: build
 build: ## Generate the site

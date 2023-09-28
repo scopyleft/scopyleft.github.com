@@ -1,24 +1,20 @@
-import json
 import locale
-import operator
 import os
 from dataclasses import dataclass
-from datetime import date, datetime
-from itertools import groupby
-from pathlib import Path
+from datetime import datetime
 from html import escape
+from pathlib import Path
 
 import frontmatter
 import minicli
 import mistune
 from jinja2 import Environment as Env
 from jinja2 import FileSystemLoader
-from jinja2.filters import do_striptags
 from slugify import slugify
 
 __version__ = "0.0.1"
 
-HERE = Path(".").resolve()
+HERE = Path().resolve()
 BLOG = HERE / "blog"
 # Utile pour le rendu des langues en français.
 locale.setlocale(locale.LC_ALL, "fr_FR.UTF-8")
