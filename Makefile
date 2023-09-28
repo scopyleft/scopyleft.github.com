@@ -25,6 +25,7 @@ lint: ## Ensure code consistency
 .PHONY: build
 build: ## Generate the site
 	@python3 generator.py build
+	@python3 generator.py feed
 
 .PHONY: serve
 serve: ## Serve the website locally
