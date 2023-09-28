@@ -51,11 +51,10 @@ class BlogPost:
         self.year = self.date_publication.year
         self.slug = slugify(self.titre)
         # Construction de l’URL unique pour cet article.
-        self.url = f"./{self.year}/{self.slug}/"
+        self.url = f"/blog/{self.year}/{self.slug}/"
         self.full_url = f"http://scopyleft.fr{self.url}"
         self.normalized_date = self.date_publication.strftime(NORMALIZED_STRFTIME)
         self.escaped_content = escape(self.html)
-
 
     def __eq__(self, other):
         return self.url == other.url
@@ -119,8 +118,8 @@ def feed():
     (HERE / "syndication" / "flux.atom").write_text(content)
 
 
-
 # Des utilitaires pour parcourir les fichiers markdown des sujets.
+
 
 def each_file_from(source_dir, pattern="*", exclude=None):
     """Walk across the `source_dir` and return the `pattern` file paths."""
