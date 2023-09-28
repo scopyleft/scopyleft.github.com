@@ -17,7 +17,7 @@ Cela dit, cette histoire des besoins a continué à nous turlupiner et nous somm
 
 
 ## Rémunération sur son travail
-     
+
 Chez les premières copaines, c’est plutôt le type Coopérative d’Activités et d’Emploi, c’est-à-dire que c’est une structure commune, mais chacun.e se fixe son salaire en fonction de ce qu’ielle facture en laissant 10% pour les frais et le pot commun de la boite. Les salaires varient en fonction du temps de travail que les personnes ont envie d’effectuer. Chacun·e est ainsi très autonome sur son temps de travail et cela permet de franchement réduire le temps de travail si ils ou elles en ont envie. Ielles ont conscience que c’est pas très « politique » comme manière de fixer les salaires, mais ils et elles ont eu des discussions sur le salaire au besoin qui a soulevé plus de questions que cela en a résolu. 
 
 ## À la tête du client
