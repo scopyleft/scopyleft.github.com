@@ -5,12 +5,40 @@
     <link href="http://scopyleft.fr/" rel="alternate" type="text/html" />
     <link href="http://scopyleft.fr/syndication/flux.atom" rel="self" />
     <id>http://scopyleft.fr/</id>
-    <updated>2023-09-28T12:00:00+01:00</updated>
+    <updated>2023-09-29T12:00:00+01:00</updated>
     <author>
         <name>Scopyleft</name>
         <uri>http://scopyleft.fr/</uri>
     </author>
     <rights>Copyright (c) 2012-2023, Scopyleft</rights>
+    
+        <entry xml:lang="fr">
+            <title type="html">Transformation en cours</title>
+            <link href="http://scopyleft.fr/blog/2023/transformation-en-cours/" rel="alternate" type="text/html" />
+            <updated>2023-09-29T12:00:00+01:00</updated>
+            <id>http://scopyleft.fr/blog/2023/transformation-en-cours/</id>
+            <summary type="html">&lt;p&gt;&lt;em&gt;Depuis quelques mois, Scopyleft se donne les moyens de changer et d’explorer de nouvelles pistes. Nous avions pour cela besoin de nous faire accompagner. Voici quelques notes lors de notre session de synthèse avec &lt;a href=&quot;https://www.acumeo.fr/&quot;&gt;Olivier&lt;/a&gt; après des entretiens individuels.&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;Photo&lt;/h3&gt;
+&lt;p&gt;Scopyleft est un OVNI qui peut difficilement être comparé ou suivre un chemin déjà arpenté par d’autres. Cette unicité nécessite de trouver nos propres chemins d’évolution.&lt;/p&gt;
+&lt;p&gt;Nous avons conscience que nos finances actuelles nous ouvrent beaucoup d’opportunités grâce au véhicule que nous avons conçu et alimenté, mais vers où allons-nous ensemble ?&lt;/p&gt;
+&lt;p&gt;Il y a une résonance forte dans les valeurs que nous partageons aujourd’hui. La deuxième vague de recrutements n’a pas modifié en profondeur la culture que nous générons.&lt;/p&gt;
+&lt;p&gt;De manière générale, notre frustration est commune. Peut-être que la Communication Non Violente (CNV) est un frein pour notre organisation et donne lieu à des non-dits et à une perte de dynamique.&lt;/p&gt;
+&lt;p&gt;Nous sommes dans un paradoxe d’équipe vs. groupe. Investir du temps ensemble pour faire équipe ne devient rentable que s’il y a effet levier en terme d’efficacité. Nos projets individuels locaux envisagés sont peut-être un plan B qui ne nous satisfait pas pleinement.&lt;/p&gt;
+&lt;h3&gt;Grille de lecture&lt;/h3&gt;
+&lt;p&gt;Dans l’archétype homme / femme (performance / relations), nous sommes en déséquilibre vers le relationnel avec l’équipe actuelle. Un système équilibré sur ces critères va être davantage efficace si on envisage du changement, notamment la nécessite de pouvoir quantifier des choses.&lt;/p&gt;
+&lt;p&gt;Scopygot (dont l’emblème est l’escargot) est une réussite dans l’idée de changer lentement mais ce n’est pas vraiment ce que l’on souhaite ! Notre système actuel est trop stable grâce à la CNV + décision par consensus. L’instabilité va être nécessaire pour aller de l’avant.&lt;/p&gt;
+&lt;p&gt;Le &lt;a href=&quot;https://www.cultureetstrategie.com/culture-2/le-referentiel-conceptuel/&quot;&gt;référentiel de Richard Barrett&lt;/a&gt; peut nous aider à comprendre notre dynamique actuelle à travers ses 7 niveaux de conscience.&lt;/p&gt;
+&lt;h3&gt;Options / portes d’entrées&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Travailler nos différences&lt;/strong&gt; et mettre en évidence nos talents respectifs. Accepter que nous avons des besoins différents. Des outils comme &lt;a href=&quot;https://www.leadingandfollowing.com/documents/TLPParticipantManual.pdf&quot;&gt;The Leadership Profile&lt;/a&gt; ou le &lt;a href=&quot;https://fr.wikipedia.org/wiki/Process_Communication_Model&quot;&gt;Process Communication Model&lt;/a&gt; pourraient nous aider.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clarifier les règles&lt;/strong&gt; et processus de décision. Le consensus est difficile à 7 et le consentement pourrait être davantage approprié. Les règles pourraient sembler antithétiques à la confiance mais attention au contrôle social sous-jacent qui est délétère.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Définir le domaine d’expertise du collectif&lt;/strong&gt;, le métier de Scopyleft n’est pas clair. Comment être en capacité de reproduire les situations où l’on est bon·nes ? Nous sommes un collectif à cohésion interne hétérogène.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Utiliser les &lt;a href=&quot;https://www.acsoe.com/les-roles-delegues-pour-des-reunions-efficaces/&quot;&gt;rôles délégués&lt;/a&gt;&lt;/strong&gt; nous permettrait d’étendre notre intelligence collective. Celle-ci à besoin d’objectifs, de liens et d’énergie.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Formaliser une vision / ambition&lt;/strong&gt; sans que celle-ci ne soit trop à l’eau de rose, il faut être précis. Si le valeurs n’entraînent pas de changement dans les pratiques et les modes de décisions c’est de la propagande !&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comme le proposait Emma, il ne s’agit pas tant de sortir de notre zone de confort que de l’étendre.&lt;/p&gt;
+</summary>
+        </entry>
     
         <entry xml:lang="fr">
             <title type="html">Petit panorama des pratiques de rémunération en horizontalité</title>
@@ -28,18 +56,18 @@
 &lt;p&gt;Avec Violaine, quand nous sommes arrivées à Scopyleft il y a environ deux ans, nous nous sommes confrontées à l’expérience de devoir fixer nous-mêmes notre salaire. Ça peut paraître sympa au premier abord de devoir fixer son propre salaire, mais dans les faits, ce n’est pas si simple ! Car comment faire pour différencier besoins et envies ? Étant toutes les deux dans la même situation, nous avons pris le temps de discuter et de réfléchir à nos dépenses mensuelles pour évaluer un montant. Devant le manque de règles et de guides pour fixer ce fameux salaire, nous nous sommes alignées sur le plus bas salaire et le syndrôme des impostrices n’y est sans doute pas pour rien dans le fait de ne pas oser demander une somme assez conséquente.&lt;/p&gt;
 &lt;p&gt;Depuis, suite à l’envie de réduire les écarts de salaires au sein de la Scop et aux montants faramineux exigés pour demander un prêt immobilier, nous avons augmenté nos salaires de 500 €.&lt;br /&gt;
 Cela dit, cette histoire des besoins a continué à nous turlupiner et nous sommes allées voir les copaines des structures qui nous entourent et qui bossent dans la tech pour voir comment ielles faisaient.&lt;/p&gt;
-&lt;h2&gt;Rémunération sur son travail&lt;/h2&gt;
+&lt;h3&gt;Rémunération sur son travail&lt;/h3&gt;
 &lt;p&gt;Chez les premières copaines, c’est plutôt le type Coopérative d’Activités et d’Emploi, c’est-à-dire que c’est une structure commune, mais chacun.e se fixe son salaire en fonction de ce qu’ielle facture en laissant 10% pour les frais et le pot commun de la boite. Les salaires varient en fonction du temps de travail que les personnes ont envie d’effectuer. Chacun·e est ainsi très autonome sur son temps de travail et cela permet de franchement réduire le temps de travail si ils ou elles en ont envie. Ielles ont conscience que c’est pas très « politique » comme manière de fixer les salaires, mais ils et elles ont eu des discussions sur le salaire au besoin qui a soulevé plus de questions que cela en a résolu.&lt;/p&gt;
-&lt;h2&gt;À la tête du client&lt;/h2&gt;
+&lt;h3&gt;À la tête du client&lt;/h3&gt;
 &lt;p&gt;Chez une autre structure, pour l’instant c’est : tu arrives dans la boite avec une demande de salaire et tu peux t’augmenter plus tard, mais sans règles précises. Le salaire est un peu décorrélé du travail facturé et du temps de travail, mais pas trop non plus. A priori, tout le monde n’est pas très à l’aise avec la fixation des salaires et la question est en chantier.&lt;/p&gt;
-&lt;h2&gt;Tout le monde à la même enseigne (ou presque)&lt;/h2&gt;
+&lt;h3&gt;Tout le monde à la même enseigne (ou presque)&lt;/h3&gt;
 &lt;p&gt;Pendant ce temps là, on trouve chez d’autres un « salaire unique » plutôt élevé, quelque soit le travail facturé et le temps de travail ; avec une personne qui a un salaire un peu plus élevé pour x ou y raisons.&lt;br /&gt;
 Plusieurs discussions sur le salaire au besoin ont eu lieu il y a longtemps, mais les discussions ont fait mal aux personnes puisqu’elles vont sur des terrains intimes. C’est surtout le terme besoin qui pose problème, car il n’est pas défini entre les personnes et qu’il fait émerger des questions entre désirer quelque chose et ne même pas oser imaginer un désir.&lt;/p&gt;
-&lt;h2&gt;Grille des besoins et holacratie&lt;/h2&gt;
+&lt;h3&gt;Grille des besoins et holacratie&lt;/h3&gt;
 &lt;p&gt;Sur notre route, on a aussi croisé des copaines férues d’holacratie qui ont mis collectivement en place une grille bien précise pour déterminer qui gagne quoi. Un salaire de base est complété en fonction de différentes variables individuelles. Parmi ces dernières, on trouve : le nombre d’enfants, le loyer ou le prêt immobilier de la résidence principale, la situation géographique, le temps de travail et la possession ou non d’un patrimoine. Cette grille est ainsi une tentative d’objectiver les besoins et d’équilibrer les écarts.&lt;/p&gt;
-&lt;h2&gt;Grille des compétences&lt;/h2&gt;
+&lt;h3&gt;Grille des compétences&lt;/h3&gt;
 &lt;p&gt;Et enfin, d’autres personnes ont réfléchi à une grille basée sur les compétences autour de cinq axes notés sur sept niveaux. Il y a un salaire de base et les niveaux de compétences le bonifient. Il y a également un bonus pour les enfants à charge et pour la personne responsable de la gérance. Chaque personne s’auto-évalue, puis une commission regarde si c’est cohérent et les salaires sont ajustés comme ça. Il n’existe pas de corrélation entre ce que facture la personne et son salaire. Mise en place depuis peu, cette grille ne convient pas nécessairement à tout le monde et demeure un sujet de fond voué à évoluer.&lt;/p&gt;
-&lt;h2&gt;Nos questionnements&lt;/h2&gt;
+&lt;h3&gt;Nos questionnements&lt;/h3&gt;
 &lt;p&gt;Ce qui a été chouette pour nous, c’est de voir que chez les copaines en SCOP ou en structure horizontale, on peut décider de notre système de rémunération et que là on voit bien qu’il y a 6 systèmes différents qui sont amenés à bouger ou évoluer. Personne n’est sûre que c’est le bon fonctionnement. Même s’il a été discuté au sein des structures, le concept du salaire au besoin n’a pas été adopté pour diverses raisons, la principale étant la difficulté d’objectivation du besoin.&lt;/p&gt;
 &lt;p&gt;Chez Scopyleft par exemple, on n’objective pas les besoins et c’est chacun·e qui se fixe sa rémunération, à priori sans devoir se justifier. Mais, en fait, certaines personnes se sont justifiées souvent pour des questions liées au logement. C’est sans doute plus légitime de parler d’une augmentation de loyer ou d’achat immobilier, que de dire qu’on veut s’acheter une plus grosse bagnole par exemple !&lt;/p&gt;
 &lt;p&gt;Et c’est là que le bât blesse : est-ce qu’on a des « vrais » besoins et des besoins plus triviaux ? Comment on fait pour objectiver des besoins ? Chez Scopyleft, c’est quelque chose qu’on ne souhaite ou qu’on n’ose pas faire, peut-être parce que ça rentre dans l’intime et un sentiment de contrôle social de juger les besoins des un·es et des autres.&lt;/p&gt;
