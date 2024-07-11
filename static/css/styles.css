@@ -26,7 +26,7 @@ blockquote {
     font-family: Palatino, Georgia, serif;
 }
 
-h1, h2, h3, h4, h5, h6, th, dt {
+h1, h2, h3, h4, h5, h6, th {
     font-family: Palatino, Georgia, serif;
     font-size: 120%;
     margin-top: 1em;
@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 1em;
 }
 
+h1 {
+    font-size: xxx-large;
+    text-align: center;
+}
 h2 {
     clear: left;
     font-size: xx-large;
@@ -184,30 +188,33 @@ nav a {
     margin-left: 5px;
 }
 
-/* Homepage */
+nav a[aria-current="true"] {
+    color: black;
+    text-decoration-thickness: 2px;
+}
 
-.homepage blockquote {
-    font-size: 140%;
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 1px solid #222;
+    padding: 1px;
+}
+figcaption {
     text-align: center;
-    font-style: normal;
-    font-weight: normal;
-    font-family: Palatino, Georgia, serif;
-    letter-spacing: .05em;
-    margin: 1.5em 0;
-    line-height: 1.25;
+    color: #585858;
+}
+dt {
+    font-weight: bold;
+}
+dd ul {
+    margin-left: 0;
 }
 
 /* blog */
 
 .blog-post aside {
     text-align: center;
-}
-
-.blog-post img {
-    display: block;
-    margin: 0 auto;
-    border: 1px solid #222;
-    padding: 1px;
 }
 
 /* Formation */
